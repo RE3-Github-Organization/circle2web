@@ -62,54 +62,46 @@
 }
 
 @font-face {
-  font-family: 'Ygro Sans Beta';
-  src: url('/assets/fonts/ygro/YgroSansBeta-Medium.eot');
-  src: local('Ygro Sans Beta Medium'), local('YgroSansBeta-Medium'),
-      url('/assets/fonts/ygro/YgroSansBeta-Medium.eot?#iefix') format('embedded-opentype'),
-      url('/assets/fonts/ygro/YgroSansBeta-Medium.woff2') format('woff2'),
-      url('/assets/fonts/ygro/YgroSansBeta-Medium.woff') format('woff'),
-      url('/assets/fonts/ygro/YgroSansBeta-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-
-}
-
-@font-face {
-  font-family: 'Ygro Sans Beta';
-  src: url('/assets/fonts/ygro/YgroSansBeta-Bold.eot');
-  src: local('Ygro Sans Beta Bold'), local('YgroSansBeta-Bold'),
-      url('/assets/fonts/ygro/YgroSansBeta-Bold.eot?#iefix') format('embedded-opentype'),
-      url('/assets/fonts/ygro/YgroSansBeta-Bold.woff2') format('woff2'),
-      url('/assets/fonts/ygro/YgroSansBeta-Bold.woff') format('woff'),
-      url('/assets/fonts/ygro/YgroSansBeta-Bold.ttf') format('truetype');
+  font-family: 'poppins';
+  src: url('/assets/fonts/poppins-extrabold-webfont.woff2') format('woff2'),
+       url('/assets/fonts/poppins-extrabold-webfont.woff') format('woff');
   font-weight: 700;
   font-style: normal;
 
 }
 
 @font-face {
-  font-family: 'Ygro Sans Beta Book';
-  src: url('/assets/fonts/ygro/YgroSansBeta-Book.eot');
-  src: local('Ygro Sans Beta Book'), local('YgroSansBeta-Book'),
-      url('/assets/fonts/ygro/YgroSansBeta-Book.eot?#iefix') format('embedded-opentype'),
-      url('/assets/fonts/ygro/YgroSansBeta-Book.woff2') format('woff2'),
-      url('/assets/fonts/ygro/YgroSansBeta-Book.woff') format('woff'),
-      url('/assets/fonts/ygro/YgroSansBeta-Book.ttf') format('truetype');
+  font-family: 'poppins';
+  src: url('/assets/fonts/poppins-extrabolditalic-webfont.woff2') format('woff2'),
+       url('/assets/fonts/poppins-extrabolditalic-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('/assets/fonts/poppins-light-webfont.woff2') format('woff2'),
+       url('/assets/fonts/poppins-light-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
 }
 
+@font-face {
+  font-family: 'poppins';
+  src: url('/assets/fonts/poppins-lightitalic-webfont.woff2') format('woff2'),
+       url('/assets/fonts/poppins-lightitalic-webfont.woff') format('woff');
+       
+  font-weight: normal;
+  font-style: italic;
 
+}
 
 @font-face {
-  font-family: 'dejavu_sans_monobook';
-  src: url('/assets/fonts/dejavusansmono_book/DejaVuSansMono-webfont.eot');
-  src: url('/assets/fonts/dejavusansmono_book/DejaVuSansMono-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/assets/fonts/dejavusansmono_book/DejaVuSansMono-webfont.woff2') format('woff2'),
-       url('/assets/fonts/dejavusansmono_book/DejaVuSansMono-webfont.woff') format('woff'),
-       url('/assets/fonts/dejavusansmono_book/DejaVuSansMono-webfont.ttf') format('truetype'),
-       url('/assets/fonts/dejavusansmono_book/DejaVuSansMono-webfont.svg#dejavu_sans_monobook') format('svg');
+  font-family: 'major_mono';
+  src: url('/assets/fonts/majormonodisplay-regular-webfont.woff2') format('woff2'),
+       url('/assets/fonts/majormonodisplay-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -117,8 +109,8 @@
 
 
 $font: (
-  title:         ('Ygro Sans Beta Book', 'Arial', 'Helvetica', sans-serif),
-  family:        ('Ygro Sans Beta Book', 'Arial', 'Helvetica', sans-serif),
+  title:         ('major_mono', 'Arial', 'Helvetica', sans-serif),
+  family:        ('poppins', 'Arial', 'Helvetica', sans-serif),
   family-fixed:  ('dejavu_sans_monobook', 'Lucida Console', Monaco, monospace),
   weight:       200,
   weight-bold:  700,
