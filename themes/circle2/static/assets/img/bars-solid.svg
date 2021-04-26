@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg class="svg-inline--fa fa-bars fa-w-14" width="537.6" height="470.4" aria-hidden="true" data-icon="bars" data-prefix="fas" focusable="false" role="img" version="1.1" viewBox="0 0 537.6 470.4" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="filter957" color-interpolation-filters="sRGB">
+   <feFlood flood-color="rgb(10,10,10)" flood-opacity=".50196" result="flood"/>
+   <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+   <feGaussianBlur in="composite1" result="blur" stdDeviation="6.18638"/>
+   <feOffset dx="0" dy="0" result="offset"/>
+   <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+  </filter>
+ </defs>
+ <path d="m60.8 111.2h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16h-416c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16h-416c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16h-416c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" fill="#87db60" filter="url(#filter957)"/>
+</svg>

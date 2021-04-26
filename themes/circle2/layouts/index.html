@@ -1,0 +1,35 @@
+
+{{ define "header" }}
+<header class="hero" id="top">
+  <div class="imagecontainer">
+    <h4>{{ .Site.Params.moto }}</h4>
+  </div>
+
+  <div class="splash">
+    <div class="container">
+    <div class="description">
+      
+      <a href="#start"><div>
+        {{ partial "svg/logo-dark-background.svg" . }}
+        </div></a>
+  
+
+      <p>{{ .Site.Params.description }}</p>
+      <!-- <p><a class="button" href="#read">Enter</a></p> -->
+    </div>
+
+  </div>
+  </div>
+</header>
+{{ end }}
+
+{{ define "main" }}
+
+
+{{ end }}
+
+{{ define "footer"}}
+
+{{ partial "body/footer.html" . }}
+
+{{ end }}

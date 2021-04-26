@@ -1,0 +1,135 @@
+/// Removes a specific item from a list.
+/// @author Hugo Giraudel
+/// @param {list} $list List.
+/// @param {integer} $index Index.
+/// @return {list} Updated list.
+@function remove-nth($list, $index) {
+
+	$result: null;
+
+	@if type-of($index) != number {
+		@warn "$index: #{quote($index)} is not a number for `remove-nth`.";
+	}
+	@else if $index == 0 {
+		@warn "List index 0 must be a non-zero integer for `remove-nth`.";
+	}
+	@else if abs($index) > length($list) {
+		@warn "List index is #{$index} but list is only #{length($list)} item long for `remove-nth`.";
+	}
+	@else {
+
+		$result: ();
+		$index: if($index < 0, length($list) + $index + 1, $index);
+
+		@for $i from 1 through length($list) {
+
+			@if $i != $index {
+				$result: append($result, nth($list, $i));
+			}
+
+		}
+
+	}
+
+	@return $result;
+
+}
+
+/// Gets a value from a map.
+/// @author Hugo Giraudel
+/// @param {map} $map Map.
+/// @param {string} $keys Key(s).
+/// @return {string} Value.
+@function val($map, $keys...) {
+
+	@if nth($keys, 1) == null {
+		$keys: remove-nth($keys, 1);
+	}
+
+	@each $key in $keys {
+		$map: map-get($map, $key);
+	}
+
+	@return $map;
+
+}
+
+/// Gets a font value.
+/// @param {string} $keys Key(s).
+/// @return {string} Value.
+@function _font($keys...) {
+	@return val($font, $keys...);
+}
+
+@font-face {
+  font-family: 'Ygro Sans Beta';
+  src: url('/assets/fonts/ygro/YgroSansBeta-Medium.eot');
+  src: local('Ygro Sans Beta Medium'), local('YgroSansBeta-Medium'),
+      url('/assets/fonts/ygro/YgroSansBeta-Medium.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/ygro/YgroSansBeta-Medium.woff2') format('woff2'),
+      url('/assets/fonts/ygro/YgroSansBeta-Medium.woff') format('woff'),
+      url('/assets/fonts/ygro/YgroSansBeta-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Ygro Sans Beta';
+  src: url('/assets/fonts/ygro/YgroSansBeta-Bold.eot');
+  src: local('Ygro Sans Beta Bold'), local('YgroSansBeta-Bold'),
+      url('/assets/fonts/ygro/YgroSansBeta-Bold.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/ygro/YgroSansBeta-Bold.woff2') format('woff2'),
+      url('/assets/fonts/ygro/YgroSansBeta-Bold.woff') format('woff'),
+      url('/assets/fonts/ygro/YgroSansBeta-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Ygro Sans Beta Book';
+  src: url('/assets/fonts/ygro/YgroSansBeta-Book.eot');
+  src: local('Ygro Sans Beta Book'), local('YgroSansBeta-Book'),
+      url('/assets/fonts/ygro/YgroSansBeta-Book.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/ygro/YgroSansBeta-Book.woff2') format('woff2'),
+      url('/assets/fonts/ygro/YgroSansBeta-Book.woff') format('woff'),
+      url('/assets/fonts/ygro/YgroSansBeta-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+@font-face {
+  font-family: 'dejavu_sans_monobook';
+  src: url('/assets/fonts/dejavusansmono_book/DejaVuSansMono-webfont.eot');
+  src: url('/assets/fonts/dejavusansmono_book/DejaVuSansMono-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/dejavusansmono_book/DejaVuSansMono-webfont.woff2') format('woff2'),
+       url('/assets/fonts/dejavusansmono_book/DejaVuSansMono-webfont.woff') format('woff'),
+       url('/assets/fonts/dejavusansmono_book/DejaVuSansMono-webfont.ttf') format('truetype'),
+       url('/assets/fonts/dejavusansmono_book/DejaVuSansMono-webfont.svg#dejavu_sans_monobook') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+$font: (
+  title:         ('Ygro Sans Beta Book', 'Arial', 'Helvetica', sans-serif),
+  family:        ('Ygro Sans Beta Book', 'Arial', 'Helvetica', sans-serif),
+  family-fixed:  ('dejavu_sans_monobook', 'Lucida Console', Monaco, monospace),
+  weight:       200,
+  weight-bold:  700,
+  kerning:      0em,
+  kerning-alt:  0.125em
+);
+:root {
+  --border-radius: 3px;
+  --max-width: 1000px;
+  --anim-speed: 200ms;
+  --anim-slow: 500ms;
+
+}
+

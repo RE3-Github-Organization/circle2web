@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<!--
+  Publikatorized Hugolainen by Sakrecoer
+  Free for personal and commercial use under the Creative commons licens CC-BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/                                                                                                                                                                                                    
+-->
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+{{ partial "head/meta.html" . }}
+{{ partial "head/static-links-head.html" . }}
+{{ partial "head/seo.html" . }}
+</head>
+
+<body>
+<!-- Wrapper -->
+
+<div id="main-wrapper">
+
+    {{ block "header" . }}{{ end }}
+
+    {{ block "main" . }}{{ end }}
+
+    {{ block "footer" . }}{{ end }}
+
+</div>
+<!-- END Wrapper -->
+
+{{ partial "body/navigation.html" . }}
+
+
+{{ partial "footer/static-links-foot.html" . }}
+{{ if $.Params.video_path }}
+<div class="fullscreen-bg">
+<video data-matomo-ignore autoplay muted loop poster="{{ if not .IsHome }}{{ .Params.image }}{{ else }}{{ .Site.Params.Homepage_meta_tags.meta_og_image }}{{ end }}" class="fullscreen-bg__video">
+  <source src="{{  .Params.video_path }}" type="video/mp4">
+</video>
+</div>
+
+{{ end }}
+
+</body>
+</html>
+

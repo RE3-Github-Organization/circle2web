@@ -1,3 +1,36 @@
-baseURL = "http://example.org/"
+baseURL = "https://www.circle2.se/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Squared Circle Security"
+enableGitInfo = "true"
+theme = "circle2"
+
+[params]
+  description = "Keeping order in the tools is better than ordering tools."
+  moto = 'Achieve security by cultivating knowledge'
+  publisher = "RE3 Services"
+  google_analytics_id = ""
+  logo = "/assets/img/circle2-logo-dark-background.svg"
+  icon = "/assets/img/-icon.svg"
+  footerIcon = "/assets/img/-icon.svg"
+  email = "info@re3.se"
+  
+  [params.geo]
+    timezone = "Europe/Sweden"
+    lat = "46.21242"
+    long = "6.11550"
+    region = "SE"
+    street = "Box 6039"
+    locality = "Solna"
+    country = "Sweden"
+    postalcode = "171 06"
+
+
+  [params.homepage_meta_tags]
+    meta_og_type = "website"
+    meta_og_image = "images/.jpeg"
+#    meta_twitter_site = "@mytwitterhandle"
+#    meta_twitter_creator = "@mytwitt"
+
+[permalinks]
+  post = "/:year/:month/:day-:slug/"
+  pages = "/:filename/"
