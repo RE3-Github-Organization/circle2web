@@ -1,18 +1,34 @@
 
 // Basic Elements
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg);
+}
+body {
+  height: 100vh;
+  width: 100%;
+  font-size: 16px;
+  font-family: _font(family);
+  font-weight: 300;
+  color: var(--fg);
+  letter-spacing: _font(kerning);
+  
+}
 p {
   font-size: 1.2em; /* 16px is the default em size */
   line-height: 1.9555em; /* = 22px/14px */
   margin-bottom: 22px;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: _font(title);
+  font-family: _font(family);
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 22px;
 }
 h1 {
-  font-size: 2.5em;
+  font-size: 2.9em;
   line-height: 1.1em;
 }
 h2 {
@@ -25,11 +41,7 @@ h3 {
   font-family: _font(family);
   text-transform: unset;
 }
-.light-title {
-  font-weight: 200;
-  // font-family: _font(family);
-  // text-transform: unset;
-}
+
 strong {
   font-weight: 700;
 }

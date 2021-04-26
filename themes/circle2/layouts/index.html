@@ -2,30 +2,30 @@
 {{ define "header" }}
 <header class="hero" id="top">
   <div class="imagecontainer">
-
   </div>
+  <div class="content-wrapper">
+    <a href="#start" clasS="svg">
+      {{ partial "svg/logo-dark-background.svg" . }}
+    </a>
 
-  <div class="splash">
-    <div class="container">
-    <div class="description">
-      
-      <a href="#start"><div>
-        {{ partial "svg/logo-dark-background.svg" . }}
-        </div></a>
-  
 
-      <p>{{ .Site.Params.description }}</p>
-      <!-- <p><a class="button" href="#read">Enter</a></p> -->
-    </div>
 
-  </div>
+
+    <h1>Squared Circle Security</h1>
+
   </div>
 </header>
 {{ end }}
 
 {{ define "main" }}
 
-
+<section id="start">
+  <div class="content-wrapper">
+    
+    <div style="border-color: aqua;border-width: 1px; border-style: solid;">test</div>
+    <div style="border-color:brown;border-width: 1px; border-style: solid;"><h2>{{ .Site.Params.description }}</h2></div>
+  </div>
+</section>
 {{ end }}
 
 {{ define "footer"}}
