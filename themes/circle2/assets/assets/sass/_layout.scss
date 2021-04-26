@@ -21,7 +21,7 @@ body {
   -ms-transition: filter var(--anim-speed) ease-in-out;
   transition: filter var(--anim-speed) ease-in;
   z-index: 1;
-  background: var(--accent1);
+
 
 
 }
@@ -44,16 +44,12 @@ body {
   flex-direction: row;
   // align-content: flex-end;
   justify-content: center;
-  background-color: var(--bg);
+  background-color: transparent;
 
   padding: 0;
   position: relative;
   min-height: 100vh;
   width: 100%;
-
-
-  background-size: 160px;
-  background-repeat: repeat;
   .textcontainer {
     background: var(--bg-alt);
     border-radius: var(--border-radius);
@@ -81,8 +77,11 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background:transparent;
-
+    background-image: url(/assets/img/circle2-icon-decoration.svg);
+    background-size: 100vw;
+    background-position: 25vw 50%;
+    background-repeat: no-repeat;
+    opacity: .25;
     z-index: 1;
     h4 {
       
