@@ -10,4 +10,4 @@
 <link rel="icon" type="image/png" href='{{ "touch-icon.png" | absURL }}' sizes="192x192">
 <link rel="shortcut icon" href='{{ "siteicon.png" | absURL }}' type="image/png" />
 {{ $jep := resources.Get "assets/js/jep.js" | resources.Minify | fingerprint }}
-<script src="{{ $jep.RelPermalink }}" integrity="{{ $jep.Data.Integrity }}"></script>
+<script src="{{ $jep.RelPermalink }}"></script>
