@@ -34,3 +34,6 @@ theme = "circle2"
 [permalinks]
   post = "/:year/:month/:day-:slug/"
   pages = "/:filename/"
+
+[params._editor]
+  default_path = "/"
