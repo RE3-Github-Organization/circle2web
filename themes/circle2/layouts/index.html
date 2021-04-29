@@ -7,12 +7,7 @@
     <a href="#start" class="svg">
       {{ partial "svg/logo-dark-background.svg" . }}
     </a>
-
-
-
-
     <h1>{{ .Params.description }}</h1>
-
   </div>
 </header>
 {{ end }}
@@ -27,13 +22,11 @@
       <p>Your organisation is as secure as the individuals forming it. We believe knowledge is a fundamental building block to secure flows of information. We offer you the tools to keep your assets safe from the threat-models of the 21st Century, and the knowledge to educate the people relying on these assets.</p>
       <p><a href="#contact" class="button">Ask us for help</a></p>
     </div>
-    
     <div class="cartouche">
       <figure>
         <img src="/images/samuel-zeller-364234-unsplash.webp" />
       </figure>
     </div>
-
   </div>
 </article>
 
@@ -72,10 +65,18 @@
 
   </div>
 </article>
+<section class="about">
+
+</section>
 {{ end }}
 
 {{ define "footer"}}
-
+<div id="contact" class="modalContact">
+  <div class="closearea"></div>
+  <div class="content-wrapper">
+    {{ partial "scripts/contact-form-HS.html" . }}
+  </div>
+</div>
 {{ partial "body/footer.html" . }}
 
 {{ end }}
