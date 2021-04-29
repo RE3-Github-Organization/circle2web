@@ -11,7 +11,7 @@
 
 
 
-    <h1>{{ .Site.Params.description }}</h1>
+    <h1>{{ .Params.description }}</h1>
 
   </div>
 </header>
@@ -22,7 +22,12 @@
 <section id="start">
   <div class="content-wrapper">
     
-    <div class="editable" style="border-color: aqua;border-width: 1px; border-style: solid;">test</div>
+    <div class="editable" style="border-color: aqua;border-width: 1px; border-style: solid;">
+      <div class="cartouche"></div>
+      <figure>
+        <img src="" />
+      </figure>
+    </div>
     <div class="editable" style="border-color:brown;border-width: 1px; border-style: solid;"><h2>{{ .Site.Params.description }}</h2></div>
   </div>
 </section>

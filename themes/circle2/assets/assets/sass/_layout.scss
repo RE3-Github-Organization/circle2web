@@ -8,7 +8,7 @@
   -ms-transition: filter var(--anim-speed) ease-in-out;
   transition: filter var(--anim-speed) ease-in;
   z-index: 1;
-
+  
 
 
 }
@@ -19,7 +19,7 @@
 }
 .content-wrapper {
   max-width: var(--max-width);
-  width: 100%;
+
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -40,6 +40,9 @@
   width: 100%;
   svg, a {
     width: 100%;
+  }
+  .svg{
+    margin-top: 80px;
   }
   h1 {
     // font-family: _font(title);

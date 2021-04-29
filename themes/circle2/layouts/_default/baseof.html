@@ -13,17 +13,17 @@
 <body>
 <!-- Wrapper -->
 {{ partial "body/navigation.html" . }}
-<div id="main-wrapper">
+<main id="main-wrapper">
 
     {{ block "header" . }}{{ end }}
 
     {{ block "main" . }}{{ end }}
 
-    {{ block "footer" . }}{{ end }}
 
-</div>
+
+</main>
 <!-- END Wrapper -->
-
+{{ block "footer" . }}{{ end }}
 
 
 

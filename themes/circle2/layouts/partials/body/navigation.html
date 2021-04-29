@@ -1,9 +1,6 @@
 <!-- Navigation -->
-<div id="sticky" class="logo">
-  <a href="{{ if .IsHome }}#top{{ else }}/{{ end }}" id="logo" class="folded"><img height="40px" src="{{ .Site.Params.logo | relURL }}" alt="{{ .Site.Title }} Logo" /></a>
-  <a href="#navbar" onclick="blurBody()" alt="Navigation Menu" title="Navigation Menu"><span class="fas fa-bars navmenu"></span></a>
-</div>
-
+<div id="navigation">
+<div class="content-wrapper">
 <div id="navbar" class="modalDialog">
   <a href="#close" onclick="removeBlur()" alt="Close Menu" title="Close Menu">
     <div id="closearea"> </div>
@@ -26,6 +23,11 @@
     </ul>
   </nav>
 </div>
-  
+<div id="sticky" class="logo">
+  <a href="{{ if .IsHome }}#top{{ else }}/{{ end }}" id="logo" class="folded"><img height="40px" src="{{ .Site.Params.logo | relURL }}" alt="{{ .Site.Title }} Logo" /></a>
+  <a href="#navbar" onclick="blurBody()" alt="Navigation Menu" title="Navigation Menu"><span class="fas fa-bars navmenu"></span></a>
+</div>
+</div>
+</div>
   
   <!-- End Navigation -->
