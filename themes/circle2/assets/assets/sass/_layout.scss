@@ -18,7 +18,7 @@
   }
 }
 .content-wrapper {
-  width: 100%;
+
   max-width: var(--max-width);
   
   margin: auto;
@@ -39,6 +39,9 @@
   position: relative;
   min-height: 100vh;
   width: 100%;
+  .content-wrapper {
+    width: 100%;
+  }
   svg, a {
     width: 100%;
   }
