@@ -19,16 +19,20 @@
 
 {{ define "main" }}
 
-<section id="start">
+<section id="start" class="narative">
   <div class="content-wrapper">
     
-    <div class="editable" style="border-color: aqua;border-width: 1px; border-style: solid;">
-      <div class="cartouche"></div>
+    <div class="cartouche">
       <figure>
-        <img src="" />
+        <img src="/images/samuel-zeller-364234-unsplash.webp" />
       </figure>
     </div>
-    <div class="editable" style="border-color:brown;border-width: 1px; border-style: solid;"><h2>{{ .Site.Params.description }}</h2></div>
+    
+    <div class="text-content">
+      <h2>demystify the blackbox</h2>
+      <p>Your organisation is as secure as the individuals forming it. We believe knowledge is a fundamental building block to secure flows of information. We offer you the tools to keep your assets safe from the threat-models of the 21st Century, and the knowledge to educate the people relying on these assets.</p>
+      <p><a href="#contact" class="button">Ask us for help</a></p>
+    </div>
   </div>
 </section>
 {{ end }}

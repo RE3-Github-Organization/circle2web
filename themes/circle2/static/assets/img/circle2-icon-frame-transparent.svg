@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11.555mm" height="16.166mm" version="1.1" viewBox="0 0 11.555 16.166" xmlns="http://www.w3.org/2000/svg">
+ <g transform="rotate(-90 8.0839 8.0911)" opacity=".25">
+  <path d="m10.482 0.010718a5.775 5.775 0 0 0-0.08268-0.0011 5.775 5.775 0 0 1 0.08268 0.0011zm-0.08268 11.55a5.775 5.775 0 0 1-0.0011 0l5.29e-4 5.29e-4zm-0.0011 0a5.775 5.775 0 0 1-4.823-2.599l-1.726 2.596 0.0026 0.0036 5.29e-4 -5.29e-4zm5.69e-4 -11.55h-6.547v5.29e-4l1.726 2.596a5.775 5.775 0 0 1 4.821-2.596z" fill="#9f9f9f" fill-opacity=".9961" stroke-width=".006325" style="mix-blend-mode:normal;paint-order:markers fill stroke"/>
+  <path d="m7.6901 5.7832-2.112-3.176a5.775 5.775 0 0 0-0.9539 3.179 5.775 5.775 0 0 0 0.9514 3.176z" fill="#b7b7b7" stop-color="#000000" stroke-width=".006073" style="mix-blend-mode:normal;paint-order:markers fill stroke"/>
+  <path d="m5.5781 2.6072-1.729-2.6-3.84 5.776 3.84 5.775 1.726-2.596a5.775 5.775 0 0 1-0.9514-3.176 5.775 5.775 0 0 1 0.9539-3.179z" fill="#6f6f6f" stop-color="#000000" stroke-width=".006073" style="mix-blend-mode:normal;paint-order:markers fill stroke"/>
+  <path d="m16.174 5.7572a5.775 5.775 0 0 0-5.775-5.746 5.775 5.775 0 0 0-4.821 2.596l2.112 3.176-2.114 3.179a5.775 5.775 0 0 0 4.824 2.6 5.775 5.775 0 0 0 5.775-5.775 5.775 5.775 0 0 0 0-0.02894z" fill="#cfcfcf" stop-color="#000000" stroke-width=".006325" style="mix-blend-mode:normal;paint-order:markers fill stroke"/>
+ </g>
+</svg>

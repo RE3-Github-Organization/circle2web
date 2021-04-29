@@ -75,6 +75,8 @@ a:hover {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
+  font-family: _font(title);
+  text-transform: lowercase;
   color: var(--bg);
   box-shadow: 0px 0px 2px 0px var(--bg-shadow),0px 1px 0px 0px var(--bg-highlight) inset,0px -1px 0px 0px var(--bg-shadow) inset;
   -webkit-transition: all var(--anim-speed) ease-in-out;
