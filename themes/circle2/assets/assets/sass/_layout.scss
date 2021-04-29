@@ -8,9 +8,6 @@
   -ms-transition: filter var(--anim-speed) ease-in-out;
   transition: filter var(--anim-speed) ease-in;
   z-index: 1;
-  
-
-
 }
 @media only screen and (max-width: 400px) {
   #main-wrapper {
@@ -18,9 +15,7 @@
   }
 }
 .content-wrapper {
-
   max-width: var(--max-width);
-  
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -71,14 +66,18 @@
     z-index: -1;
 
   }
+  @media only screen and (max-width: 999px) {
+    .imagecontainer {
+      background-size: 120vh;
+      background-position: 30vw 50%;
+    }
+  }
 }
-
 article {
   flex: 1 1 100%;
   z-index: 2;
 
 }
-
 article:first-of-type {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -86,14 +85,11 @@ article:first-of-type {
   margin-top: 0;
   padding-top: 80px;
 }
-
 .narative {
   .content-wrapper {
     justify-content: space-between;
 
   }
-
-
   .text-content {
     flex: 1 1 220px;
     padding-right: 40px;
@@ -140,6 +136,9 @@ article:first-of-type {
       justify-content: center;
       flex-direction: row-reverse;
     }
+    .text-content {
+      padding-left: 0px;
+    }
     .cartouche {
       flex: 0 0 auto;
       position: relative;
@@ -185,6 +184,14 @@ article:first-of-type {
     .text-content {
       padding-left: 40px;
     }
+  }
+  @media only screen and (max-width: 679px) {
+    .content-wrapper {
+      flex-direction: row-reverse;
+      .text-content {
+        padding: 0px;
+      }
+    }  
   }
 }
 footer {
