@@ -205,7 +205,7 @@ footer {
   color: var(--fg);
   background-color: var(--bg);
   background-image: url(/assets/img/minimal-circle2.svg);
-  background-size: contain;
+  background-size: contain6f6f6f;
   background-position: left bottom;
   background-repeat: no-repeat;
   box-sizing: border-box;
@@ -391,4 +391,26 @@ footer {
   opacity:1;
   pointer-events: auto;
 }
+
+// about
+
+.about {
+  flex: 1 1 100%;
+  z-index: 2;
+  margin-bottom: -80px;
+  h2 {
+    line-height: 1em;
+  }
+  .text-content {
+    flex: 1 1 320px;
+    margin-right: 40px;
+  }
+  figure {
+    width: 120px;
+    img {
+      width: 100%;
+    }
+  }
+}
+
 // team member index
