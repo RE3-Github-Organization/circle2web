@@ -407,9 +407,15 @@ footer {
   }
   figure {
     width: 120px;
+    background-image: url(/images/team/mats.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
     img {
       width: 100%;
     }
+  }
+  .team {
+    font-size: .75em;
   }
 }
 

@@ -1,5 +1,5 @@
 - name: "About Us"
-  URL: "/about/"
+  URL: "#about"
   icon: ''
   external: false
 - name: "Services"
