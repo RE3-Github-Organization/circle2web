@@ -8,6 +8,7 @@
   -ms-transition: filter var(--anim-speed) ease-in-out;
   transition: filter var(--anim-speed) ease-in;
   z-index: 1;
+
 }
 @media only screen and (max-width: 400px) {
   #main-wrapper {
@@ -203,7 +204,10 @@ footer {
   min-height: 100vh;
   color: var(--fg);
   background-color: var(--bg);
-
+  background-image: url(/assets/img/minimal-circle2.svg);
+  background-size: contain;
+  background-position: left bottom;
+  background-repeat: no-repeat;
   box-sizing: border-box;
   z-index: 2;
   a {
