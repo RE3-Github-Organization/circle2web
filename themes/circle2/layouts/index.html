@@ -37,7 +37,7 @@
     <div class="text-content">
       <h2>WHO KNOWS WHAT and why?</h2>
       <p>The choice of granting access or denying it is easy, understanding how a piece of data can reveal your secrets is hard. We equip you with the insights You and your Peers need to keep your operation safe from prying eyes. </p>
-      <p><a href="#contact" class="button">Let Us do it</a></p>
+      <p><a href="/services/" class="button">Let Us do it</a></p>
     </div>
     
     <div class="cartouche">
@@ -71,35 +71,26 @@
     <div class="text-content">
       <h2>About Squared Circle Security</h2>
       <p>Information Security is simpler than it seems. At Circle2 our mission is to unravel the fears, uncertiditudes and doubts that arrise arround governance of your information assets. We want everyone in your ogranization to be able to handle and care for your assets in the safest possible way, regardless of the nature of technical infrastructures.</p>
+      <p><a href="/about/" class="button">Read More</a></p>
     </div>
     <div class="team">
+      {{ range .Site.Data.team }}
       <div class="mate">
         <figure>
-          <img src="/images/team/mats.svg" />
+          <img src="{{ .image }}" alt="{{ .name }}" />
         </figure>
-        <h3>Name</h3>
-        <p>Biografi you want is the front matter URL value</p>
+        <h3>{{ .name }}</h3>
+        <p><strong>{{ .title }}</strong></p>
+        <p>{{ .bio }}</p>
       </div>
-      <div class="mate">
-        <figure>
-          <img src="/images/team/mats.svg" />
-        </figure>
-        <h3>Name</h3>
-        <p>Biografi you want is the front matter URL value</p>
-      </div>
+      {{ end }}
     </div>
   </div>
 </section>
 {{ end }}
 
 {{ define "footer"}}
-<div id="contact" class="modalContact">
-  
-  <div class="content-wrapper">
-    {{ partial "scripts/contact-form-HS.html" . }}
-    
-  </div>
-</div>
+{{ partial "body/contact.html" . }}
 {{ partial "body/footer.html" . }}
 
 {{ end }}

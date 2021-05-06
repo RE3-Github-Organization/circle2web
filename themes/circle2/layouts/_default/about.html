@@ -1,0 +1,65 @@
+{{ define "header" }}
+<header class="hero-single" id="top">
+  <div class="imagecontainer">
+  </div>
+  <div class="content-wrapper">
+    {{ partial "svg/circle2-logo-vertical.svg" . }}
+    <div>
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Params.description }}</p>
+   </div>
+   <a class="arrow" href="#start" style="text-align:center;"><img src="/assets/img/arrow.svg"></a>
+  </div>
+</header>
+{{ end }}
+{{ define "main" }}
+<section id="start" class="about">
+  <div class="content-wrapper">
+    <div>
+
+      <p>{{ .Content }}</p>
+    </div>
+  </div>
+</section>
+<section class="about" id="start">
+  {{ range .Page.Params.sections }}
+  <div class="content-wrapper">
+    <div class="text-content">
+      <h2>{{ .title }}</h2>
+      <p>{{ .content_markdown }}</p>
+    </div>
+    <div class="image">
+      <figure>
+        <img src="{{ .image }}" alt="{{ .name }}" />
+      </figure>
+    </div>
+  </div>
+  {{ end }}
+</section>
+<section class="about" id="team">
+  <div class="content-wrapper">
+    <h2 style="width:100%; text-align: center;">Team</h2>
+      
+
+
+    <div class="team">
+  
+      {{ range .Site.Data.team }}
+      <div class="mate">
+
+        <figure>
+          <img src="{{ .image }}" alt="{{ .name }}" />
+        </figure>
+        <h3>{{ .name }}</h3>
+        <p><strong>{{ .title }}</strong></p>
+        <p>{{ .bio }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ define "footer"}}
+{{ partial "body/contact.html" . }}
+{{ partial "body/footer.html" . }}
+{{ end }}

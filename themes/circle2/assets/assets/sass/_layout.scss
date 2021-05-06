@@ -15,6 +15,7 @@
     overflow-x: hidden;
   }
 }
+
 .content-wrapper {
   max-width: var(--max-width);
   margin: auto;
@@ -22,6 +23,16 @@
   flex-wrap: wrap;
   justify-content:space-evenly;
   padding: 40px;
+
+  .content {
+
+    img {
+      width: calc(50% - 40px);
+      height: auto;
+      margin: auto;
+      
+    }
+  }
 }
 .hero {
   z-index: 10;
@@ -73,6 +84,82 @@
       background-position: 30vw 50%;
     }
   }
+}
+.hero-single {
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  // align-content: flex-end;
+  justify-content: center;
+  background-color: transparent;
+  padding: 0;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  .content-wrapper {
+    margin-top: 120px;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    svg {
+      flex: 0 1 30%;
+  
+    }
+    div {
+      flex: 0 0 60%;
+      min-width: 400px;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-between;
+      > h1, p {
+        flex: 0 0 100%;
+      }
+    }
+    .arrow {
+      flex: 0 0 100%;
+      margin-top: 80px;
+    }
+  }
+
+  .imagecontainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/img/circle2-icon-decoration.svg);
+    background-size: 100vw;
+    background-position: 30vw 50%;
+    background-repeat: no-repeat;
+    opacity: .25;
+    z-index: -1;
+
+  }
+  @media only screen and (max-width: 999px) {
+    .imagecontainer {
+      background-size: 180vh;
+      background-position: 30vw 0%;
+    }
+    .content-wrapper {
+      margin-top: 120px;
+      justify-content: center;
+      flex-direction: row;
+      
+      svg {
+        flex: 0 1 30%;
+        margin-bottom: 40px;
+      }
+      div {
+        flex: 0 0 100%;
+        min-width: 400px;
+        text-align: center;
+      }
+      .arrow {
+        display: none;
+      }
+    }
+  }
+
 }
 article {
   flex: 1 1 100%;
@@ -339,26 +426,26 @@ footer {
     background-color: var(--accent1);
     color: var(--bg);
     margin: 0 auto;
-    line-height: 48px;
-    position: absolute;
-    right: -12px;
+    line-height: 64px;
+    position: fixed;
+    right: 40px;
     text-align: center;
-    top: -10px;
-    width: 48px;
-    height: 48px;
+    bottom: 10px;
+    width: 64px;
+    height: 64px;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 48px;
+    border-radius: 64px;
     box-shadow: 0px 0px 2px 0px var(--bg-shadow),0px 1px 0px 0px var(--bg-highlight) inset,0px -1px 0px 0px var(--bg-shadow) inset;
-  
+    z-index: 10000000000;
     -webkit-transition: background-color var(--anim-speed) ease-in, box-shadow var(--anim-speed) ease-in;
     -moz-transition: background-color var(--anim-speed) ease-in, box-shadow var(--anim-speed) ease-in;
     -ms-transition: background-color var(--anim-speed) ease-in, box-shadow var(--anim-speed) ease-in;
     transition: background-color var(--anim-speed) ease-in, box-shadow var(--anim-speed) ease-in;
   }
   .close-button:hover {   
-    background-color: var(--fg); 
-    color: var(--bg);
+    background-color: var(--bg); 
+    color: var(--fg);
   }
   .closearea {
     position: fixed;
@@ -397,26 +484,83 @@ footer {
 .about {
   flex: 1 1 100%;
   z-index: 2;
-  margin-bottom: -80px;
+  margin-bottom: -40px;
   h2 {
     line-height: 1em;
   }
   .text-content {
     flex: 1 1 320px;
     margin-right: 40px;
-  }
-  figure {
-    width: 120px;
-    background-image: url(/images/team/mats.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
     img {
-      width: 100%;
+      max-width: 100%;
+    }
+  }
+  .content-wrapper:nth-child(2) {
+    flex-direction: row-reverse;
+    .text-content {
+      margin-left: 40px;
+    }
+  }
+  .image {
+    flex: 0 1 320px;
+    background-position: center;
+    figure {
+      width: 50vh;
+      height: 50vh;
+    }
+    img {
+      width: 50vh;
+      height: 50vh;
+      border-radius: 100vw;
+      object-fit: cover;
+      opacity: .5;
+      filter: grayscale(1);
     }
   }
   .team {
     font-size: .75em;
+    flex: 1 1 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .mate {
+      flex: 0 1 200px;
+      h3, p {
+        margin-bottom: 10px;
+      }
+      figure {
+        width: 140px;
+        height: 140px;
+        background-image: url(/images/team/mats.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 20px;
+        img {
+          
+          opacity: .5;
+          filter: grayscale(1);
+          border-radius: 100vw;
+          width: calc(100% - 40px);
+          position: relative;
+          left: 20px;
+          top: 20px;
+        }
+      }
+
+    }
+  }
+  @media only screen and (max-width: 999px) {
+
+    .text-content {
+      margin-left: 0px;
+      margin-right: 0px;;
+    }
+    .team {
+      .mate {
+        flex: 1 1 320px;
+        
+      }
+    }
   }
 }
 
-// team member index

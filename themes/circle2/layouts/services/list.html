@@ -6,7 +6,7 @@
     {{ partial "svg/circle2-logo-vertical.svg" . }}
     <div>
       <h1>{{ .Title }}</h1>
-      <p>{{ .Params.description }}</p>
+      <p>{{ .Params.description_markdown }}</p>
    </div>
    <a class="arrow" href="#start" style="text-align:center;"><img src="/assets/img/arrow.svg"></a>
   </div>
@@ -25,12 +25,12 @@
 
 
 {{ range .Paginator.Pages }}
-<section id="start" class="front-section">
+<section class="front-section">
 
   <div style="background-image:url({{ .Params.Image }});filter: sepia(1) hue-rotate(170deg) saturate(5);">
   </div>
 
-  <div class="description">
+  <div class="content-wrapper">
     <div class="container">
 
       <h2>{{ .Title }}</h2>

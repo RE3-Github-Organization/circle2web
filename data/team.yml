@@ -1,8 +1,12 @@
 - name: Mats Kronbladh
-  title:
+  title: Co-Founder
   bio: "Veresed in the Scandinavian IT-sphere since it’s early days, Mats is a driven business developer with an experienced passion for Information Security."
-  image: /images/photos-staff/mats.jpg
+  image: /images/team/mats.jpeg
 - name: Tero Hänninen
-  title:
+  title: Co-Founder
   bio: "With a couple of decades worth of practical experience from various parts of IT- and Information Security field, Tero has held various roles within Information-, Application- and Cyber-security"
-  image: /images/photos-staff/tero.jpg
+  image: /images/team/tero.jpeg
+- name: You?
+  title: Partner
+  bio: Join our team!
+  image: /assets/img/compass-solid.svg
