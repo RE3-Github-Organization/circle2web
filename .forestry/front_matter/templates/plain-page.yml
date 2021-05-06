@@ -34,16 +34,6 @@ fields:
     - type: text
       name: label
       label: label
-- type: field_group_list
-  name: customers
-  label: customers
-  fields:
-  - type: text
-    name: company
-    label: company
-  - type: text
-    name: URL
-    label: URL
 - type: text
   name: layout
   label: layout
