@@ -1,0 +1,10 @@
+---
+label: test
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description_markdown
+  label: description_markdown
