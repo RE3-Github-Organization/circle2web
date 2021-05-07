@@ -6,7 +6,7 @@
     {{ partial "svg/circle2-logo-vertical.svg" . }}
     <div>
       <h1>{{ .Title }}</h1>
-      <p>{{ .Params.description }}</p>
+      <p>{{ .Params.description_markdown | markdownify }}</p>
    </div>
    <a class="arrow" href="#start" style="text-align:center;"><img src="/assets/img/arrow.svg"></a>
   </div>
@@ -21,12 +21,13 @@
     </div>
   </div>
 </section>
-<section class="about" id="start">
+<section class="about">
   {{ range .Page.Params.sections }}
   <div class="content-wrapper">
     <div class="text-content">
       <h2>{{ .title }}</h2>
       <p>{{ .content_markdown }}</p>
+      <p><a href="{{ .button.URL }}" class="button">{{ .button.label }}</a></p>
     </div>
     <div class="image">
       <figure>
@@ -36,9 +37,17 @@
   </div>
   {{ end }}
 </section>
+<section id="team" class="about">
+  <div class="content-wrapper">
+    <div>
+      <h2>Team</h2>
+      <p>Our team has been the industry's standard ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+  </div>
+</section>
 <section class="about" id="team">
   <div class="content-wrapper">
-    <h2 style="width:100%; text-align: center;">Team</h2>
+
       
 
 
