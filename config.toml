@@ -1,7 +1,7 @@
 baseURL = "https://www.circle2.se/"
 languageCode = "en-us"
 title = "Squared Circle Security"
-enableGitInfo = "true"
+#enableGitInfo = "true"
 theme = "circle2"
 
 [params]
