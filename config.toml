@@ -36,7 +36,7 @@ theme = "circle2"
   pages = "/:filename/"
 
 [frontmatter]
-  date = ["date", "publishDate", "lastmod"]
+  date = ["date", "publishDate"]
   expiryDate = ["expiryDate"]
   lastmod = [":fileModTime"]
   publishDate = ["publishDate", "date"]
