@@ -32,7 +32,7 @@ theme = "circle2"
 #    meta_twitter_creator = "@mytwitt"
 
 [permalinks]
-  post = "/:year/:month/:day-:slug/"
+  posts = "/blog/:year-:month-:day-:slug/"
   pages = "/:filename/"
 
 [params._editor]
