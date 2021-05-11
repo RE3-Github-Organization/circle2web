@@ -38,7 +38,7 @@ theme = "circle2"
 [frontmatter]
   date = ["date", "publishDate", "lastmod"]
   expiryDate = ["expiryDate"]
-  lastmod = ["lastmod", ":fileModTime", ":default"]
+  lastmod = [":fileModTime"]
   publishDate = ["publishDate", "date"]
 
 [params._editor]
