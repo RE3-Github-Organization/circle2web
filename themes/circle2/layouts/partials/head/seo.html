@@ -13,7 +13,7 @@
 <title>{{ $title }}</title>
 <meta name="title" content="{{ $title }}" />
 <meta name="description" content="{{ $description }}" />
-<meta name="dc.date.modified" scheme="ISO8601" content="{{ .Lastmod }}" />
+<!-- <meta name="dc.date.modified" scheme="ISO8601" content="{{ .Lastmod }}" /> -->
 <meta name="robots" content="index" />
 <link rel="canonical" href="{{ .URL | absURL }}" />
 <link rel="alternate" hreflang="x-default" href="{{ .URL | absURL }}" />
@@ -36,7 +36,7 @@
 <meta name="dcterms.Subject" content="{{ $description }}" />
 <meta name="dcterms.Title" content="{{ .Title }}" />
 <meta name="dcterms.Contributor" content="{{ .Site.Title }}" />
-<meta name="dcterms.Date" content="{{ $.Page.Params.LastMod.Format "2006-01-02" }}" />
+<!-- <meta name="dcterms.Date" content="{{ $.Page.Params.LastMod.Format "2006-01-02" }}" /> -->
 <meta name="dcterms.Description" content="{{ $description }}" />
 
 <!-- Facebook -->
@@ -47,7 +47,7 @@
 <meta property="og:url" content="{{ .URL | absURL }}" />
 <meta property="og:site_name" content="{{ .Site.Title }}" />
 <meta property="og:type" content="webpage" />
-<meta property="article:published_time" content="{{ .Lastmod }}" />
+<!-- <meta property="article:published_time" content="{{ .Lastmod }}" /> -->
 <meta property="og:image" content="{{ .Site.Params.homepage_meta_tags.meta_og_image }}" />
 
 <!-- Twitter Card -->
