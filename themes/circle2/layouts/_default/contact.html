@@ -1,0 +1,64 @@
+{{ define "header" }}
+{{ partial "body/header.html" . }}
+{{ end }}
+{{ define "main" }}
+
+
+
+
+
+
+<section class="info" id="start">
+  
+<div class="content-wrapper">
+  {{ partial "scripts/contact-form-HS.html" . }}
+</div>
+<style>
+  #hs-form-iframe-0{
+    width: 100% !important;
+  }
+</style>
+</section>
+
+
+
+<!-- post Naviation -->
+
+
+
+{{ $pages := where site.RegularPages "Section" .Section }}
+<section class="post-navigation">
+
+  <div class="container">
+    {{ with $pages.ByWeight.Next . }}
+  <div class="post-nav">
+    
+    <h4><a href="{{ .Permalink }}" alt="Read {{.Title }}" title="Read {{ .Title }}"><span
+      class="fas fa-arrow-left" style="font-size:3em;text-decoration: none;"></span></a></h4>
+    <h3>{{ .Title }}</h3>
+    <p>{{ .Params.description }}</p>
+    
+  </div>
+  {{ end }}
+  {{ with $pages.ByWeight.Prev . }}
+  <div class="post-nav-next">
+    
+    <h4><a href="{{ .Permalink }}" alt="Read {{ .Title }}" title="Read {{ .Title }}"><span 
+      class="fas fa-arrow-right" style="font-size:3em;"></span></a></h4>
+    <h3>{{ .Title }}</h3>
+    <p>{{ .Params.description }}</p>
+   
+  </div>
+  {{ end }}
+  </div>
+  
+</section>
+
+
+{{ end }}
+
+{{ define "footer"}}
+
+{{ partial "body/footer.html" . }}
+
+{{ end }}

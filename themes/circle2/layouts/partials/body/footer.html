@@ -1,0 +1,54 @@
+
+<!-- Footer -->
+<footer>
+  <div class="footframe">
+    <div >
+      <h3>{{ .Site.Title }}</h3>
+      
+      <p><strong>{{ .Site.Params.geo.street }}<br />
+        {{ .Site.Params.geo.region }} {{ .Site.Params.geo.locality }} {{ .Site.Params.geo.postalcode }}<br />
+        {{ .Site.Params.geo.country }}
+      </strong></p>
+      <p>{{ .Site.Params.description }}</p>
+
+      
+    
+    </div>
+    <div>
+      <ul>
+        {{ if not .IsHome }}
+        <li><a href="/">Home</a></li>
+        {{ end }}
+        {{ range .Site.Data.navigation }}
+        {{ if ne .name "Contact"}}
+        <li><a href="{{ .URL }}" {{ if eq .external true }} target="_blank" rel="noopener"
+            {{ end }}>{{ .icon }} {{ .name }}</a></li>
+        {{ end }}
+        {{ end }}
+        <li><noscript><strong>Activate JS to see email</strong></noscript>
+          <script type="text/javascript">jep_link("circle2.se", "info");</script></li>
+      </ul>
+      
+    </div>
+
+    <div class="footer-logo"><a href="#top">
+      {{ partial "svg/circle2-logo-vertical.svg" . }}
+    </a></div>
+
+    <small>
+      <div style="text-align: center;">
+        {{ range .Site.Data.social }}
+        <a target="_blank" alt="{{ .Site.Title }} on {{ .name }}" title="{{ .Site.Title }} on {{ .name }}" rel="noopener"
+          href="{{ .URL }}" class="icon small fab {{ .icon }}"><span class="label">{{ .name }}</span></a>
+        {{ end }}
+        <a target="_blank" alt="email" title="email" href="mailto:{{ .Site.Params.email }}" class="icon small fas fa-envelope-open-text" rel="me"><span
+          class="label">Email</span></a>
+      </div>
+      <p>&copy;{{ now.Format "2006" }} {{ .Site.Title }} 
+        <!-- | <a href="/webcreds/">Credits</a>  -->
+        | <a href="">Privacy Policy</a> 
+        | <a href="">Credits</a></p>
+        
+    </small>
+  </div>
+</footer>

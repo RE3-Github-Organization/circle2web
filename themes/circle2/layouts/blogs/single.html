@@ -1,0 +1,79 @@
+{{ define "header" }}
+<header class="hero-single" id="top">
+  <div class="imagecontainer">
+  </div>
+  <div class="content-wrapper">
+    {{ partial "svg/circle2-logo-vertical.svg" . }}
+    <div>
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Params.description_markdown | markdownify }}</p>
+   </div>
+   <a class="arrow" href="#start" style="text-align:center;"><img src="/assets/img/arrow.svg"></a>
+  </div>
+</header>
+{{ end }}
+{{ define "main" }}
+
+<section id="start" class="blog-post">
+  <div class="content-wrapper">
+    <div class="content blog">
+      {{ .Content }}
+      {{ if .Params.link.URL }}
+      <p class="center">
+        <a href="{{ .Params.link.URL }}" target="_bank" rel="noopener" class="button">{{ if .Params.link.label }}{{ .Params.link.label }}{{ else }}check it out{{ end }}</a>
+      </p>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- Author -->
+<section class="author">
+  <div class="content-wrapper">
+    <div class="content">
+
+    </div>
+  </div>
+</section>
+
+
+<!-- post Naviation -->
+
+
+
+{{ $pages := where site.RegularPages "Section" .Section }}
+<section class="post-navigation">
+
+  <div class="container">
+    {{ with $pages.ByWeight.Prev . }}
+  <div class="post-nav">
+    
+    <h4><a href="{{ .Permalink }}" alt="Read {{.Title }}" title="Read {{ .Title }}"><span
+      class="fas fa-arrow-left" style="font-size:3em;text-decoration: none;"></span></a></h4>
+    <h3>{{ .Title }}</h3>
+    <p>{{ .Params.description_markdown | markdownify }}</p>
+    
+  </div>
+  {{ end }}
+  {{ with $pages.ByWeight.Next . }}
+  <div class="post-nav-next">
+    
+    <h4><a href="{{ .Permalink }}" alt="Read {{ .Title }}" title="Read {{ .Title }}"><span 
+      class="fas fa-arrow-right" style="font-size:3em;"></span></a></h4>
+    <h3>{{ .Title }}</h3>
+    <p>{{ .Params.description_markdown | markdownify }}</p>
+   
+  </div>
+  {{ end }}
+  </div>
+  
+</section>
+
+
+{{ end }}
+
+{{ define "footer"}}
+{{ partial "body/contact.html" . }}
+{{ partial "body/footer.html" . }}
+
+{{ end }}

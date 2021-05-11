@@ -1,0 +1,39 @@
+---
+label: Plain page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
+- type: file
+  name: image
+  label: image
+- type: field_group_list
+  name: sections
+  label: sections
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: content_markdown
+    label: content_markdown
+  - type: file
+    name: image
+    label: image
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: text
+      name: URL
+      label: URL
+    - type: text
+      name: label
+      label: label
+- type: text
+  name: layout
+  label: layout
