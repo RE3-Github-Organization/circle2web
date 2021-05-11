@@ -35,5 +35,11 @@ theme = "circle2"
   posts = "/blog/:year-:month-:day-:slug/"
   pages = "/:filename/"
 
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  expiryDate = ["expiryDate"]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+  publishDate = ["publishDate", "date"]
+
 [params._editor]
   default_path = "/"
