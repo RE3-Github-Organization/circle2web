@@ -53,7 +53,7 @@
 
     <div class="team">
   
-      {{ range .Site.Data.team }}
+      {{ range where .Site.Data.team "guest" false }}
       <div class="mate">
 
         <figure>

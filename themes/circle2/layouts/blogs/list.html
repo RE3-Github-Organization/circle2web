@@ -34,7 +34,7 @@
     <div class="container">
 
       <h2>{{ .Title }}</h2>
-      <p>{{ .Params.description_markdown }}</p>
+      <p>{{ .Params.description_markdown | markdownify }}</p>
       <p><a href="{{ .Permalink }}" class="button">Read More</a></p>
   
     </div>

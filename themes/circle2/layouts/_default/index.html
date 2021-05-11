@@ -57,7 +57,8 @@
       <p><a href="/about/" class="button">Read More</a></p>
     </div>
     <div class="team">
-      {{ range .Site.Data.team }}
+      {{ range where .Site.Data.team "guest" false }}
+
       <div class="mate">
         <figure>
           <img src="{{ .image }}" alt="{{ .name }}" />
@@ -66,6 +67,7 @@
         <p><strong>{{ .title }}</strong></p>
         <p>{{ .bio }}</p>
       </div>
+
       {{ end }}
     </div>
   </div>
