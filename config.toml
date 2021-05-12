@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Squared Circle Security"
 # enableGitInfo = "true"
 theme = "circle2"
+disableKinds = ["taxonomyTerm", "term"]
 
 [params]
   description = "Keeping order in the tools is better than ordering tools."
