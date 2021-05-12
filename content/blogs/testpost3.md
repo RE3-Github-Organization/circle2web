@@ -3,7 +3,7 @@ title: "Testpost3"
 date: 2021-05-11T15:45:13+02:00
 icon: ''
 weight: 1
-author: 
+author: tero
 featured: true
 draft: false
 description_markdown: >-
