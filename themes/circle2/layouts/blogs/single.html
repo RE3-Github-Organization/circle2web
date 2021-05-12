@@ -32,6 +32,15 @@
   <div class="content-wrapper">
     <div class="content">
 
+      {{ $headless := .Site.GetPage "/team_members" }}
+      {{ $reusablePages := $headless.Resources.ByType "page" }}
+      {{ $currentAuthors := .Params.author }}
+      {{ range where $reusablePages $currentAuthors .BaseFileName }}
+
+      {{ .Params.name }} test
+      {{ $.Page.Params.authors }}
+
+      {{ end }}
     </div>
   </div>
 </section>

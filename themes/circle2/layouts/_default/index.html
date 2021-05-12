@@ -57,15 +57,17 @@
       <p><a href="/about/" class="button">Read More</a></p>
     </div>
     <div class="team">
-      {{ range where .Site.Data.team "guest" false }}
+      {{ $headless := .Site.GetPage "/team_members" }}
+      {{ $reusablePages := $headless.Resources.ByType "page" }}
+      {{ range where $reusablePages ".Params.guest" false }}
 
       <div class="mate">
         <figure>
-          <img src="{{ .image }}" alt="{{ .name }}" />
+          <img src="{{ .Params.image }}" alt="{{ .Params.name }}" />
         </figure>
-        <h3>{{ .name }}</h3>
-        <p><strong>{{ .title }}</strong></p>
-        <p>{{ .bio }}</p>
+        <h3>{{ .Params.name }}</h3>
+        <p><strong>{{ .Params.title }}</strong></p>
+        <p>{{ .Params.bio }}</p>
       </div>
 
       {{ end }}
