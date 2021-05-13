@@ -4,12 +4,14 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
+- type: directory
+  path: content/team_members
+  label: Team
+  create: all
+  match: "**/*"
 - type: document
   path: content/about.md
   label: About
-- type: document
-  path: data/team.yml
-  label: Team
 - type: directory
   path: content/blogs
   label: Blogs
