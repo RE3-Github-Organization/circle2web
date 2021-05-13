@@ -61,6 +61,7 @@
     }
     .close-button {
       display: none;
+      z-index: 100000;
     }
     nav{
       margin:auto;
