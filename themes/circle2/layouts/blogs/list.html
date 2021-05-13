@@ -15,33 +15,38 @@
 
 {{ define "main" }}
 
-<section class="info" id="start">
-  <div class="info-pages">
-    <div class="container">
-      {{ .Page.Content | markdownify }}
-    </div>
-  </div>
-</section>
-
-
-{{ range .Paginator.Pages }}
-<section class="front-section">
-
-  <div style="background-image:url({{ .Params.Image }});filter: sepia(1) hue-rotate(170deg) saturate(5);">
-  </div>
-
+<section id="start">
   <div class="content-wrapper">
-    <div class="container">
+    <div class="content">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
 
-      <h2>{{ .Title }}</h2>
-      <p>{{ .Params.description_markdown | markdownify }}</p>
-      <p><a href="{{ .Permalink }}" class="button">Read More</a></p>
-  
+
+
+<section class="blog-list">
+  <div class="content-wrapper">
+    <div class="content">
+      {{ range .Paginator.Pages }}
+      
+        <article>
+          <figure>
+            <img src="{{ .Params.image }}" alt="{{ .Title }}" />
+          </figure>
+          <h3>{{ .Title }}</h3>
+          
+          <p>{{ .Params.description_markdown | markdownify }}</p>
+          <p class="date">Published {{ .Date.Format "2" }}{{ if in (slice 1 21 31) .Date.Day}}st{{ else if in (slice 2 22) .Date.Day}}nd{{ else if in (slice 3 23) .Date.Day}}rd{{ else }}th{{ end }} of {{ .Date.Format "January 2006" }}</p>
+          <p><a href="{{ .Permalink }}" class="button">Read More</a></p>
+        </article>
+
+      {{ end }}
     </div>
   </div>
 
 </section>
-{{ end }}
+
 
 {{ end }}
 

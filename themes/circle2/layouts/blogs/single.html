@@ -1,6 +1,6 @@
 {{ define "header" }}
 <header class="hero-single" id="top">
-  <div class="imagecontainer">
+  <div class="imagecontainer" style="background-image: url({{ .Params.image }}); background-size:cover; background-position:center center;">
   </div>
   <div class="content-wrapper">
     {{ partial "svg/circle2-logo-vertical.svg" . }}
@@ -17,6 +17,7 @@
 <section id="start" class="blog-post">
   <div class="content-wrapper">
     <div class="content blog">
+      <div class="date">Publicerades {{ .Date.Format "2006-01-02" }} av <a href="#author">Mats Kronbladh</a></div>
       {{ .Content }}
       {{ if .Params.link.URL }}
       <p class="center">
@@ -28,7 +29,7 @@
 </section>
 
 <!-- Author -->
-<section class="author">
+<section class="author" id="author">
   <div class="content-wrapper">
     <div class="content">
 
@@ -37,10 +38,19 @@
       {{ $currentAuthors := .Params.author }}
       {{ range where $reusablePages $currentAuthors .BaseFileName }}
 
-      {{ .Params.name }} test
-      {{ $.Page.Params.authors }}
 
       {{ end }}
+      <div class="team">
+        <div class="mate">
+          <figure>
+            <img src="/images/team/mats.jpeg" alt="Mats Kronbladh" />
+          </figure>
+          <h3>Mats Kronbladh</h3>
+          <p><strong>Co-Founder</strong></p>
+          <p>Veresed in the Scandinavian IT-sphere since it’s early days, Mats is a driven business developer with an
+            experienced passion for Information Security.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
