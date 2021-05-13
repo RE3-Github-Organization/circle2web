@@ -12,7 +12,7 @@
 }
 @media only screen and (max-width: 400px) {
   #main-wrapper {
-    overflow-x: hidden;
+    overflow: hidden;
   }
 }
 
@@ -555,12 +555,18 @@ footer {
 
     .text-content {
       margin-left: 0px;
-      margin-right: 0px;;
+      margin-right: 0px;
     }
     .team {
       .mate {
         flex: 1 1 320px;
         
+      }
+    }
+    .content-wrapper:nth-child(2) {
+      
+      .text-content {
+        margin-left: 0px;
       }
     }
   }
