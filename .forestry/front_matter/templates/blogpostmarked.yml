@@ -24,7 +24,7 @@ fields:
       type: documents
       section: team-dede7fe6-d740-4100-93d1-9aec7c30f177
       file: data/team.yml
-      path: 'authors'
+      path: authors
   label: author
   description: Pick an author. If the author is not in the list, you need to add them
     to the Team file

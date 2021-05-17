@@ -4,6 +4,12 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
+- type: directory
+  path: content/team
+  label: Team
+  create: documents
+  match: "**/*"
+  new_doc_ext: index.md
 - type: document
   path: content/_index.md
   label: Home Page
@@ -15,9 +21,8 @@ sections:
   label: Blogs
   create: all
   match: "**/*"
-- type: document
-  path: data/team.yml
-  label: Team
+  templates:
+  - blogpostmarked
 - type: directory
   path: content/services
   label: Services
