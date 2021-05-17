@@ -18,10 +18,10 @@ fields:
     required: true
     options: []
     source:
-      type: pages
-      section: authors
+      type: documents
+      section: blogs
       file: data/team.yml
-      path: 
+      path: authors
   label: author
   description: Pick an author. If the author is not in the list, you need to add them
     to the Team file
