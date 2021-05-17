@@ -10,7 +10,7 @@ sections:
   create: documents
   match: "**/*"
   exclude: index.md
-  new_doc_ext: app
+  new_doc_ext: ''
   templates:
   - team
 - type: document
