@@ -21,10 +21,10 @@ fields:
     required: true
     options: []
     source:
-      type: documents
-      section: team-dede7fe6-d740-4100-93d1-9aec7c30f177
+      type: pages
+      section: team-73fe1788-9df3-4b67-83f3-160490cd8162
       file: data/team.yml
-      path: authors
+      path: ''
   label: author
   description: Pick an author. If the author is not in the list, you need to add them
     to the Team file
