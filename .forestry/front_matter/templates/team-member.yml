@@ -18,4 +18,5 @@ fields:
   name: guest
   label: guest
 pages:
+- content/team_members/guest.md
 - content/team_members/you.md
