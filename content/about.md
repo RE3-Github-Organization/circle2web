@@ -25,8 +25,8 @@ sections:
     URL: "/services/"
     label: See our Services
 customers:
-- company: 
-  URL: 
+- company: ''
+  URL: ''
 layout: about
 
 ---
