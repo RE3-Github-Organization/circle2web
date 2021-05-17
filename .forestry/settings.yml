@@ -19,7 +19,7 @@ sections:
   label: About
 - type: directory
   path: content/blogs
-  label: Blogs
+  label: Blog
   create: all
   match: "**/*"
   templates:
