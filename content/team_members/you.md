@@ -1,7 +1,9 @@
 ---
-name: "You?"
+name: You?
 title: Partner
 bio: Join our team!
-image: /assets/img/compass-solid.svg
+image: "/assets/img/compass-solid.svg"
 guest: false
+work_title: ''
+
 ---
