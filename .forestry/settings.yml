@@ -9,7 +9,8 @@ sections:
   label: Team
   create: documents
   match: "**/*"
-  new_doc_ext: index.md
+  exclude: index.md
+  new_doc_ext: ''
 - type: document
   path: content/_index.md
   label: Home Page
