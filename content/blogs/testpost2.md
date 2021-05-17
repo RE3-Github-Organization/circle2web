@@ -3,7 +3,7 @@ title: Testpost2
 date: 2021-05-10T15:45:08.000+02:00
 icon: ''
 weight: 1
-author: mats
+author: team_members/tero.md
 featured: true
 description_markdown: Write something using markdown. This text will appear in the
   rendered page's header on list-pages **and in searchengine's results.**
