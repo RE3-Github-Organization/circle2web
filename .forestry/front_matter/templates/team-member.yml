@@ -6,8 +6,8 @@ fields:
   name: name
   label: name
 - type: text
-  name: title
-  label: title
+  name: work_title
+  label: work_title
 - type: text
   name: bio
   label: bio
