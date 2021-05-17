@@ -5,24 +5,35 @@ fields:
 - type: text
   name: title
   label: title
+- type: textarea
+  name: description_markdown
+  label: description_markdown
 - type: datetime
   name: date
   label: date
+- name: author
+  type: select
+  default: ''
+  config:
+    required: true
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: author
+  description: Pick an author. If the author is not in the list, you need to add them
+    to the Team file
 - type: text
   name: icon
   label: icon
 - type: number
   name: weight
   label: weight
-- type: text
-  name: author
-  label: author
 - type: boolean
   name: featured
   label: featured
-- type: textarea
-  name: description_markdown
-  label: description_markdown
 - type: file
   name: image
   label: image
