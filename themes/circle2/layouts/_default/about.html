@@ -52,17 +52,16 @@
 
 
     <div class="team">
-      {{ $headless := .Site.GetPage "/team_members" }}
-      {{ $reusablePages := $headless.Resources.ByType "page" }}
-      {{ range where $reusablePages ".Params.guest" false }}
+
+      {{ range .Site.Data.team.members }}
       <div class="mate">
 
         <figure>
-          <img src="{{ .Params.image }}" alt="{{ .Params.name }}" />
+          <img src="{{ .image }}" alt="{{ .name }}" />
         </figure>
-        <h3>{{ .Params.name }}</h3>
-        <p><strong>{{ .Params.title }}</strong></p>
-        <p>{{ .Params.bio }}</p>
+        <h3>{{ .name }}</h3>
+        <p><strong>{{ .title }}</strong></p>
+        <p>{{ .bio }}</p>
       </div>
       {{ end }}
     </div>
