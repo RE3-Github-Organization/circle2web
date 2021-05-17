@@ -1,5 +1,5 @@
 ---
-label: about
+label: About
 hide_body: false
 fields:
 - type: text
@@ -47,5 +47,6 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
 pages:
 - content/about.md
