@@ -11,6 +11,8 @@ sections:
   match: "**/*"
   exclude: index.md
   new_doc_ext: app
+  templates:
+  - team
 - type: document
   path: content/_index.md
   label: Home Page
