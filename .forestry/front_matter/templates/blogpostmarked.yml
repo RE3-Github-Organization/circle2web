@@ -48,5 +48,6 @@ fields:
     name: URL
     label: URL
 pages:
+- content/blogs/testpost.md
 - content/blogs/testpost2.md
 - content/blogs/testpost3.md
