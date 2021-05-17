@@ -2,15 +2,18 @@
 label: BlogPostMarked
 hide_body: false
 fields:
+- type: datetime
+  name: date
+  label: date
 - type: text
   name: title
   label: title
 - type: textarea
   name: description_markdown
   label: description_markdown
-- type: datetime
-  name: date
-  label: date
+- type: file
+  name: image
+  label: image
 - name: author
   type: select
   default: ''
@@ -25,18 +28,9 @@ fields:
   label: author
   description: Pick an author. If the author is not in the list, you need to add them
     to the Team file
-- type: text
-  name: icon
-  label: icon
 - type: number
   name: weight
   label: weight
-- type: boolean
-  name: featured
-  label: featured
-- type: file
-  name: image
-  label: image
 - type: field_group
   name: link
   label: link
