@@ -9,6 +9,7 @@ sections:
   label: Team
   create: documents
   match: "**/*"
+  exclude: index.md
   new_doc_ext: index.md
 - type: document
   path: content/_index.md
