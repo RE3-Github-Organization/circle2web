@@ -18,9 +18,9 @@ fields:
     required: true
     options: []
     source:
-      type: simple
-      section: 
-      file: 
+      type: pages
+      section: authors
+      file: data/team.yml
       path: 
   label: author
   description: Pick an author. If the author is not in the list, you need to add them
