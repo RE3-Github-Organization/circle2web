@@ -6,4 +6,5 @@ bio: With a couple of decades worth of practical experience from various parts o
 image: "/images/team/tero.jpeg"
 guest: false
 work_title: Co-founder
+
 ---
