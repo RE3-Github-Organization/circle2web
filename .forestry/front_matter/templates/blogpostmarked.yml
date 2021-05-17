@@ -47,3 +47,5 @@ fields:
   - type: text
     name: URL
     label: URL
+pages:
+- content/blogs/testpost3.md
