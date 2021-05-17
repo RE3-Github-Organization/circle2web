@@ -3,7 +3,7 @@ title: Testpost
 date: 2021-05-09T15:39:57.000+02:00
 icon: ''
 weight: 1
-author: mats
+author: team_members/mats.md
 featured: true
 description_markdown: Write something using markdown. This text will appear in the
   rendered page's header on list-pages **and in searchengine's results.**
