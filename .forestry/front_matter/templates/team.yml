@@ -17,3 +17,5 @@ fields:
 - type: boolean
   name: guest
   label: guest
+pages:
+- content/team_members/you.md
