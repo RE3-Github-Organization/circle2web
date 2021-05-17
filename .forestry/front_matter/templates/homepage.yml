@@ -1,0 +1,35 @@
+---
+label: Homepage
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: field_group_list
+  name: sections
+  label: sections
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: description_markdown
+    label: description_markdown
+  - type: file
+    name: image
+    label: image
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: URL
+      label: URL
+pages:
+- content/_index.md
