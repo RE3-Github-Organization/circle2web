@@ -1,5 +1,3 @@
-
-
 {{ define "header" }}
 <header class="hero-single" id="top">
   <div class="imagecontainer" style="background-image: url({{ .Params.image }}); background-size:cover; background-position:center center;">
@@ -15,11 +13,17 @@
 </header>
 {{ end }}
 {{ define "main" }}
-{{ $author := index .Site.Data.team.authors .Params.author }}
+{{ $headless := .Site.GetPage "/team_members" }}
+{{ $reusablePages := $headless.Resources.ByType "page" }}
 <section id="start" class="blog-post">
   <div class="content-wrapper">
     <div class="content blog">
-      <div class="date">Published {{ .Date.Format "2006-01-02" }} {{ if $author }} by <a href="#author">{{ $author.name }}</a>{{ end  }}</div>
+      <div class="date">Published {{ .Date.Format "2006-01-02" }} 
+        {{ range where $reusablePages "Section" "=" "team_members" }}
+      {{ if eq .File.Path $.Params.author }}
+        by <a href="#author">{{ .Params.name }}</a>
+      {{ end }}{{ end }}
+      </div>
       {{ .Content }}
       {{ if .Params.link.URL }}
       <p class="center">
@@ -36,19 +40,24 @@
     <div class="content">
 
 
-      {{ if $author }}
 
+
+      {{ range where $reusablePages "Section" "=" "team_members" }}
+      {{ if eq .File.Path $.Params.author }}
       <div class="team">
         <div class="mate">
           <figure>
-            <img src="{{ $author.image }}" alt="{{ $author.name }}" />
+            <img src="{{ .Params.image }}" alt="{{ .Params.name }}" />
           </figure>
-          <h3>{{ $author.name }}</h3>
-          <p><strong>{{ $author.title }}</strong></p>
-          <p>{{ $author.bio }}</p>
+          <h3>{{ .Params.name }}</h3>
+          <p><strong>{{ .Params.work_title }}</strong></p>
+          <p>{{ .Params.bio }}</p>
         </div>
       </div>
       {{ end }}
+      {{ end }}
+
+
     </div>
   </div>
 </section>
