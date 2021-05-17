@@ -21,6 +21,8 @@ fields:
   - type: boolean
     name: guest
     label: guest
+  config:
+    labelField: name
 - type: field_group_list
   name: members
   label: members
@@ -37,3 +39,5 @@ fields:
   - type: file
     name: image
     label: image
+  config:
+    labelField: name
