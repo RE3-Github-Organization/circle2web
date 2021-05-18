@@ -20,7 +20,7 @@ sections:
     technology acquisition, and even training.
   image: "/images/cmdr-shane-610506-unsplash.webp"
   button:
-    label: Our Services
+    label: Services
     URL: "/services/"
 
 ---
