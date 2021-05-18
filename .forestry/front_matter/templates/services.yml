@@ -31,3 +31,5 @@ fields:
   name: layout
   label: layout
   hidden: true
+pages:
+- content/services/_index.md
