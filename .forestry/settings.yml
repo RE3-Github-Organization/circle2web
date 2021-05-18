@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
+- type: document
+  path: content/credits.md
+  label: Credits
+  match: "**/*"
 - type: directory
   path: content/team_members
   label: Team
@@ -21,14 +25,20 @@ sections:
   templates:
   - blogpostmarked
 - type: document
+  path: content/services/_index.md
+  label: Services
+- type: heading
+  label: Single Pages
+- type: document
   path: content/_index.md
   label: Home Page
 - type: document
   path: content/about.md
   label: About
 - type: document
-  path: content/services/_index.md
-  label: Services
+  path: content/cookies.md
+  label: Privacy Policy
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
