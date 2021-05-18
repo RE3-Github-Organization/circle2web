@@ -4,7 +4,7 @@ description_markdown: Security through knowledge. We go the extra mile that your
   can't go, **we help your organization keep _itself_ secure.**
 image: "/images/cmdr-shane-610506-unsplash.webp"
 services:
-- title: Cyber Security Incident Response
+- title: Cyber Security Response Readiness
   short_markdown: The true value of Security Operations comes form the effectiveness
     of your Incident Response capability. We can help you plan, evaluate, improve
     and manage your Incident Response program or - if you're just starting - help
