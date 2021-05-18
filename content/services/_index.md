@@ -27,9 +27,10 @@ services:
   button:
     URL: "#contact"
     label: Request an offer
-- title: Service 2
-  short_markdown: Short version of the text. Information Security is simpler than
-    it seems. At Circle2 our mission is to unravel the fears,
+- title: Security Operations Strategy
+  short_markdown: We’ll help you map your progress to find out where you are and build
+    a roadmap for your Security Operations future together with you. We can also assess
+    and benchmark your current MSSP services and suggest improvements
   content_markdown: Information Security is simpler than it seems. At Circle2 our
     mission is to unravel the fears, uncertiditudes and doubts that arrise arround
     governance of your information assets. We want everyone in your ogranization to
