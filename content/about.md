@@ -1,5 +1,5 @@
 ---
-title: About Squared Circle Security
+title: Who We Are
 description_markdown: Squared Circle Security's mission is to unravel the fears, uncertitudes
   and doubts that arise around governance of your information assets. **Be in control.**
 image: "/images/cmdr-shane-610506-unsplash.webp"
