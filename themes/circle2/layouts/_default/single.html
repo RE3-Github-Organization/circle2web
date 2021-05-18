@@ -8,7 +8,7 @@
 <section id="start">
   <div class="content-wrapper">
     <div class="content">
-      {{ .Content }}
+      {{ .Content | markdownify }}
       {{ if .Params.link.URL }}
       <p class="center">
         <a href="{{ .Params.link.URL }}" target="_bank" rel="noopener" class="button">{{ if .Params.link.label }}{{ .Params.link.label }}{{ else }}check it out{{ end }}</a>
@@ -17,41 +17,6 @@
     </div>
   </div>
 </section>
-
-
-
-<!-- post Naviation -->
-
-
-
-{{ $pages := where site.RegularPages "Section" .Section }}
-<section class="post-navigation">
-
-  <div class="container">
-    {{ with $pages.ByWeight.Next . }}
-  <div class="post-nav">
-    
-    <h4><a href="{{ .Permalink }}" alt="Read {{.Title }}" title="Read {{ .Title }}"><span
-      class="fas fa-arrow-left" style="font-size:3em;text-decoration: none;"></span></a></h4>
-    <h3>{{ .Title }}</h3>
-    <p>{{ .Params.description }}</p>
-    
-  </div>
-  {{ end }}
-  {{ with $pages.ByWeight.Prev . }}
-  <div class="post-nav-next">
-    
-    <h4><a href="{{ .Permalink }}" alt="Read {{ .Title }}" title="Read {{ .Title }}"><span 
-      class="fas fa-arrow-right" style="font-size:3em;"></span></a></h4>
-    <h3>{{ .Title }}</h3>
-    <p>{{ .Params.description }}</p>
-   
-  </div>
-  {{ end }}
-  </div>
-  
-</section>
-
 
 {{ end }}
 
