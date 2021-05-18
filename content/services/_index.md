@@ -34,4 +34,4 @@ services:
 layout: about
 
 ---
-We provide a selection of relevant services for medium and large companies.
+We provide a selection of relevant services for medium and large companies. This text is what comes right after the header.
