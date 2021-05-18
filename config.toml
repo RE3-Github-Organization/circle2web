@@ -44,3 +44,8 @@ disableKinds = ["taxonomyTerm", "term"]
 
 [params._editor]
   default_path = "/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
