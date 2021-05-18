@@ -4,24 +4,26 @@ description_markdown: Security through knowledge. We go the extra mile that your
   can't go, **we help your organization keep _itself_ secure.**
 image: "/images/cmdr-shane-610506-unsplash.webp"
 services:
-- title: Service 1
+- title: Cyber Security Incident Response
   short_markdown: Short version of the text. Information Security is simpler than
     it seems. At Circle2 our mission is to unravel the fears,
   content_markdown: Information Security is simpler than it seems. At Circle2 our
     mission is to unravel the fears, uncertiditudes and doubts that arrise arround
     governance of your information assets. We want everyone in your ogranization to
     be able to handle and care for your assets in the safest possible way, regardless
-    of the nature of technical infrastructures. Information Security is simpler than it seems. At Circle2 our mission is to unravel the fears, uncertiditudes and doubts that arrise arround
-    governance of your information assets. We want everyone in your ogranization to
-    be able to handle and care for your assets in the safest possible way, regardless
-    of the nature of technical infrastructures. Information Security is simpler than it seems. At Circle2 our mission is to unravel the fears, uncertiditudes and doubts that arrise arround
-    governance of your information assets. We want everyone in your ogranization to
-    be able to handle and care for your assets in the safest possible way, regardless
-    of the nature of technical infrastructures.
+    of the nature of technical infrastructures. Information Security is simpler than
+    it seems. At Circle2 our mission is to unravel the fears, uncertiditudes and doubts
+    that arrise arround governance of your information assets. We want everyone in
+    your ogranization to be able to handle and care for your assets in the safest
+    possible way, regardless of the nature of technical infrastructures. Information
+    Security is simpler than it seems. At Circle2 our mission is to unravel the fears,
+    uncertiditudes and doubts that arrise arround governance of your information assets.
+    We want everyone in your ogranization to be able to handle and care for your assets
+    in the safest possible way, regardless of the nature of technical infrastructures.
   image: "/images/cmdr-shane-610506-unsplash.webp"
-  icon:
+  icon: 
   button:
-    URL: '#contact'
+    URL: "#contact"
     label: Request an offer
 - title: Service 2
   short_markdown: Short version of the text. Information Security is simpler than
@@ -30,17 +32,19 @@ services:
     mission is to unravel the fears, uncertiditudes and doubts that arrise arround
     governance of your information assets. We want everyone in your ogranization to
     be able to handle and care for your assets in the safest possible way, regardless
-    of the nature of technical infrastructures. Information Security is simpler than it seems. At Circle2 our mission is to unravel the fears, uncertiditudes and doubts that arrise arround
-    governance of your information assets. We want everyone in your ogranization to
-    be able to handle and care for your assets in the safest possible way, regardless
-    of the nature of technical infrastructures. Information Security is simpler than it seems. At Circle2 our mission is to unravel the fears, uncertiditudes and doubts that arrise arround
-    governance of your information assets. We want everyone in your ogranization to
-    be able to handle and care for your assets in the safest possible way, regardless
-    of the nature of technical infrastructures.
+    of the nature of technical infrastructures. Information Security is simpler than
+    it seems. At Circle2 our mission is to unravel the fears, uncertiditudes and doubts
+    that arrise arround governance of your information assets. We want everyone in
+    your ogranization to be able to handle and care for your assets in the safest
+    possible way, regardless of the nature of technical infrastructures. Information
+    Security is simpler than it seems. At Circle2 our mission is to unravel the fears,
+    uncertiditudes and doubts that arrise arround governance of your information assets.
+    We want everyone in your ogranization to be able to handle and care for your assets
+    in the safest possible way, regardless of the nature of technical infrastructures.
   image: "/images/cmdr-shane-610506-unsplash.webp"
-  icon:
+  icon: 
   button:
-    URL: '#contact'
+    URL: "#contact"
     label: Book an appointment
 - title: Service 3
   short_markdown: Short version of the text. Information Security is simpler than
@@ -49,17 +53,19 @@ services:
     mission is to unravel the fears, uncertiditudes and doubts that arrise arround
     governance of your information assets. We want everyone in your ogranization to
     be able to handle and care for your assets in the safest possible way, regardless
-    of the nature of technical infrastructures. Information Security is simpler than it seems. At Circle2 our mission is to unravel the fears, uncertiditudes and doubts that arrise arround
-    governance of your information assets. We want everyone in your ogranization to
-    be able to handle and care for your assets in the safest possible way, regardless
-    of the nature of technical infrastructures. Information Security is simpler than it seems. At Circle2 our mission is to unravel the fears, uncertiditudes and doubts that arrise arround
-    governance of your information assets. We want everyone in your ogranization to
-    be able to handle and care for your assets in the safest possible way, regardless
-    of the nature of technical infrastructures.
+    of the nature of technical infrastructures. Information Security is simpler than
+    it seems. At Circle2 our mission is to unravel the fears, uncertiditudes and doubts
+    that arrise arround governance of your information assets. We want everyone in
+    your ogranization to be able to handle and care for your assets in the safest
+    possible way, regardless of the nature of technical infrastructures. Information
+    Security is simpler than it seems. At Circle2 our mission is to unravel the fears,
+    uncertiditudes and doubts that arrise arround governance of your information assets.
+    We want everyone in your ogranization to be able to handle and care for your assets
+    in the safest possible way, regardless of the nature of technical infrastructures.
   image: "/images/cmdr-shane-610506-unsplash.webp"
-  icon:
+  icon: 
   button:
-    URL: '#contact'
+    URL: "#contact"
     label: Book an appointment
 layout: about
 
