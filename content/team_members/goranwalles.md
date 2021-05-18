@@ -1,6 +1,5 @@
 +++
 bio = "bio göran"
-draft = true
 guest = true
 image = ""
 name = "Göran Walles"
