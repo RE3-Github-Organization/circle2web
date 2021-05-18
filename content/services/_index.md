@@ -49,7 +49,7 @@ services:
   button:
     URL: "#contact"
     label: Book an appointment
-- title: Infosec Risk and Resiliance
+- title: Infosec Risk and Resiliance Auditing
   short_markdown: 'Finding acceptable levels of cybersecurity risk during mergers
     and acquisitions is complicated. We’ll assist your due diligence process by assessing
     target IT- and InfoSec stacks and evaluate how well they meet the needs of modern
