@@ -14,4 +14,5 @@ fields:
     maxSize: 64
   label: image
 pages:
+- content/cookies.md
 - content/credits.md
