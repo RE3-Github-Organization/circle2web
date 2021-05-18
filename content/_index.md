@@ -1,6 +1,6 @@
 ---
 title: Squared Circle Security
-description: Achieve Security by cultivating knowledge
+description: ''
 sections:
 - title: Square the Circle
   description_markdown: |-
@@ -13,11 +13,11 @@ sections:
   button:
     label: Ask us for help
     URL: "#contact"
-- title: Security Services
-  description_markdown: Circle the square. We measure, assess and take a pragmatic
-    approach to solving your security needs, considering the sum of your cybersecurity
-    concerns, such as business strategy and planning, monitoring and operations, defenses
-    and controls, technology acquisition, and even training.
+- title: Circle the Square
+  description_markdown: We measure, assess and take a pragmatic approach to solving
+    your security needs, considering the sum of your cybersecurity concerns, such
+    as business strategy and planning, monitoring and operations, defenses and controls,
+    technology acquisition, and even training.
   image: "/images/cmdr-shane-610506-unsplash.webp"
   button:
     label: Let Us do it
