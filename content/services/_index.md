@@ -52,8 +52,8 @@ services:
 - title: Infosec Risk and Resiliance Auditing
   short_markdown: 'Finding acceptable levels of cybersecurity risk during mergers
     and acquisitions is complicated. We’ll assist your due diligence process by assessing
-    target IT- and InfoSec stacks and evaluate how well they meet the needs of modern
-    cybersecurity defense. '
+    target environments and evaluate how well they meet the needs of modern cybersecurity
+    defense. '
   content_markdown: Information Security is simpler than it seems. At Circle2 our
     mission is to unravel the fears, uncertiditudes and doubts that arrise arround
     governance of your information assets. We want everyone in your ogranization to
