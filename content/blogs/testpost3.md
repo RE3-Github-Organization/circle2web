@@ -9,8 +9,8 @@ description_markdown: Write something using markdown. This text will appear in t
   rendered page's header on list-pages **and in searchengine's results.**
 image: "/images/samuel-zeller-364234-unsplash.webp"
 link:
-  label: Let us help you
-  URL: "/services/"
+  label: ''
+  URL: ''
 
 ---
 ## What is Lorem Ipsum?
