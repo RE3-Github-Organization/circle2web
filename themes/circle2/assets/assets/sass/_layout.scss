@@ -25,7 +25,7 @@
   padding: 40px;
 
   .content {
-
+    width: 100%;
     img {
       width: calc(50% - 40px);
       height: auto;
@@ -151,12 +151,12 @@
       flex-direction: row;
       
       svg, a {
-        flex: 0 1 30%;
+        flex: 0 1 60%;
         margin-bottom: 40px;
       }
       div {
         flex: 0 0 100%;
-        min-width: 400px;
+        min-width: unset;
         text-align: center;
         h1 {
           font-size: 1.75em;
@@ -692,6 +692,18 @@ footer {
         }
       }
 
+    }
+  }
+}
+
+.services {
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+
+    .selector {
+      flex: 1 0 200px;
+      padding-right: 40px;
     }
   }
 }
