@@ -11,7 +11,7 @@ sections:
     Therefore, Squared Circle Security is your partner set to collaborate and create your custom solution – one that can grow with you and pivot fast when things change.
   image: "/images/samuel-zeller-364234-unsplash.webp"
   button:
-    label: Who We Are
+    label: About Us
     URL: "/about/"
 - title: Circle the Square
   description_markdown: We measure, assess and take a pragmatic approach to solving
