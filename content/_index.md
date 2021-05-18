@@ -1,5 +1,5 @@
 ---
-title: Square Circle Security
+title: Squared Circle Security
 description: Achieve Security by cultivating knowledge
 sections:
 - title: demystify the blackbox
@@ -11,10 +11,11 @@ sections:
   button:
     label: Ask us for help
     URL: "#contact"
-- title: Squared Cricle Security Services
-  description_markdown: The choice of granting access or denying it is easy, understanding
-    how a piece of data can reveal your secrets is hard. We equip you with the insights
-    You and your Peers need to keep your operation safe from prying eyes.
+- title: Security Services
+  description_markdown: Circle the square. We measure, assess and take a pragmatic
+    approach to solving your security needs, considering the sum of your cybersecurity
+    concerns, such as business strategy and planning, monitoring and operations, defenses
+    and controls, technology acquisition, and even training.
   image: "/images/cmdr-shane-610506-unsplash.webp"
   button:
     label: Let Us do it
