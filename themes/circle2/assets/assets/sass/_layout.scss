@@ -27,10 +27,25 @@
   .content {
     width: 100%;
     img {
-      width: calc(50% - 40px);
-      height: auto;
+      width: 100%;
+      max-width: 600px;
+      display: block;
       margin: auto;
       
+    }
+    p > img {
+      width: 100%;
+      max-width: 600px;
+      display: block;
+      margin: auto;
+    }
+    ul {
+      margin-bottom: 20px;
+      li {
+        list-style-type:disc;
+        margin-left: 40px;
+        
+      }
     }
   }
 }
@@ -696,7 +711,7 @@ footer {
   }
 }
 
-.services {
+.service-selection {
   .content {
     display: flex;
     flex-wrap: wrap;
