@@ -2,11 +2,13 @@
 title: Squared Circle Security
 description: Achieve Security by cultivating knowledge
 sections:
-- title: demystify the blackbox
-  description_markdown: Your **organisation** is as secure as the individuals forming
-    it. We believe knowledge is a fundamental building block to secure flows of information.
-    We offer you the tools to keep your assets safe from the threat-models of the
-    21st Century, and the knowledge to educate the people relying on these assets.
+- title: Square the Circle
+  description_markdown: |-
+    Squaring the circle is a problem proposed by ancient geometers. It is the challenge of constructing a square with the same area as a given circle by using only a finite number of steps with compass and straightedge.
+
+    Many of us facing Cybersecurity issues can probably relate to this, as the everchanging threat landscape is seemingly impossible to square off.  The best we can do is approximate.
+
+    Therefore, Squared Circle Security is your partner set to collaborate and create your custom solution – one that can grow with you and pivot fast when things change.
   image: "/images/samuel-zeller-364234-unsplash.webp"
   button:
     label: Ask us for help
