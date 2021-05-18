@@ -3,7 +3,7 @@
   <div class="imagecontainer">
   </div>
   <div class="content-wrapper">
-    {{ partial "svg/circle2-logo-vertical.svg" . }}
+    <a href="/" alt="back to home">{{ partial "svg/circle2-logo-vertical.svg" . }}</a>
     <div>
       <h1>{{ .Title }}</h1>
       <p>{{ .Params.description_markdown | markdownify }}</p>

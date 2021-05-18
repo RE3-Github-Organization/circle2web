@@ -80,6 +80,9 @@
 
   }
   @media only screen and (max-width: 999px) {
+    div > h1 {
+      font-size: 1.75em;
+    }
     .imagecontainer {
       background-size: 120vh;
       background-position: 30vw 50%;
@@ -103,7 +106,7 @@
     margin-top: 120px;
     justify-content: space-between;
     flex-direction: row-reverse;
-    svg {
+    svg, a {
       flex: 0 1 30%;
   
     }
@@ -112,7 +115,7 @@
       min-width: 400px;
       display: flex;
       flex-wrap: wrap;
-      align-content: space-between;
+      align-content: flex-end;
       > h1, p {
         flex: 0 0 100%;
       }
@@ -147,7 +150,7 @@
       justify-content: center;
       flex-direction: row;
       
-      svg {
+      svg, a {
         flex: 0 1 30%;
         margin-bottom: 40px;
       }
@@ -155,6 +158,9 @@
         flex: 0 0 100%;
         min-width: 400px;
         text-align: center;
+        h1 {
+          font-size: 1.75em;
+        }
       }
       .arrow {
         display: none;
