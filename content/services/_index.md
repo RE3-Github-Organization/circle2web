@@ -1,5 +1,5 @@
 ---
-title: Squared Circle Security Services
+title: Security Services
 description_markdown: Security through knowledge. We go the extra mile that your tools
   can't go, **we help your organization keep _itself_ secure.**
 image: "/images/cmdr-shane-610506-unsplash.webp"
@@ -75,6 +75,6 @@ services:
 layout: about
 
 ---
-We provide a selection of relevant services for medium and large companies. This text is what comes right after the header.
+_Circle the square._ We measure, assess and take a pragmatic approach to solving your security needs, considering the sum of your cybersecurity concerns, such as business strategy and planning, monitoring and operations, defenses and controls, technology acquisition, and even training.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+We help you to make sense out of your siloed security technologies and help you implement the necessary processes that bring out the maximum value from your already existing security investments. Putting the right security controls in place together with your business, we aim to shift your focus and your budget from chasing constant security infrastructure investments towards more strategic and innovative security projects.
