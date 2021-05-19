@@ -1,0 +1,53 @@
+---
+label: Home Page
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: field_group_list
+  name: sections
+  label: sections
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: description_markdown
+    label: description_markdown
+  - type: file
+    name: image
+    label: image
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: URL
+      label: URL
+- type: field_group
+  name: about_section
+  label: about_section
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: content_markdown
+    label: content_markdown
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: URL
+      label: URL
