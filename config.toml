@@ -13,7 +13,7 @@ disableKinds = ["taxonomyTerm", "term"]
   logo = "/assets/img/circle2-logo-dark-background.svg"
   icon = "/assets/img/-icon.svg"
   footerIcon = "/assets/img/-icon.svg"
-  email = "info@re3.se"
+  email = "info@circle2.se"
   
   [params.geo]
     timezone = "Europe/Sweden"
