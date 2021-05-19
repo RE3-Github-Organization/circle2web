@@ -49,6 +49,15 @@
     }
   }
 }
+@media only screen and (max-width: 999px) {
+  .content-wrapper {
+    .content {
+      h1 {
+        font-size: 2em;
+      }
+    }
+  }
+}
 .hero {
   z-index: 10;
   display: flex;
