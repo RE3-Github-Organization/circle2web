@@ -7,16 +7,23 @@
     <a href="#start" class="svg">
       {{ partial "svg/logo-dark-background.svg" . }}
     </a>
-    <h1>{{ .Params.description }}</h1>
-    <a href="#start" style="text-align:center;"><img src="/assets/img/arrow.svg"></a>
+    <a href="#start" style="text-align:center;margin-top:160px;"><img src="/assets/img/arrow.svg"></a>
   </div>
 </header>
 {{ end }}
 
 {{ define "main" }}
-{{ .Content }}
+<section id="start">
+  <div class="content-wrapper">
+    <div class="content">
+      <h1>{{ .Params.description }}</h1>
+      {{ .Content | markdownify }}
+
+    </div>
+  </div>
+</section>
 {{ range .Params.sections }}
-<article id="start" class="narative">
+<article class="narative">
   <div class="content-wrapper">
 
     <div class="text-content">

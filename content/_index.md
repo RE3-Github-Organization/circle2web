@@ -1,6 +1,6 @@
 ---
 title: Squared Circle Security
-description: ''
+description: 'We should have a description here. This will show in searchresults'
 sections:
 - title: Square the Circle
   description_markdown: |-
