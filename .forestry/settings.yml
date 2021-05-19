@@ -23,14 +23,6 @@ sections:
   path: content/about.md
   label: About
 - type: heading
-  label: Single Pages
-- type: document
-  path: content/credits.md
-  label: Credits
-- type: document
-  path: content/cookies.md
-  label: Privacy Policy
-- type: heading
   label: Data
 - type: directory
   path: content/team_members
@@ -44,7 +36,14 @@ sections:
 - type: document
   path: data/social.yml
   label: Social Media
-  match: "**/*"
+- type: heading
+  label: Single Pages
+- type: document
+  path: content/credits.md
+  label: Credits
+- type: document
+  path: content/cookies.md
+  label: Privacy Policy
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
