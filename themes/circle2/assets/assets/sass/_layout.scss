@@ -96,7 +96,7 @@
     width: 100%;
     height: 100%;
     background-image: url(/assets/img/circle2-icon-decoration.svg);
-    background-size: 100vw;
+    background-size: cover;
     background-position: 30vw 50%;
     background-repeat: no-repeat;
     opacity: .25;
@@ -108,7 +108,7 @@
       font-size: 1.75em;
     }
     .imagecontainer {
-      background-size: 120vh;
+      background-size: cover;
       background-position: 30vw 50%;
     }
   }
@@ -157,7 +157,7 @@
     width: 100%;
     height: 100%;
     background-image: url(/assets/img/circle2-icon-decoration.svg);
-    background-size: 100vw;
+    background-size: cover;
     background-position: 30vw 50%;
     background-repeat: no-repeat;
     opacity: .25;
@@ -166,7 +166,7 @@
   }
   @media only screen and (max-width: 999px) {
     .imagecontainer {
-      background-size: 180vh;
+      background-size: cover;
       background-position: 30vw 0%;
     }
     .content-wrapper {
