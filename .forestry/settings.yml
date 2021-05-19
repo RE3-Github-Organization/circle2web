@@ -7,15 +7,6 @@ sections:
 - type: heading
   label: Dynamic content
 - type: directory
-  path: content/team_members
-  label: Team
-  create: documents
-  match: "**/*"
-  exclude: index.md
-  new_doc_ext: md
-  templates:
-  - team
-- type: directory
   path: content/blog
   label: Blog
   create: all
@@ -39,6 +30,21 @@ sections:
 - type: document
   path: content/cookies.md
   label: Privacy Policy
+- type: heading
+  label: Data
+- type: directory
+  path: content/team_members
+  label: Team
+  create: documents
+  match: "**/*"
+  exclude: index.md
+  new_doc_ext: md
+  templates:
+  - team
+- type: document
+  path: data/social.yml
+  label: Social Media
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
