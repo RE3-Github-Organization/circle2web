@@ -36,9 +36,9 @@
 <section class="about" id="about">
   <div class="content-wrapper">
     <div class="text-content">
-      <h2>About Squared Circle Security</h2>
-      <p>Information Security is simpler than it seems. At Circle2 our mission is to unravel the fears, uncertiditudes and doubts that arrise arround governance of your information assets. We want everyone in your ogranization to be able to handle and care for your assets in the safest possible way, regardless of the nature of technical infrastructures.</p>
-      <p><a href="/about/" class="button">Read More</a></p>
+      <h2>{{ .Params.about_section.title }}</h2>
+      <p>{{ .Params.about_section.content_markdown }}</p>
+      <p><a href="{{ .Params.about_section.button.URL }}" class="button">{{ .Params.about_section.button.label }}</a></p>
     </div>
     <div class="team">
       {{ $headless := .Site.GetPage "/team_members" }}
@@ -51,7 +51,6 @@
         </figure>
         <h3>{{ .Params.name }}</h3>
         <p><strong>{{ .Params.title }}</strong></p>
-        <p>{{ .Params.bio }}</p>
       </div>
 
       {{ end }}

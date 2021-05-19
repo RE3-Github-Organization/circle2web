@@ -22,5 +22,11 @@ sections:
   button:
     label: Services
     URL: "/services/"
-
+about_section:
+  title: About Squared Circle Security
+  content_markdown: >-
+    Information Security is simpler than it seems. At Circle2 our mission is to unravel the fears, uncertiditudes and doubts that arrise arround governance of your information assets. We want everyone in your ogranization to be able to handle and care for your assets in the safest possible way, regardless of the nature of technical infrastructures.
+  button: 
+    label: Read More
+    URL: /blog/
 ---
