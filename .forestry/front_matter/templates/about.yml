@@ -51,3 +51,5 @@ fields:
   name: layout
   label: layout
   hidden: true
+pages:
+- content/about.md
