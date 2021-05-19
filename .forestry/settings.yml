@@ -16,7 +16,7 @@ sections:
   templates:
   - team
 - type: directory
-  path: content/blogs
+  path: content/blog
   label: Blog
   create: all
   match: "**/*"
