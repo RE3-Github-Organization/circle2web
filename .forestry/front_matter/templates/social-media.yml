@@ -18,3 +18,5 @@ fields:
     description: Use codes from <a href="https://fontawesome.com" title="" target="_blank">fontawesome</a>
       <br>(i.e. <a href="https://fontawesome.com/icons/facebook-f?style=brands" title=""
       target="_blank">fa-facebook</a>)
+pages:
+- data/social.yml
