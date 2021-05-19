@@ -29,7 +29,7 @@
           
           <p>{{ .Params.description_markdown | markdownify }}</p>
           <p class="date">Published {{ .Date.Format "2" }}{{ if in (slice 1 21 31) .Date.Day}}st{{ else if in (slice 2 22) .Date.Day}}nd{{ else if in (slice 3 23) .Date.Day}}rd{{ else }}th{{ end }} of {{ .Date.Format "January 2006" }}</p>
-          <p><a href="{{ .Permalink }}" class="button">Read More</a></p>
+          <p><a href="{{ .Permalink | relURL }}" class="button">Read More</a></p>
         </article>
 
       {{ end }}
