@@ -8,6 +8,8 @@ fields:
 - type: text
   name: title
   label: title
+  description: This is the H1 on the page. Meaning all titles in the content (the
+    input field to the right of this box) needs to be H2 or bellow
 - type: textarea
   name: description_markdown
   label: description_markdown
