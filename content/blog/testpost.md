@@ -11,7 +11,7 @@ image: "/images/cmdr-shane-610506-unsplash.webp"
 link:
   label: Let us help you
   URL: "/services/"
-
+tags: [shower-thoughts, industry-espionage, not-much-to-see-here, product-analysis]
 ---
 ## What is Lorem Ipsum?
 

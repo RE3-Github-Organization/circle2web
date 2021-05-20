@@ -1,8 +1,18 @@
 {{ define "header" }}
-{{ partial "body/single-header.html" . }}
+<header class="hero-single" id="top">
+  <div class="imagecontainer">
+  </div>
+  <div class="content-wrapper">
+    <a href="/" alt="back to home">{{ partial "svg/circle2-logo-vertical.svg" . }}</a>
+    <div>
+      <h1>{{ .Title }}</h1>
+      <p>Posts filed with the <span class="tag">#{{ .Title | urlize }}</span> tag</p>
+   </div>
+   <a class="arrow" href="#start" style="text-align:center;"><img src="/assets/img/arrow.svg"></a>
+  </div>
+</header>
+
 {{ end }}
-
-
 
 {{ define "main" }}
 
@@ -13,8 +23,6 @@
     </div>
   </div>
 </section>
-
-
 
 <section class="blog-list">
   <div class="content-wrapper">

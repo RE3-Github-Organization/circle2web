@@ -644,6 +644,21 @@ footer {
           font-size: 0.75em;
           padding: 0 10px;
         }
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+          margin-bottom: 20px;
+   
+          li {
+            flex: 0 0 auto;
+            list-style-type:none;
+            margin-left: 0px;
+            margin-right: 7px;
+            .tag {
+              font-size: 0.65em;
+            }
+          }
+        }
       }
       article:first-of-type {
         margin-bottom: 40px;
@@ -677,6 +692,23 @@ footer {
         list-style-type:disc;
         margin-left: 40px;
         
+      }
+    }
+    ul.taglist {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+
+      li {
+        flex: 0 0 auto;
+        list-style-type:none;
+        margin-left: 0px;
+        margin-right: 7px;
+        
+        .tag {
+          font-size: 0.65em;
+          padding: 10px;
+        }
       }
     }
   }
@@ -730,5 +762,49 @@ footer {
       flex: 1 0 200px;
       padding-right: 40px;
     }
+  }
+}
+
+
+
+.tag {
+  background-color: var(--accent2);
+  padding: 0px 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  display: inline-block;
+  border-radius: var(--border-radius);
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: _font(family);
+  text-transform: lowercase;
+  color: var(--bg);
+  box-shadow: 0px 0px 2px 0px var(--bg-shadow),0px 1px 0px 0px var(--bg-highlight) inset,0px -1px 0px 0px var(--bg-shadow) inset;
+  -webkit-transition: all var(--anim-speed) ease-in-out;
+  -moz-transition: all var(--anim-speed) ease-in-out;
+  -ms-transition: all var(--anim-speed) ease-in-out;
+  transition: all var(--anim-speed) ease-in-out;
+
+}
+.tag:hover {
+  background-color: var(--fg);
+  color: var(--bg);
+  box-shadow: 0px 0px 2px 0px var(--bg-shadow),0px 1px 0px 0px var(--bg-highlight) inset,0px -1px 0px 0px var(--bg-shadow) inset;
+  -webkit-transition: all var(--anim-speed) ease-in-out;
+  -moz-transition: all var(--anim-speed) ease-in-out;
+  -ms-transition: all var(--anim-speed) ease-in-out;
+  transition: all var(--anim-speed) ease-in-out;
+}
+.tag:active {
+  -webkit-box-shadow: 0px 0px 0px 0px var(--border-alt);
+  -moz-box-shadow: 0px 0px 0px 0px var(--border-alt);
+  box-shadow: 0px 0px 0px 0px var(--border-alt);
+}
+@media only screen and (max-width: 480px) {
+  .tag {
+    font-size: 0.75em;
+    margin-right: 5px;
   }
 }

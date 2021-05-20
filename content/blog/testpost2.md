@@ -11,7 +11,7 @@ image: "/images/kotagauni-srinivas-481125-unsplash.webp"
 link:
   label: ''
   URL: ''
-
+tags: [shower-thoughts, industry-espionage, not-much-to-see-here, product-analysis]
 ---
 ## What is Lorem Ipsum?
 

@@ -11,7 +11,7 @@ image: "/images/samuel-zeller-364234-unsplash.webp"
 link:
   label: ''
   URL: ''
-
+tags: [industry-espionage, not-much-to-see-here, product-analysis]
 ---
 ## What is Lorem Ipsum?
 
@@ -39,4 +39,4 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 Why do we use it?
 
-### **#shower-thoughts** #industry-espionage #not-much-to-see-here #product-analysis
+### **

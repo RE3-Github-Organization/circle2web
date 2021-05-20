@@ -8,6 +8,6 @@ weight = 1
 [link]
 URL = ""
 label = ""
-
+tags = "[shower-thoughts, industry-espionage, not-much-to-see-here, product-analysis]"
 +++
 blogtest
