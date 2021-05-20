@@ -32,6 +32,12 @@ fields:
   name: weight
   label: weight
   default: 1
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: tags may not have blank space. The '#' character is added by the CMS,
+    so do not include it.
 - type: field_group
   name: link
   label: link
