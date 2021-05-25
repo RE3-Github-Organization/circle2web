@@ -4,13 +4,12 @@ description: Cybersecurity is not a point product. It’s a continuous strategy 
   with relevant business needs and evolving risks.
 sections:
 - title: Square the Circle
-  description_markdown: "Squaring the circle is a problem proposed by ancient geometers.
-    It is the challenge of constructing a square with the same area as a given circle
-    by using only a finite number of steps with compass and straightedge.\n\nMany
-    of us facing Cybersecurity issues can probably relate to this, as the everchanging
-    threat landscape is seemingly impossible to square off.  \n\nTherefore, Squared
-    Circle Security is your partner set to collaborate and create your custom solution
-    – one that can grow with you and pivot fast when things change."
+  description_markdown: "Many of us facing modern Cybersecurity issues can probably
+    relate to the ancient problem of squaring the circle, as the ever changing threat
+    landscape is seemingly impossible to square off and our best efforts end up with
+    approximations.  \n\nSquared Circle Security is your partner set to collaborate
+    and create your custom solution – one that can grow with you and pivot fast when
+    things change."
   image: "/images/samuel-zeller-364234-unsplash.webp"
   button:
     label: Our Story
