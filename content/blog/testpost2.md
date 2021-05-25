@@ -1,19 +1,18 @@
 ---
-title: "Testpost"
-date: 2021-05-09T15:39:57+02:00
+title: Testpost2
+date: 2021-05-10T15:45:08.000+02:00
 icon: ''
 weight: 1
-author: 
+author: team_members/tero.md
 featured: true
-draft: false
-description_markdown: >-
-  Write something using markdown. This text will appear in the rendered page's header on list-pages **and in searchengine's results.**
-image: /path/to/image.jpg
+description_markdown: Write something using markdown. This text will appear in the
+  rendered page's header on list-pages **and in searchengine's results.**
+image: "/images/kotagauni-srinivas-481125-unsplash.webp"
 link:
-  label:
-  URL:
+  label: ''
+  URL: ''
+tags: [shower-thoughts, industry-espionage, not-much-to-see-here, product-analysis]
 ---
-
 ## What is Lorem Ipsum?
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -33,6 +32,9 @@ Sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of
 
 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
 
-- super
+- The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
 - duper
 - mega
+
+Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Why do we use it?

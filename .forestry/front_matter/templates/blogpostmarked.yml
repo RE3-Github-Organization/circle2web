@@ -1,0 +1,55 @@
+---
+label: Blog post
+hide_body: false
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: title
+  label: title
+  description: This is the H1 on the page. Meaning all titles in the content (the
+    input field to the right of this box) needs to be H2 or bellow
+- type: textarea
+  name: description_markdown
+  label: description_markdown
+  description: You may <a href="https://www.markdownguide.org/cheat-sheet" title=""
+    target="_blank">use markdown.</a> This text will appear in the rendered page's
+    header on list-pages and in searchengine's results.
+- type: file
+  name: image
+  label: image
+- name: author
+  type: select
+  default: authors
+  config:
+    required: true
+    options: []
+    source:
+      type: pages
+      section: team-73fe1788-9df3-4b67-83f3-160490cd8162
+      file: data/team.yml
+      path: ''
+  label: author
+  description: Pick an author. If the author is not in the list, you need to add them
+    to the Team file
+- type: number
+  name: weight
+  label: weight
+  default: 1
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: tags may not have blank space. The '#' character is added by the CMS,
+    so do not include it.
+- type: field_group
+  name: link
+  label: link
+  fields:
+  - type: text
+    name: label
+    label: label
+  - type: text
+    name: URL
+    label: URL

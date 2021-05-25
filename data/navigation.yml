@@ -7,7 +7,7 @@
   icon: ''
   external: false
 - name: "Blog"
-  URL: "/blogs/"
+  URL: "/blog/"
   icon: ''
   external: false
 - name: "Contact"

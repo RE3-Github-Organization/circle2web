@@ -1,0 +1,35 @@
+---
+label: Services
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description_markdown
+  label: description_markdown
+- type: file
+  name: image
+  label: image
+- type: field_group_list
+  name: services
+  label: services
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: short_markdown
+    label: short_markdown
+  - type: textarea
+    name: content_markdown
+    label: content_markdown
+  - type: file
+    name: image
+    label: image
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+pages:
+- content/services/_index.md

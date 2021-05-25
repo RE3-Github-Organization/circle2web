@@ -1,46 +1,51 @@
 {{ define "header" }}
-<header class="hero-single" id="top">
-  <div class="imagecontainer">
-  </div>
-  <div class="content-wrapper">
-    {{ partial "svg/circle2-logo-vertical.svg" . }}
-    <div>
-      <h1>{{ .Title }}</h1>
-      <p>{{ .Params.description_markdown | markdownify }}</p>
-   </div>
-   <a class="arrow" href="#start" style="text-align:center;"><img src="/assets/img/arrow.svg"></a>
-  </div>
-</header>
+{{ partial "body/single-header.html" . }}
 {{ end }}
+
+
 
 {{ define "main" }}
 
-<section class="info" id="start">
-  <div class="info-pages">
-    <div class="container">
-      {{ .Page.Content | markdownify }}
-    </div>
-  </div>
-</section>
-
-
-{{ range .Paginator.Pages }}
-<section class="front-section">
-
-  <div style="background-image:url({{ .Params.Image }});filter: sepia(1) hue-rotate(170deg) saturate(5);">
-  </div>
-
+<section id="start" style="margin-bottom: 80px">
   <div class="content-wrapper">
-    <div class="container">
-
-      <h2>{{ .Title }}</h2>
-      <p>{{ .Params.description_markdown }}</p>
-      <p><a href="{{ .Permalink }}" class="button">Read More</a></p>
-  
+    <div class="content">
+      <p>{{ .Content | markdownify }}</p>
     </div>
   </div>
-
 </section>
+
+
+
+<section class="service-selection">
+  <div class="content-wrapper">
+    <div class="content">
+      {{ range .Params.services }}
+      <div class="selector">
+        <h2>{{ .title }}</h2>
+        <p>{{ .short_markdown }}</p>
+        <p><a href="#{{ replace .title " " ""}}" class="button">Read More</a></p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ range .Params.services }}
+<article id="{{ replace .title " " ""}}" class="narative">
+  <div class="content-wrapper" style="margin-top: 160px;">
+
+    <div class="text-content">
+      <h2>{{ .title }}</h2>
+      <p>{{ .content_markdown | markdownify }}</p>
+      <p><a href="{{ .button.URL }}" class="button">{{ .button.label }}</a></p>
+    </div>
+    <div class="cartouche">
+      <figure>
+        <img src="{{ .image }}" />
+      </figure>
+    </div>
+  </div>
+</article>
 {{ end }}
 
 {{ end }}

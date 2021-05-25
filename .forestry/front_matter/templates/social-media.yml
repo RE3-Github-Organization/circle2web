@@ -1,0 +1,22 @@
+---
+label: Social Media
+hide_body: true
+fields:
+- type: field_group_list
+  name: Social
+  label: Social
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: URL
+    label: URL
+  - type: text
+    name: icon
+    label: icon
+    description: Use codes from <a href="https://fontawesome.com" title="" target="_blank">fontawesome</a>
+      <br>(i.e. <a href="https://fontawesome.com/icons/facebook-f?style=brands" title=""
+      target="_blank">fa-facebook</a>)
+pages:
+- data/social.yml

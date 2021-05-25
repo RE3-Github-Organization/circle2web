@@ -7,71 +7,39 @@
     <a href="#start" class="svg">
       {{ partial "svg/logo-dark-background.svg" . }}
     </a>
-    <h1>{{ .Params.description }}</h1>
-    <a href="#start" style="text-align:center;"><img src="/assets/img/arrow.svg"></a>
+    <a href="#start" style="text-align:center;margin-top:160px;"><img src="/assets/img/arrow.svg"></a>
   </div>
 </header>
 {{ end }}
 
 {{ define "main" }}
-
-<article id="start" class="narative">
+<section id="start" style="padding-top: 160px;">
   <div class="content-wrapper">
+    <div class="content">
+      <h1>{{ .Params.description }}</h1>
+      {{ .Content | markdownify }}
 
-    <div class="text-content">
-      <h2>demystify the blackbox</h2>
-      <p>Your organisation is as secure as the individuals forming it. We believe knowledge is a fundamental building block to secure flows of information. We offer you the tools to keep your assets safe from the threat-models of the 21st Century, and the knowledge to educate the people relying on these assets.</p>
-      <p><a href="#contact" class="button">Ask us for help</a></p>
-    </div>
-    <div class="cartouche">
-      <figure>
-        <img src="/images/samuel-zeller-364234-unsplash.webp" />
-      </figure>
     </div>
   </div>
-</article>
-
+</section>
+{{ range .Params.sections }}
 <article class="narative">
   <div class="content-wrapper">
 
     <div class="text-content">
-      <h2>Squared Cricle Security Services Services</h2>
-      <p>The choice of granting access or denying it is easy, understanding how a piece of data can reveal your secrets is hard. We equip you with the insights You and your Peers need to keep your operation safe from prying eyes. </p>
-      <p><a href="/services/" class="button">Let Us do it</a></p>
+      <h2>{{ .title }}</h2>
+      <p>{{ .description_markdown | markdownify }}</p>
+      <p><a href="{{ .button.URL }}" class="button">{{ .button.label }}</a></p>
     </div>
-    
     <div class="cartouche">
       <figure>
-        <img src="/images/cmdr-shane-610506-unsplash.webp" />
+        <img src="{{ .image }}" />
       </figure>
     </div>
-
   </div>
 </article>
+{{ end }}
 
-<section class="about" id="about">
-  <div class="content-wrapper">
-    <div class="text-content">
-      <h2>About Squared Circle Security</h2>
-      <p>Information Security is simpler than it seems. At Circle2 our mission is to unravel the fears, uncertiditudes and doubts that arrise arround governance of your information assets. We want everyone in your ogranization to be able to handle and care for your assets in the safest possible way, regardless of the nature of technical infrastructures.</p>
-      <p><a href="/about/" class="button">Read More</a></p>
-    </div>
-    <div class="team">
-      {{ range where .Site.Data.team "guest" false }}
-
-      <div class="mate">
-        <figure>
-          <img src="{{ .image }}" alt="{{ .name }}" />
-        </figure>
-        <h3>{{ .name }}</h3>
-        <p><strong>{{ .title }}</strong></p>
-        <p>{{ .bio }}</p>
-      </div>
-
-      {{ end }}
-    </div>
-  </div>
-</section>
 {{ end }}
 
 {{ define "footer"}}

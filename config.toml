@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Squared Circle Security"
 # enableGitInfo = "true"
 theme = "circle2"
+disableKinds = ["taxonomy, term"]
+[taxonomies]
+  tag = "tags"
 
 [params]
   description = "Keeping order in the tools is better than ordering tools."
@@ -12,7 +15,7 @@ theme = "circle2"
   logo = "/assets/img/circle2-logo-dark-background.svg"
   icon = "/assets/img/-icon.svg"
   footerIcon = "/assets/img/-icon.svg"
-  email = "info@re3.se"
+  email = "info@circle2.se"
   
   [params.geo]
     timezone = "Europe/Sweden"
@@ -43,3 +46,8 @@ theme = "circle2"
 
 [params._editor]
   default_path = "/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -1,0 +1,18 @@
+---
+label: Static Pages
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description_markdown
+  label: description_markdown
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: image
+pages:
+- content/cookies.md
+- content/credits.md

@@ -1,16 +1,13 @@
 ---
-label: Plain page
-hide_body: false
+label: Home Page
+hide_body: true
 fields:
 - type: text
   name: title
   label: title
-- type: textarea
+- type: text
   name: description
   label: description
-- type: file
-  name: image
-  label: image
 - type: field_group_list
   name: sections
   label: sections
@@ -19,8 +16,8 @@ fields:
     name: title
     label: title
   - type: textarea
-    name: content_markdown
-    label: content_markdown
+    name: description_markdown
+    label: description_markdown
   - type: file
     name: image
     label: image
@@ -29,11 +26,10 @@ fields:
     label: button
     fields:
     - type: text
-      name: URL
-      label: URL
-    - type: text
       name: label
       label: label
-- type: text
-  name: layout
-  label: layout
+    - type: text
+      name: URL
+      label: URL
+pages:
+- content/_index.md

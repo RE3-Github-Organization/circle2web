@@ -1,17 +1,8 @@
 {{ define "header" }}
-<header class="hero-single" id="top">
-  <div class="imagecontainer">
-  </div>
-  <div class="content-wrapper">
-    {{ partial "svg/circle2-logo-vertical.svg" . }}
-    <div>
-      <h1>{{ .Title }}</h1>
-      <p>{{ .Params.description_markdown | markdownify }}</p>
-   </div>
-   <a class="arrow" href="#start" style="text-align:center;"><img src="/assets/img/arrow.svg"></a>
-  </div>
-</header>
+{{ partial "body/single-header.html" . }}
 {{ end }}
+
+
 {{ define "main" }}
 <section id="start" class="about">
   <div class="content-wrapper">
@@ -41,7 +32,7 @@
   <div class="content-wrapper">
     <div>
       <h2>Team</h2>
-      <p>Our team has been the industry's standard ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <p>{{ .Params.team_section | markdownify }}</p>
     </div>
   </div>
 </section>
@@ -52,16 +43,17 @@
 
 
     <div class="team">
-  
-      {{ range where .Site.Data.team "guest" false }}
+      {{ $headless := .Site.GetPage "/team_members" }}
+      {{ $reusablePages := $headless.Resources.ByType "page" }}
+      {{ range where $reusablePages ".Params.guest" false }}
       <div class="mate">
 
         <figure>
-          <img src="{{ .image }}" alt="{{ .name }}" />
+          <img src="{{ .Params.image }}" alt="{{ .Params.name }}" />
         </figure>
-        <h3>{{ .name }}</h3>
-        <p><strong>{{ .title }}</strong></p>
-        <p>{{ .bio }}</p>
+        <h3>{{ .Params.name }}</h3>
+        <p><strong>{{ .Params.title }}</strong></p>
+        <p>{{ .Params.bio }}</p>
       </div>
       {{ end }}
     </div>
