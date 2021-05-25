@@ -27,7 +27,7 @@ sections:
     executives are facing unprecedented security challenges. Our own team - together
     with featured Guest Stars - regularly share their "I've experienced that"-perspectives
     to help answer questions that security professionals wrestle with daily.
-  image: "/uploads/forest-2558074_960_720.jpg"
+  image: "/uploads/forest-2209226_640.jpg"
   title: Running Commentary
   button:
     label: Read the Blog
