@@ -5,10 +5,10 @@ description_markdown: Security through knowledge. We go the extra mile that your
 image: "/images/cmdr-shane-610506-unsplash.webp"
 services:
 - title: Cyber Security Response Readiness
-  short_markdown: The true value of Security Operations comes form the effectiveness
-    of your Incident Response capability. We can help you plan, evaluate, improve
-    and manage your Incident Response program or - if you're just starting - help
-    you create one.
+  short_markdown: The true value of Security Operations comes from the effectiveness
+    of your Incident Response capability. We help you plan, evaluate, improve and
+    manage your Incident Response program. Through use of simulation workshops we
+    can assess and help you score your readiness.
   content_markdown: Information Security is simpler than it seems. At Circle2 our
     mission is to unravel the fears, uncertiditudes and doubts that arrise arround
     governance of your information assets. We want everyone in your ogranization to
