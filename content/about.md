@@ -1,7 +1,6 @@
 ---
 title: About Us
-description_markdown: Squared Circle Security is on a mission to quantify your security
-  success.
+description_markdown: Safely Navigating the Breakwaters of Cybersecurity
 image: ''
 sections:
 - title: Our Story
