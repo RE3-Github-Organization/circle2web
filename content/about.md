@@ -19,19 +19,21 @@ sections:
   button:
     URL: "#contact"
     label: Get in Touch
-- title: This is the Way
+- title: Our Mission
   content_markdown: "Information Security is full of truisms that often lead to very
-    short lived trends  of point solutions that try to \"solve\" a specific security
-    conundrum. As years roll by, the stack of solutions grows, but at the core \n
-    \ \n1. test bullet\n2. next test bullet\n\nsimpler than it seems. At Circle2 our
-    mission is to unravel the fears, uncertiditudes and doubts that arrise arround
-    governance of your information assets. We want everyone in your ogranization to
-    be able to handle and care for your assets in the safest possible way, regardless
-    of the nature of technical infrastructures."
+    short lived trends  of point solutions that try to \"solve\" very specific security
+    conundrums. As years roll by, the stack of solutions just grows and grows, but
+    we generally tend to be none the wiser about the actual gains to our security
+    postures. \n\nInstead of focusing on ever escalating path of investing into specific
+    vendor turn-key solutions, our approach is based on achieving more holistic security
+    excellence in your security program.  This means bringing together the security
+    technology investments you’ve already made and creating value through integration
+    and process maturity. When new technology investment is required, our vendor agnostic
+    approach helps you select the technologies that fit your business best.\n"
   image: "/images/cmdr-shane-610506-unsplash.webp"
   button:
     URL: "/services/"
-    label: See our Services
+    label: This is the Way
 customers:
 - company: ''
   URL: ''
