@@ -32,13 +32,14 @@ sections:
 customers:
 - company: ''
   URL: ''
-team_section: The company is operated by its founders Mats Kronbladh and Tero Hänninen.
-  Between us, we have more than 40 years of professional experience in our area of
-  expertise. Both of the founders met in 2014 and worked together with early Security
-  Operations offerings at I Secure Sweden AB. While our careers have taken different
-  paths over the years, we've always shared the interest in finding ways to improve
-  the value of Security Operations deliveries and finally decided to "throw our hats
-  in the ring" and form a company to address the issues identified over the years.
+team_section: The company is operated by its founders [Mats Kronbladh](https://www.linkedin.com/in/kronbladh/)
+  and [Tero Hänninen](https://www.linkedin.com/in/terohanninen/). Between us, we have
+  more than 40 years of professional experience in our area of expertise. Both of
+  the founders met in 2014 and worked together with early Security Operations offerings
+  at I Secure Sweden AB. While our careers have taken different paths over the years,
+  we've always shared the interest in finding ways to improve the value of Security
+  Operations deliveries and finally decided to "throw our hats in the ring" and form
+  a company to address the issues identified over the years.
 layout: about
 
 ---
