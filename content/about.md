@@ -39,7 +39,8 @@ team_section: The company is operated by its founders [Mats Kronbladh](https://w
   at I Secure Sweden AB. While our careers have taken different paths over the years,
   we've always shared the interest and passion in finding ways to improve the value
   of Security Operations deliveries and finally decided to "throw our hats in the
-  ring" and form a company to address the issues identified over the years.
+  ring" to form a company to address the issues that we've been talking about over
+  long phone calls over the previous years.
 layout: about
 
 ---
