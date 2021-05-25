@@ -29,7 +29,7 @@ sections:
     excellence in your security program.  \n\nThis means bringing together and demystifying
     the security technology investments you’ve already made and creating value through
     integration and process maturity. "
-  image: "/images/cmdr-shane-610506-unsplash.webp"
+  image: "/uploads/regional_road_962_towards_pyhatunturi-_2018_september.jpg"
   button:
     URL: "/services/"
     label: This is the Way
