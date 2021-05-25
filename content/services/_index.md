@@ -49,7 +49,7 @@ services:
   button:
     URL: "#contact"
     label: Book an appointment
-- title: Infosec Risk and Resilience Auditing
+- title: Security Architecture and Infosec
   short_markdown: 'Finding acceptable levels of cybersecurity risk during mergers
     and acquisitions is complicated. We’ll assist your due diligence process by assessing
     target environments and evaluate how well they meet the needs of modern cybersecurity
