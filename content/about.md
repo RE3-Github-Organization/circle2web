@@ -32,13 +32,13 @@ sections:
 customers:
 - company: ''
   URL: ''
-team_section: Our team has been the industry's standard ever since the 1500s, when
-  an unknown printer took a galley of type and scrambled it to make a type specimen
-  book. It has survived not only five centuries, but also the leap into electronic
-  typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-  the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-  with desktop publishing software like Aldus PageMaker including versions of Lorem
-  Ipsum.
+team_section: The company is operated by its founders Mats Kronbladh and Tero Hänninen.
+  Between us, we have more than 40 years of professional experience in our area of
+  expertise. Both of the founders met in 2014 and worked together with early Security
+  Operations offerings at I Secure Sweden AB. While our careers have taken different
+  paths over the years, we've always shared the interest in finding ways to improve
+  the value of Security Operations deliveries and finally decided to "throw our hats
+  in the ring" and form a company to address the issues identified over the years.
 layout: about
 
 ---
