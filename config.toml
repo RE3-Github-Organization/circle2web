@@ -4,6 +4,7 @@ title = "Squared Circle Security"
 # enableGitInfo = "true"
 theme = "circle2"
 disableKinds = ["taxonomy, term"]
+enableRobotsTXT = "false"
 [taxonomies]
   tag = "tags"
 

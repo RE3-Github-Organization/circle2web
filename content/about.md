@@ -1,40 +1,52 @@
 ---
 title: About Us
-description_markdown: Squared Circle Security's mission is to unravel the fears, uncertitudes
-  and doubts that arise around governance of your information assets. **Be in control.**
-image: "/images/cmdr-shane-610506-unsplash.webp"
+description_markdown: Safely Navigating the Breakwaters of Cybersecurity
+image: ''
 sections:
-- title: Our vision
-  content_markdown: Information Security is simpler than it seems. At Circle2 our
-    mission is to unravel the fears, uncertiditudes and doubts that arrise arround
-    governance of your information assets. We want everyone in your ogranization to
-    be able to handle and care for your assets in the safest possible way, regardless
-    of the nature of technical infrastructures.
-  image: "/images/cmdr-shane-610506-unsplash.webp"
+- title: Our Story
+  content_markdown: "We're an upstart IT- and Information Security consultancy based
+    in Gothenburg and Stockholm, Sweden. While still new and gearing up, we combine
+    decades of hands-on experience supporting the security needs of enterprise level
+    clients.     \n  \nWe've always felt a strong need to be able to deliver and show
+    value in everything we do, especially when it comes to security solution investments
+    and their actual security output. We've felt like the security industry was missing
+    crucial steps before and after solution implementation and that is what we're
+    aiming to rectify with our offerings.   \n   \nQuite simply; we want to be able
+    to give our customers the tools and know-how to quantify, measure and manage their
+    Security Operations challenges."
+  image: "/uploads/icebreaker-138924_960_720.jpg"
   button:
     URL: "#contact"
-    label: Reach out
-- title: Our Methods
-  content_markdown: Information Security is simpler than it seems. At Circle2 our
-    mission is to unravel the fears, uncertiditudes and doubts that arrise arround
-    governance of your information assets. We want everyone in your ogranization to
-    be able to handle and care for your assets in the safest possible way, regardless
-    of the nature of technical infrastructures.
-  image: "/images/cmdr-shane-610506-unsplash.webp"
+    label: Get in Touch
+- title: Our Mission
+  content_markdown: "Information Security is full of truisms that often lead to very
+    short lived trends  of point solutions that try to \"solve\" very specific security
+    challenges. As years roll by, the stack of solutions just grows and grows, and
+    we generally tend to be none the wiser about the actual gains to our security
+    postures. \n\nInstead of focusing on ever escalating path of investing into specific
+    vendor turn-key solutions, our approach is based on achieving more holistic security
+    excellence in your security program.  \n\nThis means bringing together and demystifying
+    the security technology investments you’ve already made and creating value through
+    integration and process maturity. "
+  image: "/uploads/d2zjlcr-2cb808c2-0603-4c5c-916a-d4afef2b1b0f.jpg"
   button:
     URL: "/services/"
-    label: See our Services
+    label: This is the Way
 customers:
 - company: ''
   URL: ''
-team_section: Our team has been the industry's standard ever since the 1500s, when
-  an unknown printer took a galley of type and scrambled it to make a type specimen
-  book. It has survived not only five centuries, but also the leap into electronic
-  typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-  the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-  with desktop publishing software like Aldus PageMaker including versions of Lorem
-  Ipsum.
+team_section: The company is operated by its founders [Mats Kronbladh](https://www.linkedin.com/in/kronbladh/)
+  and [Tero Hänninen](https://www.linkedin.com/in/terohanninen/). Between us, we have
+  more than 40 years of professional experience in our area of expertise. Both of
+  the founders met in 2014 and worked together with early Security Operations offerings
+  at I Secure Sweden AB. While our careers have taken different paths over the years,
+  we've always shared the interest and passion in finding ways to improve the value
+  of Security Operations deliveries and finally decided to "throw our hats in the
+  ring" to form a company to address the issues that we've been talking about over
+  long phone calls over the previous years.
 layout: about
 
 ---
-Information Security is simpler than it seems. At Circle2 our mission is to unravel the fears, uncertiditudes and doubts that arrise arround governance of your information assets. We want everyone in your ogranization to be able to handle and care for your assets in the safest possible way, regardless of the nature of technical infrastructures.
+Square the circle. Many of us facing modern Cybersecurity issues can probably relate to the ancient problem of squaring the circle, as the ever changing threat landscape is seemingly impossible to square off and our best efforts end up with approximations.
+
+Squared Circle Security is your partner set to collaborate and create your custom solution – one that can grow with you and pivot fast when things change.

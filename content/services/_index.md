@@ -5,24 +5,20 @@ description_markdown: Security through knowledge. We go the extra mile that your
 image: "/images/cmdr-shane-610506-unsplash.webp"
 services:
 - title: Cyber Security Response Readiness
-  short_markdown: The true value of Security Operations comes form the effectiveness
-    of your Incident Response capability. We can help you plan, evaluate, improve
-    and manage your Incident Response program or - if you're just starting - help
-    you create one.
-  content_markdown: Information Security is simpler than it seems. At Circle2 our
-    mission is to unravel the fears, uncertiditudes and doubts that arrise arround
-    governance of your information assets. We want everyone in your ogranization to
-    be able to handle and care for your assets in the safest possible way, regardless
-    of the nature of technical infrastructures. Information Security is simpler than
-    it seems. At Circle2 our mission is to unravel the fears, uncertiditudes and doubts
-    that arrise arround governance of your information assets. We want everyone in
-    your ogranization to be able to handle and care for your assets in the safest
-    possible way, regardless of the nature of technical infrastructures. Information
-    Security is simpler than it seems. At Circle2 our mission is to unravel the fears,
-    uncertiditudes and doubts that arrise arround governance of your information assets.
-    We want everyone in your ogranization to be able to handle and care for your assets
-    in the safest possible way, regardless of the nature of technical infrastructures.
-  image: "/images/cmdr-shane-610506-unsplash.webp"
+  short_markdown: The true value of Security Operations comes from the effectiveness
+    of your Incident Response capability. We help you plan, evaluate, improve and
+    manage your Incident Response program. Through use of simulation workshops we
+    can assess and help you score your readiness.
+  content_markdown: |+
+    Many organizations are starting their Security Operations journey with a strict focus on monitoring and detection but few have acquired an appropriate capability to react and respond to the cybersecurity incidents.
+
+    Compromises, attacks and incidents may be detected by various sources, such as the internal IT help desk, your infra team or a hosting service provider – but what are your plan when the things get serious? You cannot rely on external IT service providers to manage your security incidents and you should act differently from your IT incident process.
+
+    Squared Circle Security will compass your direction through the CSIR landscape and assist you in establishing an incident response plan with corresponding processes, tools, training and management.
+
+    Starting off with a readiness workshop, we will assess your existing preparations and capabilities by scoring the levels in our incident response maturity model.
+
+  image: "/uploads/137353548_xl_fotor.jpg"
   icon: 
   button:
     URL: "#contact"
@@ -31,20 +27,23 @@ services:
   short_markdown: We’ll help you map your progress to find out where you are and build
     a roadmap for your Security Operations future together with you. We can also assess
     and benchmark your current MSSP services and suggest improvements
-  content_markdown: Information Security is simpler than it seems. At Circle2 our
-    mission is to unravel the fears, uncertiditudes and doubts that arrise arround
-    governance of your information assets. We want everyone in your ogranization to
-    be able to handle and care for your assets in the safest possible way, regardless
-    of the nature of technical infrastructures. Information Security is simpler than
-    it seems. At Circle2 our mission is to unravel the fears, uncertiditudes and doubts
-    that arrise arround governance of your information assets. We want everyone in
-    your ogranization to be able to handle and care for your assets in the safest
-    possible way, regardless of the nature of technical infrastructures. Information
-    Security is simpler than it seems. At Circle2 our mission is to unravel the fears,
-    uncertiditudes and doubts that arrise arround governance of your information assets.
-    We want everyone in your ogranization to be able to handle and care for your assets
-    in the safest possible way, regardless of the nature of technical infrastructures.
-  image: "/images/cmdr-shane-610506-unsplash.webp"
+  content_markdown: "Over the past few years, many organizations has taken the first
+    steps towards their Security Operations program. Some has started to build the
+    capability internally while the majority seems to rely on external parties providing
+    managed services for detecting cybersecurity events.\n\nFrom our viewpoint, the
+    market for managed security services has recently exploded, flooding an ever-growing
+    range of superlatives from a never-ending number of marketing departments. \n\nReality
+    checks are few but when actual service deliveries once in a while gets scrutinized,
+    expectations are often not met. SIEM-centric service propositions builds up extensive
+    licensing and operational costs, while the value provided seems to go the opposite
+    direction. \n\nWe will be your pilot, assist you in navigating your valuable ship
+    through the rough waters of cybersecurity\n\n- Supporting the decision in which
+    MSSP to put your trust in managed SOC\n- Reviewing the business value and testing
+    the actual delivery of your currently contracted security services suppliers\n-
+    Building the strategy and roadmap for your internal SOC in terms of capabilities,
+    tools and organization\n- Verifying the efficiency of your existing security operations
+    program\n"
+  image: "/uploads/man-wearing-white-shirt-brown-shorts-and-green-backpack-672358_fotor.jpg"
   icon: 
   button:
     URL: "#contact"

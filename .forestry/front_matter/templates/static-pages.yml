@@ -8,6 +8,9 @@ fields:
 - type: text
   name: description_markdown
   label: description_markdown
+  description: You may <a href="https://www.markdownguide.org/cheat-sheet" title=""
+    target="_blank">use markdown.</a> This text will appear in the rendered page's
+    header on list-pages and in searchengine's results.
 - name: image
   type: file
   config:
