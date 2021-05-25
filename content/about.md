@@ -15,7 +15,7 @@ sections:
     aiming to rectify with our offerings.   \n   \nQuite simply; we want to be able
     to give our customers the tools and know-how to quantify, measure and manage their
     Security Operations challenges."
-  image: "/images/cmdr-shane-610506-unsplash.webp"
+  image: "/uploads/icebreaker-138924_960_720.jpg"
   button:
     URL: "#contact"
     label: Get in Touch
