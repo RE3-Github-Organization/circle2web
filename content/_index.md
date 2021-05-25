@@ -1,6 +1,6 @@
 ---
 title: Squared Circle Security
-description: Your pilot through rough cyber security waters
+description: Safely Navigating the Breakwaters of Cybersecurity
 sections:
 - title: Square the Circle
   description_markdown: "Many of us facing modern Cybersecurity issues can probably
