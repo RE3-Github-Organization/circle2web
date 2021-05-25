@@ -22,14 +22,15 @@ sections:
 - title: Our Mission
   content_markdown: "Information Security is full of truisms that often lead to very
     short lived trends  of point solutions that try to \"solve\" very specific security
-    conundrums. As years roll by, the stack of solutions just grows and grows, but
+    conundrums. As years roll by, the stack of solutions just grows and grows, and
     we generally tend to be none the wiser about the actual gains to our security
     postures. \n\nInstead of focusing on ever escalating path of investing into specific
     vendor turn-key solutions, our approach is based on achieving more holistic security
     excellence in your security program.  This means bringing together the security
     technology investments you’ve already made and creating value through integration
-    and process maturity. When new technology investment is required, our vendor agnostic
-    approach helps you select the technologies that fit your business best.\n"
+    and process maturity. When new and if a technology investment is required, our
+    vendor agnostic approach helps you select the technologies that fit your business
+    best.\n"
   image: "/images/cmdr-shane-610506-unsplash.webp"
   button:
     URL: "/services/"
