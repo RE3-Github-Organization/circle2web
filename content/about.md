@@ -2,7 +2,7 @@
 title: About Us
 description_markdown: Squared Circle Security is on a mission to quantify your security
   success.
-image: "/images/cmdr-shane-610506-unsplash.webp"
+image: "/uploads/icebreaker-138924_960_720.jpg"
 sections:
 - title: Our Story
   content_markdown: "We're an upstart IT- and Information Security consultancy based
