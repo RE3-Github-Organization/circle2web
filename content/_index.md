@@ -24,7 +24,10 @@ sections:
   button:
     label: Services
     URL: "/services/"
-- description_markdown: ''
+- description_markdown: Stay current with our blog insights. We understand that technology
+    executives are facing unprecedented security challenges. Our own team together
+    with featured Guest Stars regularly share their "I've experienced that"-perspectives
+    to help answer questions that security professionals wrestle with daily.
   image: ''
   title: Running Commentary
   button:
