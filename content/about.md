@@ -19,12 +19,15 @@ sections:
   button:
     URL: "#contact"
     label: Get in Touch
-- title: Our Methods
-  content_markdown: Information Security is simpler than it seems. At Circle2 our
+- title: This is the Way
+  content_markdown: "Information Security is full of truisms that often lead to very
+    short lived trends  of point solutions that try to \"solve\" a specific security
+    conundrum. As years roll by, the stack of solutions grows, but at the core \n
+    \ \n1. test bullet\n2. next test bullet\n\nsimpler than it seems. At Circle2 our
     mission is to unravel the fears, uncertiditudes and doubts that arrise arround
     governance of your information assets. We want everyone in your ogranization to
     be able to handle and care for your assets in the safest possible way, regardless
-    of the nature of technical infrastructures.
+    of the nature of technical infrastructures."
   image: "/images/cmdr-shane-610506-unsplash.webp"
   button:
     URL: "/services/"
