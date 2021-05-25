@@ -30,29 +30,31 @@ services:
   content_markdown: "Over the past few years, many organizations has taken the first
     steps towards their Security Operations program. A few has started to build the
     capability internally while the majority seems to rely on external parties providing
-    managed services for detecting and analyzing cybersecurity events.\n\nFrom our
-    experience, the market for managed security services has exploded, bringing more
-    and more unrealistic expectations \n\na lot of unrealistic sales buzz around the
-    SOC services offered \n\nexpectations\n\n\nSIEM-centric service propositions builds
-    up extensive licensing and operational costs, while the value provided seems to
-    go the opposite direction. \n\nManaged security service providers (MSSP's) promise
-    a continuous development of new and updated security use-cases but refrain from
-    sharing insights and knowledge enabling their customers\n\nWith our leading hand,
-    we will navigate you to safe waters and \n\nDemystify xxx\n\n---\n\n\n**bold**
-    text\n*italic* text\n\n1. kjkjkjk\n2. hjhjh \n3. oiuhih\n\n- sdsd\n- sdsds\n-
-    jhjhj\n\n\n\n\nInformation Security is simpler than it seems. At Circle2 our mission
-    is to unravel the fears, uncertiditudes and doubts that arrise arround governance
-    of your information assets. We want everyone in your ogranization to be able to
-    handle and care for your assets in the safest possible way, regardless of the
-    nature of technical infrastructures. Information Security is simpler than it seems.
-    At Circle2 our mission is to unravel the fears, uncertiditudes and doubts that
-    arrise arround governance of your information assets. We want everyone in your
-    ogranization to be able to handle and care for your assets in the safest possible
-    way, regardless of the nature of technical infrastructures. Information Security
-    is simpler than it seems. At Circle2 our mission is to unravel the fears, uncertiditudes
+    managed services for detecting cybersecurity events.\n\nFrom our viewpoint, the
+    market for managed security services has recently exploded, flooding an ever-growing
+    range of superlatives from a never-ending number of marketing departments.\n\nReality
+    checks are missing and the list of \n\nmore and more unrealistic expectations
+    \n\na lot of unrealistic sales buzz around the SOC services offered \n\nexpectations\n\n\nSIEM-centric
+    service propositions builds up extensive licensing and operational costs, while
+    the value provided seems to go the opposite direction. \n\nManaged security service
+    providers (MSSP's) promise a continuous development of new and updated security
+    use-cases but refrain from sharing insights and knowledge enabling their customers\n\nWe
+    will be your pilot, assist you in navigating your valuable ship through the rough
+    waters of cybersecurity\n\n\n---\n\n\n**bold** text\n*italic* text\n\n1. kjkjkjk\n2.
+    hjhjh \n3. oiuhih\n\n- sdsd\n- sdsds\n- jhjhj\n\n\n\n\nInformation Security is
+    simpler than it seems. At Circle2 our mission is to unravel the fears, uncertiditudes
     and doubts that arrise arround governance of your information assets. We want
     everyone in your ogranization to be able to handle and care for your assets in
-    the safest possible way, regardless of the nature of technical infrastructures."
+    the safest possible way, regardless of the nature of technical infrastructures.
+    Information Security is simpler than it seems. At Circle2 our mission is to unravel
+    the fears, uncertiditudes and doubts that arrise arround governance of your information
+    assets. We want everyone in your ogranization to be able to handle and care for
+    your assets in the safest possible way, regardless of the nature of technical
+    infrastructures. Information Security is simpler than it seems. At Circle2 our
+    mission is to unravel the fears, uncertiditudes and doubts that arrise arround
+    governance of your information assets. We want everyone in your ogranization to
+    be able to handle and care for your assets in the safest possible way, regardless
+    of the nature of technical infrastructures."
   image: "/images/cmdr-shane-610506-unsplash.webp"
   icon: 
   button:
