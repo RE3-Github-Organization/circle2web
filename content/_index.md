@@ -19,7 +19,7 @@ sections:
     your security needs, considering the sum of your cybersecurity concerns, such
     as business strategy and planning, monitoring and operations, defenses and controls,
     technology acquisition, and even training.
-  image: "/images/cmdr-shane-610506-unsplash.webp"
+  image: "/uploads/sergels_torg-stockholm-dsc_0115w.jpg"
   button:
     label: Services
     URL: "/services/"
