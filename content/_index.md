@@ -1,7 +1,7 @@
 ---
 title: Squared Circle Security
-description: Cybersecurity is not a point product. It’s a strategy aligned with relevant
-  business needs and evolving risks.
+description: Cybersecurity is not a point product. It’s a continuous strategy aligned
+  with relevant business needs and evolving risks.
 sections:
 - title: Square the Circle
   description_markdown: "Squaring the circle is a problem proposed by ancient geometers.
