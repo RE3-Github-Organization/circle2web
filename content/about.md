@@ -1,7 +1,7 @@
 ---
 title: About Us
-description_markdown: Squared Circle Security's mission is to unravel the fears, uncertitudes
-  and doubts that arise around governance of your information assets. **Be in control.**
+description_markdown: Squared Circle Security's mission is to research cyber pathogens,
+  deter cyber missiles and post a lot of memes. **Because why the hell not?**
 image: "/images/cmdr-shane-610506-unsplash.webp"
 sections:
 - title: Our vision
