@@ -534,20 +534,41 @@ footer {
       margin-left: 40px;
     }
   }
-  .image {
-    flex: 0 1 320px;
-    background-position: center;
+  .cartouche {
+    flex: 0 0 auto;
+    position: relative;
+    display: flex;
+    width: 40vw;
+    max-width: 420px;
+    height: calc(40vw * 2 );
+    max-height: 840px;
+    background-image: url(/assets/img/circle2-icon-frame-transparent.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    justify-content: center;
+    align-content: flex-start;
     figure {
-      width: 50vh;
-      height: 50vh;
-    }
-    img {
-      width: 50vh;
-      height: 50vh;
-      border-radius: 100vw;
-      object-fit: cover;
-      opacity: .5;
-      filter: grayscale(1);
+      width: 40vw;
+      max-width: 420px;
+      height: 40vw;
+      max-height: 420px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: calc(100% - 40px);
+        max-width: 420px;
+        height: calc(100% - 40px);
+        max-height: 420px;
+        position: relative;
+        display: block;
+        border-radius: calc(40vw + 400px );
+        object-fit: cover;
+        opacity: .5;
+        filter: grayscale(1);
+      }
     }
   }
   .team {
@@ -598,6 +619,43 @@ footer {
       
       .text-content {
         margin-left: 0px;
+      }
+    }
+    .cartouche {
+      flex: 0 0 auto;
+      position: relative;
+      display: flex;
+      width: calc(100vw - 80px);
+      max-width: calc(100vw - 80px);
+      height: calc((100vw - 80px) * 2);
+      max-height: 840px;
+      background-image: url(/assets/img/circle2-icon-frame-transparent.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y: top;
+      justify-content: center;
+      align-content: flex-start;
+      figure {
+        width: calc(100vw - 80px);
+        max-width: calc(100vw - 80px);
+        height: calc(100vw - 80px);
+        max-height: calc(100vw - 80px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: calc(100vw - 120px);
+          max-width: calc(100vw - 120px);
+          height: calc(100vw - 120px);
+          max-height: calc(100vw - 120px);
+          position: relative;
+          display: block;
+          border-radius: calc(100vw - 120px);
+          object-fit: cover;
+          opacity: .5;
+          filter: grayscale(1);
+        }
       }
     }
   }
