@@ -9,13 +9,15 @@ services:
     of your Incident Response capability. We help you plan, evaluate, improve and
     manage your Incident Response program. Through use of simulation workshops we
     can assess and help you score your readiness.
-  content_markdown: |-
-    This is a new test.
-    With some line breaks.
+  content_markdown: |+
+    Many organizations are starting their Security Operations journey with a strict focus on monitoring and detection but few have acquired an appropriate capability to react and respond to the cybersecurity incidents.
 
-    And an empty space.
+    Compromises, attacks and incidents may be detected by various sources, such as the internal IT help desk, your infra team or a hosting service provider – but what are your plan when the things get serious? You cannot rely on external IT service providers to manage your security incidents and you should act differently from your IT incident process.
 
-    Information Security is simpler than it seems. At Circle2 our mission is to unravel the fears, uncertiditudes and doubts that arrise arround governance of your information assets. We want everyone in your ogranization to be able to handle and care for your assets in the safest possible way, regardless of the nature of technical infrastructures. Information Security is simpler than it seems. At Circle2 our mission is to unravel the fears, uncertiditudes and doubts that arrise arround governance of your information assets. We want everyone in your ogranization to be able to handle and care for your assets in the safest possible way, regardless of the nature of technical infrastructures. Information Security is simpler than it seems. At Circle2 our mission is to unravel the fears, uncertiditudes and doubts that arrise arround governance of your information assets. We want everyone in your ogranization to be able to handle and care for your assets in the safest possible way, regardless of the nature of technical infrastructures.
+    Squared Circle Security will compass your direction through the CSIR landscape and assist you in establishing an incident response plan with corresponding processes, tools, training and management.
+
+    Starting off with a readiness workshop, we will assess your existing preparations and capabilities by scoring the levels in our incident response maturity model.
+
   image: "/images/cmdr-shane-610506-unsplash.webp"
   icon: 
   button:
