@@ -10,7 +10,7 @@ sections:
     approximations.  \n\nSquared Circle Security is your partner set to collaborate
     and create your custom solution – one that can grow with you and pivot fast when
     things change."
-  image: "/images/samuel-zeller-364234-unsplash.webp"
+  image: "/uploads/24953174907_6c2d652d91_b.jpg"
   button:
     label: Our Story
     URL: "/about/"
