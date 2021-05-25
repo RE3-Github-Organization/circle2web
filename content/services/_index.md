@@ -27,19 +27,21 @@ services:
   short_markdown: We’ll help you map your progress to find out where you are and build
     a roadmap for your Security Operations future together with you. We can also assess
     and benchmark your current MSSP services and suggest improvements
-  content_markdown: Information Security is simpler than it seems. At Circle2 our
-    mission is to unravel the fears, uncertiditudes and doubts that arrise arround
-    governance of your information assets. We want everyone in your ogranization to
-    be able to handle and care for your assets in the safest possible way, regardless
-    of the nature of technical infrastructures. Information Security is simpler than
-    it seems. At Circle2 our mission is to unravel the fears, uncertiditudes and doubts
-    that arrise arround governance of your information assets. We want everyone in
-    your ogranization to be able to handle and care for your assets in the safest
-    possible way, regardless of the nature of technical infrastructures. Information
+  content_markdown: "In the past years, most organizations has taken their steps\n\n\n1.
+    kjkjkjk\n2. hjhjh \n3. oiuhih\n\n- sdsd\n- sdsds\n- jhjhj\n\n\n\n\nInformation
     Security is simpler than it seems. At Circle2 our mission is to unravel the fears,
     uncertiditudes and doubts that arrise arround governance of your information assets.
     We want everyone in your ogranization to be able to handle and care for your assets
     in the safest possible way, regardless of the nature of technical infrastructures.
+    Information Security is simpler than it seems. At Circle2 our mission is to unravel
+    the fears, uncertiditudes and doubts that arrise arround governance of your information
+    assets. We want everyone in your ogranization to be able to handle and care for
+    your assets in the safest possible way, regardless of the nature of technical
+    infrastructures. Information Security is simpler than it seems. At Circle2 our
+    mission is to unravel the fears, uncertiditudes and doubts that arrise arround
+    governance of your information assets. We want everyone in your ogranization to
+    be able to handle and care for your assets in the safest possible way, regardless
+    of the nature of technical infrastructures."
   image: "/images/cmdr-shane-610506-unsplash.webp"
   icon: 
   button:
