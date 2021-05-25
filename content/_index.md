@@ -13,7 +13,7 @@ sections:
     – one that can grow with you and pivot fast when things change."
   image: "/images/samuel-zeller-364234-unsplash.webp"
   button:
-    label: About Us
+    label: Our Story
     URL: "/about/"
 - title: Circle the Square
   description_markdown: We measure, assess and take a pragmatic approach to solving
