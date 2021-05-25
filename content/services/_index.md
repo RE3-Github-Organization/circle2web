@@ -44,7 +44,7 @@ services:
     trust in managed SOC\n- Reviewing the business value and testing the actual delivery
     of your currently contracted security services suppliers\n- Building the strategy
     and roadmap for your internal SOC in terms of capabilities, tools and organization\n-
-    Verifying the efficiency of your existing security operations program\n\n\n\n---\n\n\n**bold**
+    Verifying the efficiency of your existing security operations program\n\n\n---\n\n\n**bold**
     text\n*italic* text\n\n1. kjkjkjk\n2. hjhjh \n3. oiuhih\n\n- sdsd\n- sdsds\n-
     jhjhj\n\n\n\n\nInformation Security is simpler than it seems. At Circle2 our mission
     is to unravel the fears, uncertiditudes and doubts that arrise arround governance
