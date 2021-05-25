@@ -17,7 +17,7 @@
   <div class="content-wrapper">
     <div class="text-content">
       <h2>{{ .title }}</h2>
-      <p>{{ .content_markdown }}</p>
+      <p>{{ .content_markdown | markdownify }}</p>
       <p><a href="{{ .button.URL }}" class="button">{{ .button.label }}</a></p>
     </div>
     <div class="image">
