@@ -28,37 +28,35 @@ services:
     a roadmap for your Security Operations future together with you. We can also assess
     and benchmark your current MSSP services and suggest improvements
   content_markdown: "Over the past few years, many organizations has taken the first
-    steps towards their Security Operations program. A few has started to build the
+    steps towards their Security Operations program. Some has started to build the
     capability internally while the majority seems to rely on external parties providing
     managed services for detecting cybersecurity events.\n\nFrom our viewpoint, the
     market for managed security services has recently exploded, flooding an ever-growing
-    range of superlatives from a never-ending number of marketing departments.\n\nReality
-    checks are missing and the list of \n\nmore and more unrealistic expectations
-    \n\na lot of unrealistic sales buzz around the SOC services offered \n\nexpectations\n\n\nSIEM-centric
-    service propositions builds up extensive licensing and operational costs, while
-    the value provided seems to go the opposite direction. \n\nManaged security service
-    providers (MSSP's) promise a continuous development of new and updated security
-    use-cases but refrain from sharing insights and knowledge enabling their customers\n\nWe
-    will be your pilot, assist you in navigating your valuable ship through the rough
-    waters of cybersecurity\n\n- Supporting the decision in which MSSP to put your
-    trust in managed SOC\n- Reviewing the business value and testing the actual delivery
-    of your currently contracted security services suppliers\n- Building the strategy
-    and roadmap for your internal SOC in terms of capabilities, tools and organization\n-
-    Verifying the efficiency of your existing security operations program\n\n\n---\n\n\n**bold**
-    text\n*italic* text\n\n1. kjkjkjk\n2. hjhjh \n3. oiuhih\n\n- sdsd\n- sdsds\n-
-    jhjhj\n\n\n\n\nInformation Security is simpler than it seems. At Circle2 our mission
-    is to unravel the fears, uncertiditudes and doubts that arrise arround governance
-    of your information assets. We want everyone in your ogranization to be able to
-    handle and care for your assets in the safest possible way, regardless of the
-    nature of technical infrastructures. Information Security is simpler than it seems.
-    At Circle2 our mission is to unravel the fears, uncertiditudes and doubts that
-    arrise arround governance of your information assets. We want everyone in your
-    ogranization to be able to handle and care for your assets in the safest possible
-    way, regardless of the nature of technical infrastructures. Information Security
-    is simpler than it seems. At Circle2 our mission is to unravel the fears, uncertiditudes
-    and doubts that arrise arround governance of your information assets. We want
-    everyone in your ogranization to be able to handle and care for your assets in
-    the safest possible way, regardless of the nature of technical infrastructures."
+    range of superlatives from a never-ending number of marketing departments. \n\nReality
+    checks are few but when actual service deliveries once in a while gets scrutinized,
+    expectations are often not met. SIEM-centric service propositions builds up extensive
+    licensing and operational costs, while the value provided seems to go the opposite
+    direction. \n\nWe will be your pilot, assist you in navigating your valuable ship
+    through the rough waters of cybersecurity\n\n- Supporting the decision in which
+    MSSP to put your trust in managed SOC\n- Reviewing the business value and testing
+    the actual delivery of your currently contracted security services suppliers\n-
+    Building the strategy and roadmap for your internal SOC in terms of capabilities,
+    tools and organization\n- Verifying the efficiency of your existing security operations
+    program\n\n\n---\n\n\n**bold** text\n*italic* text\n\n1. kjkjkjk\n2. hjhjh \n3.
+    oiuhih\n\n- sdsd\n- sdsds\n- jhjhj\n\n\n\n\nInformation Security is simpler than
+    it seems. At Circle2 our mission is to unravel the fears, uncertiditudes and doubts
+    that arrise arround governance of your information assets. We want everyone in
+    your ogranization to be able to handle and care for your assets in the safest
+    possible way, regardless of the nature of technical infrastructures. Information
+    Security is simpler than it seems. At Circle2 our mission is to unravel the fears,
+    uncertiditudes and doubts that arrise arround governance of your information assets.
+    We want everyone in your ogranization to be able to handle and care for your assets
+    in the safest possible way, regardless of the nature of technical infrastructures.
+    Information Security is simpler than it seems. At Circle2 our mission is to unravel
+    the fears, uncertiditudes and doubts that arrise arround governance of your information
+    assets. We want everyone in your ogranization to be able to handle and care for
+    your assets in the safest possible way, regardless of the nature of technical
+    infrastructures."
   image: "/images/cmdr-shane-610506-unsplash.webp"
   icon: 
   button:
