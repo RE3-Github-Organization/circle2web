@@ -4,16 +4,24 @@ description_markdown: Squared Circle Security's mission is to research cyber pat
   deter cyber missiles and post a lot of memes. **Because why the hell not?**
 image: "/images/cmdr-shane-610506-unsplash.webp"
 sections:
-- title: Our vision
-  content_markdown: Information Security is simpler than it seems. At Circle2 our
-    mission is to unravel the fears, uncertiditudes and doubts that arrise arround
-    governance of your information assets. We want everyone in your ogranization to
-    be able to handle and care for your assets in the safest possible way, regardless
-    of the nature of technical infrastructures.
+- title: Our Story
+  content_markdown: "Squared Circle Security is an upstart IT- and Information Security
+    partner. While we're still new and gearing up, we actually combine decades of
+    hands-on experience supporting enterprise level clients. We know the security
+    landscape because we've done our proverbial time in the cyber trenches defending
+    and designing security solutions for both private and public sector customers.
+    \ \n\nWe've always felt a strong need to be able to deliver and show value - both
+    when it comes to security solution investments and their actual security output
+    - and for a long while we've felt like the industry was missing some crucial steps
+    before and after solution implementation and that is what we're aiming to rectify
+    with our offerings. \n\nWe specialize in Security Operations, because defensive
+    blue-team security has been our DNA since the very beginning. \n \nQuite simply,
+    we want to be able to give our customers the tools and know-how to quantify, measure
+    and manage their Security Operations challenges."
   image: "/images/cmdr-shane-610506-unsplash.webp"
   button:
     URL: "#contact"
-    label: Reach out
+    label: Say Hello!
 - title: Our Methods
   content_markdown: Information Security is simpler than it seems. At Circle2 our
     mission is to unravel the fears, uncertiditudes and doubts that arrise arround
