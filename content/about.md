@@ -37,4 +37,6 @@ team_section: Our team has been the industry's standard ever since the 1500s, wh
 layout: about
 
 ---
-Information Security is simpler than it seems. At Circle2 our mission is to unravel the fears, uncertiditudes and doubts that arrise arround governance of your information assets. We want everyone in your ogranization to be able to handle and care for your assets in the safest possible way, regardless of the nature of technical infrastructures.
+Square the circle. Many of us facing modern Cybersecurity issues can probably relate to the ancient problem of squaring the circle, as the ever changing threat landscape is seemingly impossible to square off and our best efforts end up with approximations.
+
+Squared Circle Security is your partner set to collaborate and create your custom solution – one that can grow with you and pivot fast when things change.
