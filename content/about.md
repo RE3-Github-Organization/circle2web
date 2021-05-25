@@ -14,10 +14,9 @@ sections:
     when it comes to security solution investments and their actual security output
     - and for a long while we've felt like the industry was missing some crucial steps
     before and after solution implementation and that is what we're aiming to rectify
-    with our offerings. \n\nWe specialize in Security Operations, because defensive
-    blue-team security has been our DNA since the very beginning. \n \nQuite simply,
-    we want to be able to give our customers the tools and know-how to quantify, measure
-    and manage their Security Operations challenges."
+    with our offerings. \n \nQuite simply, we want to be able to give our customers
+    the tools and know-how to quantify, measure and manage their Security Operations
+    challenges."
   image: "/images/cmdr-shane-610506-unsplash.webp"
   button:
     URL: "#contact"
