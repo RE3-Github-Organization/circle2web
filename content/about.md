@@ -1,6 +1,7 @@
 ---
 title: About Us
-description_markdown: How to quantify security success?
+description_markdown: Squared Circle Security is on a mission to quantify your security
+  success.
 image: "/images/cmdr-shane-610506-unsplash.webp"
 sections:
 - title: Our Story
