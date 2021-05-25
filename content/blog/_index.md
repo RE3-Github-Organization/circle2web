@@ -1,5 +1,5 @@
 ---
-title: The Running Commentary - Circle<sup>2</sup> Security Blog
+title: The Running Commentary - Circle2 Security Blog
 description_markdown: Articles, News and Open-Source Intel from the people of Squared
   Circle Security and featured guests.
 image: "/images/cmdr-shane-610506-unsplash.webp"
