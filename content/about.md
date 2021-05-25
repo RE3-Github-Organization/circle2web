@@ -5,18 +5,18 @@ description_markdown: Squared Circle Security is on a mission to quantify your s
 image: "/images/cmdr-shane-610506-unsplash.webp"
 sections:
 - title: Our Story
-  content_markdown: "Squared Circle Security is an upstart IT and Information Security
-    consultancy. While we're still new and gearing up, we actually combine decades
-    of hands-on experience supporting enterprise level clients. We know the security
-    landscape because we've done our proverbial time in the cyber trenches defending
-    and designing security solutions for both private and public sector customers.
-    \ \n\nWe've always felt a strong need to be able to deliver and show value - both
-    when it comes to security solution investments and their actual security output
-    - and for a long while we've felt like the industry was missing some crucial steps
-    before and after solution implementation and that is what we're aiming to rectify
-    with our offerings. \n \nQuite simply, we want to be able to give our customers
-    the tools and know-how to quantify, measure and manage their Security Operations
-    challenges."
+  content_markdown: "We're an upstart IT and Information Security consultancy based
+    in Gothenburg and Stockholm in Sweden. While we're still new and gearing up, we
+    actually combine decades of hands-on experience supporting the security needs
+    of enterprise level clients. We know the security landscape because we've done
+    our proverbial time in the cyber trenches defending and designing security solutions
+    for both private and public sector customers.  \n\nWe've always felt a strong
+    need to be able to deliver and show value in everything we do, especially when
+    it comes to security solution investments and their actual security output. For
+    a long while we've felt like the industry was missing some crucial steps before
+    and after solution implementation and that is what we're aiming to rectify with
+    our offerings. \n \nQuite simply, we want to be able to give our customers the
+    tools and know-how to quantify, measure and manage their Security Operations challenges."
   image: "/images/cmdr-shane-610506-unsplash.webp"
   button:
     URL: "#contact"
