@@ -210,6 +210,7 @@ article:first-of-type {
   padding-top: 160px;
 }
 .narative {
+
   .content-wrapper {
     justify-content: space-between;
 
@@ -217,6 +218,20 @@ article:first-of-type {
   .text-content {
     flex: 1 1 220px;
     padding-right: 40px;
+    
+  }
+  ul, ol {
+    margin-bottom: 20px;
+    li {
+      list-style-type:disc;
+      margin-left: 40px;
+      
+    }
+  }
+  ol {
+    li {
+      list-style-type: decimal;
+    }
   }
   .cartouche {
     flex: 0 0 auto;
@@ -521,6 +536,19 @@ footer {
   h2 {
     line-height: 1em;
   }
+  ul, ol {
+    margin-bottom: 20px;
+    li {
+      list-style-type:disc;
+      margin-left: 40px;
+      
+    }
+  }
+  ol {
+    li {
+      list-style-type: decimal;
+    }
+  }
   .text-content {
     flex: 1 1 320px;
     margin-right: 40px;
@@ -702,7 +730,7 @@ footer {
           font-size: 0.75em;
           padding: 0 10px;
         }
-        ul {
+        ul, ol {
           display: flex;
           flex-wrap: wrap;
           margin-bottom: 20px;
@@ -744,12 +772,17 @@ footer {
       display: block;
       margin: auto;
     }
-    ul {
+    ul, ol {
       margin-bottom: 20px;
       li {
         list-style-type:disc;
         margin-left: 40px;
         
+      }
+    }
+    ol {
+      li {
+        list-style-type: decimal;
       }
     }
     ul.taglist {
