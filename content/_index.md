@@ -24,6 +24,12 @@ sections:
   button:
     label: Services
     URL: "/services/"
+- description_markdown: ''
+  image: ''
+  title: Running Commentary
+  button:
+    label: Read the Blog
+    URL: "/blog/"
 about_section:
   title: About Squared Circle Security
   content_markdown: Information Security is simpler than it seems. At Circle2 our
