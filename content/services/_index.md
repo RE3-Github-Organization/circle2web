@@ -43,7 +43,7 @@ services:
     Building the strategy and roadmap for your internal SOC in terms of capabilities,
     tools and organization\n- Verifying the efficiency of your existing security operations
     program\n"
-  image: "/images/cmdr-shane-610506-unsplash.webp"
+  image: "/uploads/man-wearing-white-shirt-brown-shorts-and-green-backpack-672358_fotor.jpg"
   icon: 
   button:
     URL: "#contact"
