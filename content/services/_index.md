@@ -18,7 +18,7 @@ services:
 
     Starting off with a readiness workshop, we will assess your existing preparations and capabilities by scoring the levels in our incident response maturity model.
 
-  image: "/images/cmdr-shane-610506-unsplash.webp"
+  image: "/uploads/137353548_xl_fotor.jpg"
   icon: 
   button:
     URL: "#contact"
