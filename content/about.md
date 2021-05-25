@@ -5,7 +5,7 @@ description_markdown: Squared Circle Security is on a mission to quantify your s
 image: "/images/cmdr-shane-610506-unsplash.webp"
 sections:
 - title: Our Story
-  content_markdown: "We're an upstart IT and Information Security consultancy based
+  content_markdown: "We're an upstart IT- and Information Security consultancy based
     in Gothenburg and Stockholm, Sweden. While still new and gearing up, we combine
     decades of hands-on experience supporting the security needs of enterprise level
     clients.     \n  \nWe've always felt a strong need to be able to deliver and show
