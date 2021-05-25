@@ -20,7 +20,7 @@ sections:
   image: "/images/cmdr-shane-610506-unsplash.webp"
   button:
     URL: "#contact"
-    label: Say Hello!
+    label: Get in Touch
 - title: Our Methods
   content_markdown: Information Security is simpler than it seems. At Circle2 our
     mission is to unravel the fears, uncertiditudes and doubts that arrise arround
