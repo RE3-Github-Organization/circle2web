@@ -23,7 +23,7 @@ sections:
   content_markdown: "Information Security is full of truisms that often lead to very
     short lived trends  of point solutions that try to \"solve\" a specific security
     conundrum. As years roll by, the stack of solutions grows, but at the core \n
-    \ \n- test bullet\n- next test bullet\n\nsimpler than it seems. At Circle2 our
+    \ \n1. test bullet\n2. next test bullet\n\nsimpler than it seems. At Circle2 our
     mission is to unravel the fears, uncertiditudes and doubts that arrise arround
     governance of your information assets. We want everyone in your ogranization to
     be able to handle and care for your assets in the safest possible way, regardless
