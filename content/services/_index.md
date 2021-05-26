@@ -23,25 +23,25 @@ services:
     URL: "#contact"
     label: Request an offer
 - title: Security Operations Strategy
-  short_markdown: We’ll help you map your progress to find out where you are and build
-    a roadmap for your Security Operations future together with you. We can also assess
-    and benchmark your current MSSP services and suggest improvements
+  short_markdown: We’ll help you map your progress and build a roadmap for your Security
+    Operations future. We can also assess and benchmark your current MSSP services
+    and suggest improvements.
   content_markdown: "Over the past few years, many organizations has taken the first
-    steps towards their Security Operations program. Some has started to build the
+    steps towards their Security Operations program. Some have started to build the
     capability internally while the majority seems to rely on external parties providing
-    managed services for detecting cybersecurity events.\n\nFrom our viewpoint, the
-    market for managed security services has recently exploded, flooding an ever-growing
-    range of superlatives from a never-ending number of marketing departments. \n\nReality
-    checks are few but when actual service deliveries once in a while gets scrutinized,
-    expectations are often not met. SIEM-centric service propositions builds up extensive
-    licensing and operational costs, while the value provided seems to go the opposite
-    direction. \n\nWe will be your pilot, assist you in navigating your valuable ship
-    through the rough waters of cybersecurity\n\n- Supporting the decision in which
-    MSSP to put your trust in managed SOC\n- Reviewing the business value and testing
-    the actual delivery of your currently contracted security services suppliers\n-
-    Building the strategy and roadmap for your internal SOC in terms of capabilities,
-    tools and organization\n- Verifying the efficiency of your existing security operations
-    program\n"
+    managed security services for detection.\n\nFrom our viewpoint, the market for
+    managed security services has recently exploded, flooding an ever-growing range
+    of superlatives from a never-ending number of marketing departments. \n\nReality
+    checks are few and far between but when actual service deliveries  get scrutinized,
+    expectations for value propositions are often not met. SIEM-centric service designs
+    build up extensive licensing and operational costs, while the value provided seems
+    to go the opposite direction. \n\nWe will be your pilot, assist you in navigating
+    your valuable ship through the rough Security Operations waters.\n\n- Supporting
+    and facilitating your MSSP selection process for managed SOC\n- Reviewing the
+    business value and quality testing the actual delivery of your currently contracted
+    security services suppliers\n- Building the strategy and roadmap for your internal
+    SOC in terms of capabilities, tools and organization\n- Verifying the efficiency
+    of your existing security operations program"
   image: "/uploads/man-wearing-white-shirt-brown-shorts-and-green-backpack-672358_fotor.jpg"
   icon: 
   button:
