@@ -32,7 +32,7 @@ services:
     managed security services for detection.\n\nFrom our viewpoint, the market for
     managed security services has recently exploded, flooding an ever-growing range
     of superlatives from a never-ending number of marketing departments. \n\nReality
-    checks are few and far between but when actual service deliveries  get scrutinized,
+    checks are few and far between but when actual service deliveries get scrutinized,
     expectations for value propositions are often not met. SIEM-centric service designs
     build up extensive licensing and operational costs, while the value provided seems
     to go the opposite direction. \n\nWe will be your pilot, assist you in navigating
