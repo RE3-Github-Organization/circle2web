@@ -20,7 +20,7 @@ Let's  have a quick look at the changes and discuss the goods, the bads and the 
 
 ### CIS 20 is dead!
 
-We're down to 18 controls from _instead of_ the traditional 20. It'll be a while before I get used to referring to it as "18 controls".  If you're familiar with the previous versions, you'll feel right at home with many of them, they haven't changed much.
+We're down to 18 controls from the traditional 20. It'll be a while before I get used to referring to it as "18 controls".  If you're familiar with the previous versions, you'll feel right at home with many of them, they haven't changed much.
 
 As with version 7, the controls are divided with three implementation groups (IG) which try to reflect the required maturity of the control implementation (IG1 representing basic security hygiene).
 
