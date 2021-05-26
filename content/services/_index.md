@@ -62,9 +62,7 @@ services:
     Many investments around security today rely entirely on technology rather than balancing it with people and processes. Quick-fixes and black-boxes are following each other but the holistic view seems to be missing. The easy way out is often to buy yet another fancy security product rather than invest in training your staff or revisiting your processes.
 
     - We can assist you with threat modelling that maps the unwanted actors and their possible ways to exploit and misuse your valuable information.
-
     - We can help you transform your business or specific solution requirements into a security architecture with the proper controls spanning people, process and technology.
-
     - We can assess an existing security architecture – either your own or the one managed by a potential business partner, or a candidate for merger/acquisition.
   image: "/uploads/p5220026_fotor2.jpg"
   icon: 
