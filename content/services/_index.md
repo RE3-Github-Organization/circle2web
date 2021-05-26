@@ -5,7 +5,7 @@ description_markdown: Security through knowledge. We go the extra mile that your
 image: "/images/cmdr-shane-610506-unsplash.webp"
 services:
 - title: Cyber Security Response Readiness
-  short_markdown: The true value of Security Operations comes from the effectiveness
+  short_markdown: The true value of Security Operations comes from the efficiency
     of your Incident Response capability. We help you plan, evaluate, improve and
     manage your Incident Response program. Through use of simulation workshops we
     can assess and help you score your readiness.
