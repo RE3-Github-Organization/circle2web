@@ -26,7 +26,8 @@ services:
 - title: Security Operations Strategy
   short_markdown: We’ll help you map your progress and chart a plan for your Security
     Operations future. We can also assess and benchmark your current MSSP services
-    and suggest improvements.
+    and suggest improvements. Our approach will give you the confidence to evolve
+    your SecOps program as your needs change.
   content_markdown: "Over the past few years, many organizations has taken the first
     steps towards their Security Operations program. Some have started to build the
     capability internally while the majority seems to rely on external parties providing
