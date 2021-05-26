@@ -96,3 +96,11 @@ This is quite interesting, because it lands very much in our Squared Circle back
 And of course we must have Supply Chain and Cloud represented. This one is all about developing processes to evaluate service providers who hold sensitive data, or are responsible for enterprise critical IT platforms or processes, to ensure these providers are protecting those platforms and data appropriately.
 
 I think it's a good start, but we have a long way to go before this control can be considered "easily actionable".  And towards that point, there's only one Safeguard on IG1 basic hygiene level (Establish and Maintain an Inventory of Service Providers) the rest require quite a bit more maturity.
+
+### Final Thoughts
+
+The CIS group has also released a lot of "companion tools" - like mappings towards other popular frameworks (NIST, CSA, CMMC etc.) so those are probably also worth a download if you're currently wading knee-deep in the framework jungle.
+
+To me personally CIS Controls have always lived in that juxtaposition of best practice “good things to do,” or “things that could help” and "accredited audit framework" - and I think that's where it should live. It would be shame to have it completely disappear into compliance auditing world and lose its history in "hands-on" IT-security.
+
+Only the future will tell where it will end up, but I do like the growing focus of building the controls with open and verifiable methods and data. Looking forward to the future efforts of bringing MITRE Att&ck connections.
