@@ -18,15 +18,13 @@ In many ways the recently (18th of May) released update to version 8 continues o
 
 Let's  have a quick look at the changes and discuss the goods, the bads and the uglies.
 
-### A quick overview
-
 ### CIS 20 is dead!
 
 We're down to 18 controls from _instead of_ the traditional 20. It'll be a while before I get used to referring to it as "18 controls".  If you're familiar with the previous versions, you'll feel right at home with many of them, they haven't changed much.
 
 As with version 7, the controls are divided with three implementation groups (IG) which try to reflect the required maturity of the control implementation (IG1 representing basic security hygiene).
 
-Initially the new numbering of the controls might be a bit confusing. CIS is careful to point out that the order of the controls has nothing to do with implementation priority - it should be treated as a holistic process.
+Initially the new numbering of the controls might be a bit confusing. CIS is careful to point out that the order of the controls has nothing to do with implementation priority – it should be treated as a holistic process.
 
 Here's the whole list – with an attempt to illustrate the change of order.
 
