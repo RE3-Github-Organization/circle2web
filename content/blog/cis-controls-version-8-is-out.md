@@ -14,7 +14,7 @@ label = "Download CIS Controls Here"
 +++
 Center for Internet Security (CIS) security controls have, for a long while, been seen as the "easy to use" IT-security framework, offering best practice advice in reasonably actionable, easy to understand and cheap format - so no pesky ISO 27000 document purchases required.
 
-In many ways the recently (18th of May) released update to version 8 continues on this track - it is still a collection of IT-Security best practices. However, as the framework grows, so does the documentation and complexity.
+In many ways the recently (18th of May) released update to version 8 continues on this track – it is still a collection of IT-Security best practices. However, as the framework grows, so does the documentation and complexity.
 
 Let's  have a quick look at the changes and discuss the goods, the bads and the uglies.
 
