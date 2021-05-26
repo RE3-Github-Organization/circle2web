@@ -143,4 +143,4 @@ Collected personal data is stored and encrypted on a computer of the external su
 
 If you want to verify, modify or delete your personal data stored by the responsible controllers for the Circle2 website and its sub-sites, you can email the data controller for the Circle2 website at the address below. In your email, clearly state your request and include the URL of the website/webpages your request refers to.
 
-Email: [info@circle2.se](mailto:info@circle2.se)
+Email: You will find our address in the footer of this page
