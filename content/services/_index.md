@@ -28,7 +28,7 @@ services:
     Operations future. We can also assess and benchmark your current MSSP services
     and suggest improvements. Our approach will give you the confidence to evolve
     your SecOps program as your needs change.
-  content_markdown: "Over the past few years, many organizations has taken the first
+  content_markdown: "Over the past few years, many organizations have taken the first
     steps towards their Security Operations program. Some have started to build the
     capability internally while the majority seems to rely on external parties providing
     managed security services for detection.\n\nFrom our viewpoint, the market for
