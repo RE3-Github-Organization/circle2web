@@ -1,7 +1,7 @@
 +++
 author = "team_members/tero.md"
 date = 2021-05-31T22:00:00Z
-description_markdown = "CIS Controls version 8 was released 18th of May, we'll have a quick look at the changes."
+description_markdown = "CIS Controls version 8 was released 18th of May. We'll have a quick look at the new shiny."
 draft = true
 image = "/uploads/cis-is-releasing-their-revised-top-20-critical-security-controls.jpg"
 tags = []
