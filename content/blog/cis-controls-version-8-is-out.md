@@ -103,4 +103,4 @@ The CIS group has also released a lot of "companion tools" - like mappings towar
 
 To me personally CIS Controls have always lived in that juxtaposition of best practice “good things to do,” or “things that could help” and "accredited audit framework" - and I think that's where it should live. It would be shame to have it completely disappear into compliance auditing world and lose its history in "hands-on" IT-security.
 
-Only the future will tell where it will end up, but I do like the growing focus of building the controls with open and verifiable methods and data. Looking forward to the future efforts of bringing MITRE Att&ck connections.
+Only the future will tell where it will end up, but I do like the growing focus of building the controls with open and verifiable methods and data. Looking forward to the future efforts of bringing [MITRE Att&ck](https://attack.mitre.org/) connections into the framework through Safeguards.
