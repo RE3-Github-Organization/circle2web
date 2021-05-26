@@ -24,7 +24,7 @@ services:
     URL: "#contact"
     label: Request an offer
 - title: Security Operations Strategy
-  short_markdown: We’ll help you map your progress and build a roadmap for your Security
+  short_markdown: We’ll help you map your progress and chart a plan for your Security
     Operations future. We can also assess and benchmark your current MSSP services
     and suggest improvements.
   content_markdown: "Over the past few years, many organizations has taken the first
