@@ -9,15 +9,14 @@ services:
     of your Incident Response capability. We help you plan, evaluate, improve and
     manage your Incident Response program. Through use of simulation workshops we
     can assess and help you score your readiness.
-  content_markdown: |+
-    Many organizations are starting their Security Operations journey with a strict focus on monitoring and detection but few have acquired an appropriate capability to react and respond to the cybersecurity incidents.
+  content_markdown: |-
+    Many organizations start their Security Operations journey with a strict focus on monitoring and detection but few have acquired appropriate capabilities to react and respond to cybersecurity incidents.
 
-    Compromises, attacks and incidents may be detected by various sources, such as the internal IT help desk, your infra team or a hosting service provider – but what are your plan when the things get serious? You cannot rely on external IT service providers to manage your security incidents and you should act differently from your IT incident process.
+    Compromises, attacks and incidents may be detected by various sources, such as the internal IT help desk, infra operations team or a managed hosting service provider – but what is your plan when things get serious? You cannot rely on external IT service providers to manage your security incidents and you should separate your security incidents from your normal IT incident process.
 
-    Squared Circle Security will compass your direction through the CSIR landscape and assist you in establishing an incident response plan with corresponding processes, tools, training and management.
+    Squared Circle Security will act as your compass through the CSIRT landscape and assist you in establishing an incident response plan with corresponding processes, tools, training and management.
 
     Starting off with a readiness workshop, we will assess your existing preparations and capabilities by scoring the levels in our incident response maturity model.
-
   image: "/uploads/137353548_xl_fotor.jpg"
   icon: 
   button:
