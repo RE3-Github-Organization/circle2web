@@ -47,24 +47,23 @@ services:
   button:
     URL: "#contact"
     label: Book an appointment
-- title: Security Architecture and Infosec
+- title: Security Architecture *WHAT?*
   short_markdown: 'Finding acceptable levels of cybersecurity risk during mergers
     and acquisitions is complicated. We’ll assist your due diligence process by assessing
     target environments and evaluate how well they meet the needs of modern cybersecurity
     defense. '
-  content_markdown: Information Security is simpler than it seems. At Circle2 our
-    mission is to unravel the fears, uncertiditudes and doubts that arrise arround
-    governance of your information assets. We want everyone in your ogranization to
-    be able to handle and care for your assets in the safest possible way, regardless
-    of the nature of technical infrastructures. Information Security is simpler than
-    it seems. At Circle2 our mission is to unravel the fears, uncertiditudes and doubts
-    that arrise arround governance of your information assets. We want everyone in
-    your ogranization to be able to handle and care for your assets in the safest
-    possible way, regardless of the nature of technical infrastructures. Information
-    Security is simpler than it seems. At Circle2 our mission is to unravel the fears,
-    uncertiditudes and doubts that arrise arround governance of your information assets.
-    We want everyone in your ogranization to be able to handle and care for your assets
-    in the safest possible way, regardless of the nature of technical infrastructures.
+  content_markdown: |
+    How do you find the proper level of security? There is no one-size-fits-all product with bells and whistles in our shop!
+
+    Information Security is about protecting your business assets and valuables from being stolen, inaccessible or tampered with – by external or internal actors identified through proper threat modelling. Business requirements connected to your information assets are the crucial inputs to a risk analysis process that should manage the security measures to take.
+
+    Many investments around security today relies entirely on technology rather than balancing it with people and processes. Quick-fixes and black-boxes are following each other but the holistic view seems to be missed. The easy way out is often to buy yet another fancy security product rather than invest in training your staff or revisiting your processes.
+
+    - We can assist you with threat modelling that maps the unwanted actors and their possible ways to exploit and misuse your valuable information.
+
+    - We can help you transform your business or specific solution requirements into a security architecture with the proper controls spanning people, process and technology.
+
+    - We can assess an existing security architecture – either your own or the one managed by a potential business partner, or a candidate for merger/acquisition.
   image: "/images/cmdr-shane-610506-unsplash.webp"
   icon: 
   button:
@@ -73,6 +72,6 @@ services:
 layout: about
 
 ---
-_Circle the square._ We measure, assess and take a pragmatic approach to solving your security needs, considering the sum of your cybersecurity concerns, such as business strategy and planning, monitoring and operations, defenses and controls, technology acquisition, and even training.
+_Circle the square._ We measure, assess and take a pragmatic approach to solving your security needs, considering the sum of your cybersecurity concerns, such as business strategy and planning, operations and maintenance, defences and controls, technology acquisition, people and training.
 
-We help you to make sense out of your siloed security technologies and help you implement the necessary processes that bring out the maximum value from your already existing security investments. Putting the right security controls in place together with your business, we aim to shift your focus and your budget from chasing constant security infrastructure investments towards more strategic and innovative security projects.
+Putting the right security controls in place together with your business, we aim to shift your focus and your budget from chasing constant security infrastructure investments towards more strategic and innovative security projects.
