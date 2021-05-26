@@ -1,8 +1,9 @@
 ---
 title: About Us
-description_markdown: Squared Circle Security is on a mission to quantify your security
-  success.
-image: "/images/cmdr-shane-610506-unsplash.webp"
+description_markdown: Safely navigating the breakwaters of cybersecurity by bringing
+  together your existing security technology investments and creating value through
+  integration and process maturity.
+image: ''
 sections:
 - title: Our Story
   content_markdown: "We're an upstart IT- and Information Security consultancy based
@@ -15,7 +16,7 @@ sections:
     aiming to rectify with our offerings.   \n   \nQuite simply; we want to be able
     to give our customers the tools and know-how to quantify, measure and manage their
     Security Operations challenges."
-  image: "/images/cmdr-shane-610506-unsplash.webp"
+  image: "/uploads/icebreaker-138924_960_720.jpg"
   button:
     URL: "#contact"
     label: Get in Touch
@@ -29,7 +30,7 @@ sections:
     excellence in your security program.  \n\nThis means bringing together and demystifying
     the security technology investments you’ve already made and creating value through
     integration and process maturity. "
-  image: "/images/cmdr-shane-610506-unsplash.webp"
+  image: "/uploads/d2zjlcr-2cb808c2-0603-4c5c-916a-d4afef2b1b0f.jpg"
   button:
     URL: "/services/"
     label: This is the Way

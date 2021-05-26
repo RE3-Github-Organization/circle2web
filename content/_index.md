@@ -1,7 +1,6 @@
 ---
 title: Squared Circle Security
-description: Cybersecurity is not a point product. It’s a continuous strategy aligned
-  with relevant business needs and evolving risks.
+description: 'Your Pilot Through Rough Cybersecurity Waters '
 sections:
 - title: Square the Circle
   description_markdown: "Many of us facing modern Cybersecurity issues can probably
@@ -10,7 +9,7 @@ sections:
     approximations.  \n\nSquared Circle Security is your partner set to collaborate
     and create your custom solution – one that can grow with you and pivot fast when
     things change."
-  image: "/images/samuel-zeller-364234-unsplash.webp"
+  image: "/uploads/sunset_ice_lake_jetty_pier_clouds_sky_cold-651358-jpg-d.jpg"
   button:
     label: Our Story
     URL: "/about/"
@@ -19,7 +18,7 @@ sections:
     your security needs, considering the sum of your cybersecurity concerns, such
     as business strategy and planning, monitoring and operations, defenses and controls,
     technology acquisition, and even training.
-  image: "/images/cmdr-shane-610506-unsplash.webp"
+  image: "/uploads/sthlm_sergelstorg_mh5y4176.jpg"
   button:
     label: Services
     URL: "/services/"
@@ -27,7 +26,7 @@ sections:
     executives are facing unprecedented security challenges. Our own team - together
     with featured Guest Stars - regularly share their "I've experienced that"-perspectives
     to help answer questions that security professionals wrestle with daily.
-  image: "/uploads/forest-2558074_960_720.jpg"
+  image: "/uploads/forest-2209226_640.jpg"
   title: Running Commentary
   button:
     label: Read the Blog

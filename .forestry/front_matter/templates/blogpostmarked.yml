@@ -53,3 +53,5 @@ fields:
   - type: text
     name: URL
     label: URL
+pages:
+- content/blog/cis-controls-version-8-is-out.md
