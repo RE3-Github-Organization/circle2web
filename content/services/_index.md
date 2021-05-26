@@ -64,7 +64,7 @@ services:
     - We can help you transform your business or specific solution requirements into a security architecture with the proper controls spanning people, process and technology.
 
     - We can assess an existing security architecture – either your own or the one managed by a potential business partner, or a candidate for merger/acquisition.
-  image: "/images/cmdr-shane-610506-unsplash.webp"
+  image: "/uploads/p5220026_fotor2.jpg"
   icon: 
   button:
     URL: "#contact"
