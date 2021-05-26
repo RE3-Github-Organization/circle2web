@@ -1,8 +1,8 @@
 ---
 title: About Us
-description_markdown: Safely Navigating the Breakwaters of Cybersecurity bringing
-  together your existing security technology investments creating value through integration
-  and process maturity.
+description_markdown: Safely navigating the breakwaters of cybersecurity by bringing
+  together your existing security technology investments and creating value through
+  integration and process maturity.
 image: ''
 sections:
 - title: Our Story
