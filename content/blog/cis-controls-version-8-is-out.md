@@ -5,7 +5,7 @@ description_markdown = ""
 draft = true
 image = "/uploads/cis-is-releasing-their-revised-top-20-critical-security-controls.jpg"
 tags = []
-title = "CIS Controls Version 8 is out!"
+title = "CIS Controls Version 8"
 weight = 1
 [link]
 URL = "https://learn.cisecurity.org/cis-controls-download"
