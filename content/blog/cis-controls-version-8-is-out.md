@@ -66,3 +66,33 @@ That's relatively easy and actionable list, right?  Now, compare this to impleme
 My feeling is that this requires quite a bit higher digital maturity than the previous control and there's far fewer companies out there with Data Management projects than there are companies doing Audit Log projects.
 
 So just be aware that some of the difficulty in implementing the controls is a bit deceptive and if you're going to use CIS controls as your framework, it's probably a good idea to assess how ready your business is to implement each of the controls, before plunging into them head first.
+
+### The New Stuff
+
+Starting from 2013, the CIS team has worked with the [Verizon Data Breach Investigations Report (DBIR)](https://www.verizon.com/business/resources/reports/dbir/) (by the way, new blog about the lastest DBIR coming up soonish) team to map the results of their large-scale data analysis directly to the CIS Controls, as a way to match their summaries of attacks into a standard program for defensive improvement.
+
+Even though the idea of mapping actual verifiable breach data to Safeguard evaluation is still work in progress, this is starting to show in the controls. 
+
+The three new controls are: 
+
+1. Network Infrastructure Management
+2. Network Monitoring and Defense 
+3. Service Provider Management 
+
+#### Network Infrastructure Management
+
+This is about securing network infrastructure against attacks. Network infrastructure includes devices such as physical and virtualized gateways, firewalls, wireless access points, routers, and switches and the control focuses to address architecture and configuration (default configs, passwords etc). 
+
+Given the situation with COVID, the recent VPN vulnerabilities and most of the workforce working remotely, this has of course been a "hot potato" during 2020.
+
+#### Network Monitoring and Defense
+
+This one is of course related to the control above and focuses on being able establish and maintain comprehensive network monitoring and defense against security threats across the enterprise’s network infrastructure and user base. 
+
+This is quite interesting, because it lands very much in our Squared Circle backyard! Let us know if you'd like to know how to implement this one :)
+
+#### Service Provider Management
+
+And of course we must have Supply Chain and Cloud represented. This one is all about developing processes to evaluate service providers who hold sensitive data, or are responsible for enterprise critical IT platforms or processes, to ensure these providers are protecting those platforms and data appropriately.
+
+I think it's a good start, but we have a long way to go before this control can be considered "easily actionable".  And towards that point, there's only one Safeguard on IG1 basic hygiene level (Establish and Maintain an Inventory of Service Providers) the rest require quite a bit more maturity.
