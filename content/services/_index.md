@@ -48,7 +48,7 @@ services:
   button:
     URL: "#contact"
     label: Book an appointment
-- title: Security Architecture and Threat Management
+- title: Security Architecture and InfoSec
   short_markdown: 'Finding acceptable levels of cybersecurity risk is complicated.
     Secure infrastructure is an essential defense against modern attacks. We’ll assist
     you on your journey by assessing target environments and evaluating how well they
