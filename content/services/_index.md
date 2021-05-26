@@ -50,10 +50,10 @@ services:
     URL: "#contact"
     label: Book an appointment
 - title: Security Architecture and InfoSec
-  short_markdown: 'Finding acceptable levels of cybersecurity risk is complicated.
-    Secure infrastructure is an essential defense against modern attacks. We’ll assist
-    you on your journey by assessing target environments and evaluating how well they
-    meet the needs of modern cybersecurity defense. '
+  short_markdown: 'Finding acceptable levels of risk is complicated. Secure infrastructure
+    is an essential defense against modern attacks. We’ll assist you on your journey
+    by assessing target environments and evaluating how well they meet the needs of
+    modern cybersecurity defense. '
   content_markdown: |
     How do you find the proper level of security? There is no one-size-fits-all product with bells and whistles in our shop!
 
