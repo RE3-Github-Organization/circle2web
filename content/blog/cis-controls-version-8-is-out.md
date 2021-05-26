@@ -20,13 +20,15 @@ Let's  have a quick look at the changes and discuss the goods, the bads and the 
 
 ### A quick overview
 
-We're down to 18 controls instead of the traditional 20. It'll be a while before I get used to referring to it as "18 controls".  If you're familiar with the previous versions, you'll feel right at home with many of them, they haven't changed much.
+### CIS 20 is dead!
 
-As with version 7, the controls are divided with three implementation groups (IG) which try to reflect the required maturity of the control implementation (IG1 representing basic security hygiene). 
+We're down to 18 controls from _instead of_ the traditional 20. It'll be a while before I get used to referring to it as "18 controls".  If you're familiar with the previous versions, you'll feel right at home with many of them, they haven't changed much.
 
-Initially the new numbering of the controls might be a big confusing. CIS is careful to point out that the order of the controls has nothing to do with implementation priority - it should be treated as a holistic process. 
+As with version 7, the controls are divided with three implementation groups (IG) which try to reflect the required maturity of the control implementation (IG1 representing basic security hygiene).
 
-Here's the whole list - and attempt to illustrate the change of order.
+Initially the new numbering of the controls might be a bit confusing. CIS is careful to point out that the order of the controls has nothing to do with implementation priority - it should be treated as a holistic process.
+
+Here's the whole list – with an attempt to illustrate the change of order.
 
  1. Inventory and Control of Enterprise Assets
  2. Inventory and Control of Software Assets
@@ -37,27 +39,27 @@ Here's the whole list - and attempt to illustrate the change of order.
  7. Continuous Vulnerability Management (moved from 3)
  8. Audit Log Management (moved from 6)
  9. Email and Web Browser Protections (moved from 7)
-10. Malware Defenses (moved from 8)
+10. Malware Defences (moved from 8)
 11. Data Recovery (moved from 10)
 12. Network Infrastructure Management (**new!**)
-13. Network Monitoring and Defense (**new!**)
+13. Network Monitoring and Defence (**new!**)
 14. Security Awareness and Skills Training (moved from 17)
 15. Service Provider Management (**new!**)
 16. Application Software Security (moved from 18)
 17. Incident Response Management (moved from 19)
 18. Penetration testing (moved from 20)
 
-It's a bit unclear why the list has been re-ordered, being an old dog, learning new tricks requires quite a lot of (seemingly) unnecessary brain power.
+For an old dog, it's a bit unclear why the list has been re-ordered, learning new tricks requires quite a lot of (seemingly) unnecessary brain power.
 
-All in all, it's 18 controls which contain 146 specific "best practice" actions (the framework calls these "Safeguards"). It's not a bad start by any means, if you're looking for a "simple" framework to start with.
+All in all, it is 18 controls which contain 146 specific "best practice" actions (the framework refers to these as "Safeguards"). It's not a bad start by any means, if you're looking for a "simple" framework to start with.
 
-A word of warning though - even though the outlining in is quite simple, the difficulty of implementing some of the controls varies wildly. For example the first three Safeguards for IG1 (basic hygiene) for Control 8, Audit Log Management are:
+A word of warning though – even though the outlining is quite simple, the difficulty of implementing some of the controls varies wildly. For example, the first three Safeguards for IG1 (basic hygiene) for Control 8, Audit Log Management are:
 
 1. Establish and Maintain an Audit Log Management Process
 2. Collect Audit Logs
 3. Ensure Adequate Audit Log Storage
 
-That's relatively easy and actionable list, right?  Now, compare this to implementing same IG1 level for Control 3, Data Protection:
+That's relatively easy and actionable, right?  Now, compare this to implementing same IG1 level for Control 3, Data Protection:
 
 1. Establish and Maintain a Data Management Process
 2. Establish and Maintain a Data Inventory
@@ -69,25 +71,25 @@ So just be aware that some of the difficulty in implementing the controls is a b
 
 ### The New Stuff
 
-Starting from 2013, the CIS team has worked with the [Verizon Data Breach Investigations Report (DBIR)](https://www.verizon.com/business/resources/reports/dbir/) (by the way, new blog about the lastest DBIR coming up soonish) team to map the results of their large-scale data analysis directly to the CIS Controls, as a way to match their summaries of attacks into a standard program for defensive improvement.
+Starting from 2013, the CIS team has worked with the [Verizon Data Breach Investigations Report (DBIR)](https://www.verizon.com/business/resources/reports/dbir/) (by the way, new blog about the latest DBIR coming up soonish) team to map the results of their large-scale data analysis directly to the CIS Controls, as a way to match their summaries of attacks into a standard program for defensive improvement.
 
-Even though the idea of mapping actual verifiable breach data to Safeguard evaluation is still work in progress, this is starting to show in the controls. 
+Even though the idea of mapping actual verifiable breach data to Safeguard evaluation is still work in progress, this is starting to show in the controls.
 
-The three new controls are: 
+The three new controls are:
 
 1. Network Infrastructure Management
-2. Network Monitoring and Defense 
-3. Service Provider Management 
+2. Network Monitoring and Defence
+3. Service Provider Management
 
 #### Network Infrastructure Management
 
-This is about securing network infrastructure against attacks. Network infrastructure includes devices such as physical and virtualized gateways, firewalls, wireless access points, routers, and switches and the control focuses to address architecture and configuration (default configs, passwords etc). 
+This is about securing network infrastructure against attacks. Network infrastructure includes devices such as physical and virtual gateways, firewalls, wireless access points, routers, switches etc. and the control focuses to address architecture and configuration (e.g. default configs and passwords).
 
 Given the situation with COVID, the recent VPN vulnerabilities and most of the workforce working remotely, this has of course been a "hot potato" during 2020.
 
-#### Network Monitoring and Defense
+#### Network Monitoring and Defence
 
-This one is of course related to the control above and focuses on being able establish and maintain comprehensive network monitoring and defense against security threats across the enterprise’s network infrastructure and user base. 
+This one is of course related to the control above and focuses on being able establish and maintain comprehensive network monitoring and defence against security threats across the enterprise’s network infrastructure and user base.
 
 This is quite interesting, because it lands very much in our Squared Circle backyard! Let us know if you'd like to know how to implement this one :)
 
@@ -99,8 +101,8 @@ I think it's a good start, but we have a long way to go before this control can 
 
 ### Final Thoughts
 
-The CIS group has also released a lot of "companion tools" - like mappings towards other popular frameworks (NIST, CSA, CMMC etc.) so those are probably also worth a download if you're currently wading knee-deep in the framework jungle.
+The CIS group has also released a lot of "companion tools" – like mappings towards other popular frameworks (NIST, CSA, CMMC etc.) so those are probably also worth a download if you're currently wading knee-deep in the framework jungle.
 
-To me personally CIS Controls have always lived in that juxtaposition of best practice “good things to do,” or “things that could help” and "accredited audit framework" - and I think that's where it should live. It would be shame to have it completely disappear into compliance auditing world and lose its history in "hands-on" IT-security.
+To me personally CIS Controls have always lived in that juxtaposition of best practice “good things to do,” or “things that could help” and "accredited audit framework" – and I think that's where it should live. It would be shame to have it completely disappear into compliance auditing world and lose its history in "hands-on" IT-security.
 
 Only the future will tell where it will end up, but I do like the growing focus of building the controls with open and verifiable methods and data. Looking forward to the future efforts of bringing [MITRE Att&ck](https://attack.mitre.org/) connections into the framework through Safeguards.
