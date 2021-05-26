@@ -57,7 +57,7 @@ services:
 
     Information Security is about protecting your business assets and valuables from being stolen, inaccessible or tampered with – by external or internal actors identified through proper threat modelling. Business requirements connected to your information assets are the crucial inputs to a risk analysis process that should manage the security measures to take.
 
-    Many investments around security today relies entirely on technology rather than balancing it with people and processes. Quick-fixes and black-boxes are following each other but the holistic view seems to be missed. The easy way out is often to buy yet another fancy security product rather than invest in training your staff or revisiting your processes.
+    Many investments around security today rely entirely on technology rather than balancing it with people and processes. Quick-fixes and black-boxes are following each other but the holistic view seems to be missing. The easy way out is often to buy yet another fancy security product rather than invest in training your staff or revisiting your processes.
 
     - We can assist you with threat modelling that maps the unwanted actors and their possible ways to exploit and misuse your valuable information.
 
