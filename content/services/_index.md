@@ -1,7 +1,8 @@
 ---
 title: Security Services
-description_markdown: Security through knowledge. We go the extra mile that your tools
-  can't go, **we help your organization keep _itself_ secure.**
+description_markdown: Creating a secure foundation for the future goes beyond tactics
+  and tools. Our services are focused on helping you find the best mix of both for
+  protecting Your Square
 image: "/images/cmdr-shane-610506-unsplash.webp"
 services:
 - title: Cyber Security Response Readiness
