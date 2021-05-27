@@ -5,9 +5,11 @@
 -->
 <html lang="{{ .Site.LanguageCode }}">
 <head>
+
 {{ partial "head/meta.html" . }}
 {{ partial "head/static-links-head.html" . }}
 {{ partial "head/seo.html" . }}
+
 </head>
 
 <body>
@@ -28,15 +30,9 @@
 
 
 {{ partial "footer/static-links-foot.html" . }}
-{{ if $.Params.video_path }}
-<div class="fullscreen-bg">
-<video data-matomo-ignore autoplay muted loop poster="{{ if not .IsHome }}{{ .Params.image }}{{ else }}{{ .Site.Params.Homepage_meta_tags.meta_og_image }}{{ end }}" class="fullscreen-bg__video">
-  <source src="{{  .Params.video_path }}" type="video/mp4">
-</video>
-</div>
 
-{{ end }}
-
+{{ partial "body/cookie-consent.html" . }}
+{{ partial "scripts/cookie-script.html" . }}
 </body>
 </html>
 
