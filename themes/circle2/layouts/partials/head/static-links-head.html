@@ -1,3 +1,4 @@
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CP3WKBJ8SS"></script>
 <link rel="stylesheet" href='{{ "assets/css/all.min.css" | relURL}}' />
 {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" true) }}
 {{ $colors := resources.Get "assets/sass/colors.scss" | resources.ExecuteAsTemplate "sass/colors.scss" . | toCSS $options | fingerprint }}
@@ -11,6 +12,3 @@
 <link rel="shortcut icon" href='{{ "siteicon.png" | absURL }}' type="image/png" />
 {{ $jep := resources.Get "assets/js/jep.js" | resources.Minify | fingerprint }}
 <script src="{{ $jep.RelPermalink }}"></script>
-<!-- Start of HubSpot Embed Code -->
-<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7008873.js"></script>
-<!-- End of HubSpot Embed Code -->

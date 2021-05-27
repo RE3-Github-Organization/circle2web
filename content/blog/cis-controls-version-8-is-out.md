@@ -70,7 +70,7 @@ So just be aware that some of the difficulty in implementing the controls is a b
 
 Starting from 2013, the CIS team has worked with the [Verizon Data Breach Investigations Report (DBIR)](https://www.verizon.com/business/resources/reports/dbir/) (by the way, new blog about the latest DBIR coming up soonish) team to map the results of their large-scale data analysis directly to the CIS Controls, as a way to match their summaries of attacks into a standard program for defensive improvement.
 
-Even though the idea of mapping actual verifiable breach data to Safeguard evaluation is still work in progress, this is starting to show in the controls.
+Even though the idea of mapping actual verifiable breach data to Safeguard evaluation is still work in progress, this is starting to show up in the new controls.
 
 The three new controls are:
 
@@ -80,26 +80,26 @@ The three new controls are:
 
 #### Network Infrastructure Management
 
-This is about securing network infrastructure against attacks. Network infrastructure includes devices such as physical and virtual gateways, firewalls, wireless access points, routers, switches etc. and the control focuses to address architecture and configuration (e.g. default configs and passwords).
+This is about securing network infrastructure against attacks. Network infrastructure includes devices such as physical and virtual gateways, firewalls, wireless access points, routers, switches and the control focuses on addressing architecture and configuration (e.g. default configs and passwords).
 
 Given the situation with COVID, the recent VPN vulnerabilities and most of the workforce working remotely, this has of course been a "hot potato" during 2020.
 
 #### Network Monitoring and Defence
 
-This one is of course related to the control above and focuses on being able establish and maintain comprehensive network monitoring and defence against security threats across the enterprise’s network infrastructure and user base.
+This one is naturally related to the control above and focuses on being able establish and maintain comprehensive network monitoring and defence against security threats across the enterprise’s network infrastructure and user base. Being proactive with threat detection.
 
-This is quite interesting, because it lands very much in our Squared Circle backyard! Let us know if you'd like to know how to implement this one :)
+This one is quite interesting, because the subject matter lands very much in our Squared Circle backyard! Let us know if you'd like to know how to implement this one :)
 
 #### Service Provider Management
 
-And of course we must have Supply Chain and Cloud represented. This one is all about developing processes to evaluate service providers who hold sensitive data, or are responsible for enterprise critical IT platforms or processes, to ensure these providers are protecting those platforms and data appropriately.
+And of course we must have the Supply Chain and Cloud represented. This one is all about developing processes to evaluate service providers who hold sensitive data, or are responsible for enterprise critical IT platforms or processes, to ensure these providers are protecting the platforms and data appropriately.
 
-I think it's a good start, but we have a long way to go before this control can be considered "easily actionable".  And towards that point, there's only one Safeguard on IG1 basic hygiene level (Establish and Maintain an Inventory of Service Providers) the rest require quite a bit more maturity.
+I think it's a good start, but we have a long, long way to go before this control can be considered "easily actionable".  And towards that point, there's actually only one Safeguard on IG1 basic hygiene level (Establish and Maintain an Inventory of Service Providers). The rest require quite a bit more maturity from your organization.
 
 ### Final Thoughts
 
 The CIS group has also released a lot of "companion tools" – like mappings towards other popular frameworks (NIST, CSA, CMMC etc.) so those are probably also worth a download if you're currently wading knee-deep in the framework jungle.
 
-To me personally CIS Controls have always lived in that juxtaposition of best practice “good things to do,” or “things that could help” and "accredited audit framework" – and I think that's where it should live. It would be shame to have it completely disappear into compliance auditing world and lose its history in "hands-on" IT-security.
+To me personally, the CIS Controls have always lived in that juxtaposition of best practice “good things to do” and "accredited audit framework" – and I think that's where it should live. We have a shortage of "easy to pick up, easy to implement" frameworks and it would be shame to have it completely disappear into compliance auditing world and lose its history in "hands-on" IT-security.
 
 Only the future will tell where it will end up, but I do like the growing focus of building the controls with open and verifiable methods and data. Looking forward to the future efforts of bringing [MITRE Att&ck](https://attack.mitre.org/) connections into the framework through Safeguards.
